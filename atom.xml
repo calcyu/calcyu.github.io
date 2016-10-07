@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Geek5-极客舞台</title>
+  <subtitle>喜欢研究技术</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2016-10-07T07:31:08.100Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>Calc Yu</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>weiphp的ueditor报错</title>
+    <link href="http://yoursite.com/2016/10/07/weiphp%E7%9A%84ueditor%E6%8A%A5%E9%94%99/"/>
+    <id>http://yoursite.com/2016/10/07/weiphp的ueditor报错/</id>
+    <published>2016-10-07T01:44:13.000Z</published>
+    <updated>2016-10-07T07:31:08.100Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote>
+<p> GET <a href="http://*.com/Public/static/ueditor/php/controller.php?action=config&amp;&amp;noCache=1475802337777" target="_blank" rel="external">http://*.com/Public/static/ueditor/php/controller.php?action=config&amp;&amp;noCache=1475802337777</a> 403 (Forbidden)</p>
+<p>请求后台配置项http错误，上传功能将不能正常使用！</p>
+</blockquote>
+<a id="more"></a>
+<p>修改NGINX配置文件</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt; GET &lt;a href=&quot;http://*.com/Public/static/ueditor/php/controller.php?action=config&amp;amp;&amp;amp;noCache=1475802337777&quot;&gt;http://*.com/Public/static/ueditor/php/controller.php?action=config&amp;amp;&amp;amp;noCache=1475802337777&lt;/a&gt; 403 (Forbidden)&lt;/p&gt;
+&lt;p&gt;请求后台配置项http错误，上传功能将不能正常使用！&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="LANGUAGE" scheme="http://yoursite.com/categories/LANGUAGE/"/>
+    
+      <category term="PHP" scheme="http://yoursite.com/categories/LANGUAGE/PHP/"/>
+    
+    
+      <category term="linux" scheme="http://yoursite.com/tags/linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>nginx+php-fpm上传报错</title>
+    <link href="http://yoursite.com/2016/10/07/nginx+php-fpm%E4%B8%8A%E4%BC%A0%E6%8A%A5%E9%94%99/"/>
+    <id>http://yoursite.com/2016/10/07/nginx+php-fpm上传报错/</id>
+    <published>2016-10-07T01:44:13.000Z</published>
+    <updated>2016-10-07T05:44:51.369Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="上传文件过大浏览器报错内容"><a href="#上传文件过大浏览器报错内容" class="headerlink" title="上传文件过大浏览器报错内容"></a>上传文件过大浏览器报错内容</h2><blockquote>
+<p>413 Request Entity Too Large</p>
+</blockquote>
+<h2 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h2><p>Nginx配置文件nginx.conf 中的 http{} 段增加 client_max_body_size 5m;<br>上传最大文件大小为5M，其它需求自行调整<br><a id="more"></a></p>
+<h2 id="nginx错误日志"><a href="#nginx错误日志" class="headerlink" title="nginx错误日志"></a>nginx错误日志</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">2022#0: *83 FastCGI sent in stderr: &quot;PHP message: PHP Fatal error:  Maximum execution time of 30 seconds exceeded in</div></pre></td></tr></table></figure>
+<h2 id="解决方案-1"><a href="#解决方案-1" class="headerlink" title="解决方案"></a>解决方案</h2><p>修改配置文件php-fpm.conf和nginx.conf</p>
+<ol>
+<li>request_terminate_timeout = 300</li>
+<li>fastcgi_read_timeout 300;</li>
+</ol>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ service php-fpm reload</div><div class="line">$ service nginx reload</div></pre></td></tr></table></figure>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;上传文件过大浏览器报错内容&quot;&gt;&lt;a href=&quot;#上传文件过大浏览器报错内容&quot; class=&quot;headerlink&quot; title=&quot;上传文件过大浏览器报错内容&quot;&gt;&lt;/a&gt;上传文件过大浏览器报错内容&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;413 Request Entity Too Large&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;解决方案&quot;&gt;&lt;a href=&quot;#解决方案&quot; class=&quot;headerlink&quot; title=&quot;解决方案&quot;&gt;&lt;/a&gt;解决方案&lt;/h2&gt;&lt;p&gt;Nginx配置文件nginx.conf 中的 http{} 段增加 client_max_body_size 5m;&lt;br&gt;上传最大文件大小为5M，其它需求自行调整&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="linux" scheme="http://yoursite.com/tags/linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>centos6.5+nginx1.8.0+php5.6+mysql5.1环境配置</title>
+    <link href="http://yoursite.com/2016/10/05/centos6.5+nginx1.8.0+php5.6+mysql5.1%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/"/>
+    <id>http://yoursite.com/2016/10/05/centos6.5+nginx1.8.0+php5.6+mysql5.1环境配置/</id>
+    <published>2016-10-05T08:04:13.000Z</published>
+    <updated>2016-10-07T07:29:42.162Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Centos6-5-nginx-php-fpm-mysql-install-configure"><a href="#Centos6-5-nginx-php-fpm-mysql-install-configure" class="headerlink" title="Centos6.5-nginx-php-fpm-mysql-install-configure"></a>Centos6.5-nginx-php-fpm-mysql-install-configure</h1><h1 id="服务器环境"><a href="#服务器环境" class="headerlink" title="服务器环境"></a>服务器环境</h1><ol>
+<li>php 5.6.26</li>
+<li>mysql  Ver 14.14 Distrib 5.1.73, for redhat-linux-gnu (x86_64) using readline 5.1</li>
+<li>nginx/1.8.0</li>
+</ol>
+<a id="more"></a>
+<h1 id="安装软件"><a href="#安装软件" class="headerlink" title="安装软件"></a>安装软件</h1><h2 id="1-安装PHP"><a href="#1-安装PHP" class="headerlink" title="1.安装PHP"></a>1.安装PHP</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$ rpm -Uvh http://ftp.iij.ad.jp/pub/linux/fedora/epel/6/x86_64/epel-release-6-8.noarch.rpm;</div><div class="line">$ rpm -Uvh http://rpms.famillecollet.com/enterprise/remi-release-6.rpm</div><div class="line">$ yum -y install --enablerepo=remi --enablerepo=remi-php56 nginx mysql-server php php-fpm php-cli php-pdo php-mysql php-mcrypt php-mbstring php-gd php-tidy php-xml php-xmlrpc php-pear php-pecl-memcache php-eaccelerator</div></pre></td></tr></table></figure>
+<h2 id="2-安装mysql"><a href="#2-安装mysql" class="headerlink" title="2.安装mysql"></a>2.安装mysql</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ yum install mysql-server</div></pre></td></tr></table></figure>
+<h2 id="3-安装nginx"><a href="#3-安装nginx" class="headerlink" title="3.安装nginx"></a>3.安装nginx</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ yum install nginx</div></pre></td></tr></table></figure>
+<h1 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h1><h2 id="1-开机启动"><a href="#1-开机启动" class="headerlink" title="1.开机启动"></a>1.开机启动</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$ chkconfig mysqld on</div><div class="line">$ chkconfig nginx on</div><div class="line">$ chkconfig php-fpm on</div></pre></td></tr></table></figure>
+<h2 id="2-配置mysql"><a href="#2-配置mysql" class="headerlink" title="2.配置mysql"></a>2.配置mysql</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ mysql_secure_installation</div></pre></td></tr></table></figure>
+<p>全部选择Y</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;Centos6-5-nginx-php-fpm-mysql-install-configure&quot;&gt;&lt;a href=&quot;#Centos6-5-nginx-php-fpm-mysql-install-configure&quot; class=&quot;headerlink&quot; title=&quot;Centos6.5-nginx-php-fpm-mysql-install-configure&quot;&gt;&lt;/a&gt;Centos6.5-nginx-php-fpm-mysql-install-configure&lt;/h1&gt;&lt;h1 id=&quot;服务器环境&quot;&gt;&lt;a href=&quot;#服务器环境&quot; class=&quot;headerlink&quot; title=&quot;服务器环境&quot;&gt;&lt;/a&gt;服务器环境&lt;/h1&gt;&lt;ol&gt;
+&lt;li&gt;php 5.6.26&lt;/li&gt;
+&lt;li&gt;mysql  Ver 14.14 Distrib 5.1.73, for redhat-linux-gnu (x86_64) using readline 5.1&lt;/li&gt;
+&lt;li&gt;nginx/1.8.0&lt;/li&gt;
+&lt;/ol&gt;
+    
+    </summary>
+    
+      <category term="OS" scheme="http://yoursite.com/categories/OS/"/>
+    
+      <category term="Linux" scheme="http://yoursite.com/categories/OS/Linux/"/>
+    
+    
+      <category term="linux" scheme="http://yoursite.com/tags/linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>不重启修改LINUX时区和时间</title>
+    <link href="http://yoursite.com/2016/10/05/%E4%B8%8D%E9%87%8D%E5%90%AF%E4%BF%AE%E6%94%B9LINUX%E6%97%B6%E5%8C%BA%E5%92%8C%E6%97%B6%E9%97%B4/"/>
+    <id>http://yoursite.com/2016/10/05/不重启修改LINUX时区和时间/</id>
+    <published>2016-10-05T08:04:13.000Z</published>
+    <updated>2016-10-07T07:29:13.605Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="查看系统时间"><a href="#查看系统时间" class="headerlink" title="查看系统时间"></a>查看系统时间</h2><pre><code>date
+</code></pre><h2 id="查看BIOS时间"><a href="#查看BIOS时间" class="headerlink" title="查看BIOS时间"></a>查看BIOS时间</h2><pre><code>clock
+</code></pre><h2 id="修改时间"><a href="#修改时间" class="headerlink" title="修改时间"></a>修改时间</h2><pre><code>date -s 10/05/2016 16:02:30
+</code></pre><a id="more"></a>
+<h2 id="同步时间"><a href="#同步时间" class="headerlink" title="同步时间"></a>同步时间</h2><pre><code>clock --hctosys #硬件时间同步至系统时间
+clock --systohc #系统时间同步至硬件时间
+</code></pre><h2 id="不重启更新LINUX系统时区"><a href="#不重启更新LINUX系统时区" class="headerlink" title="不重启更新LINUX系统时区"></a>不重启更新LINUX系统时区</h2><pre><code>[root@localhost ~]# cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
+
+cp: overwrite `/etc/localtime&apos;? y
+
+[root@localhost ~]# date
+
+Thu Oct  6 16:00:14 CST 2016
+
+[root@localhost ~]# clock
+
+Thu 06 Oct 2016 03:59:49 PM CST  -0.891096 seconds
+</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;查看系统时间&quot;&gt;&lt;a href=&quot;#查看系统时间&quot; class=&quot;headerlink&quot; title=&quot;查看系统时间&quot;&gt;&lt;/a&gt;查看系统时间&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;date
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&quot;查看BIOS时间&quot;&gt;&lt;a href=&quot;#查看BIOS时间&quot; class=&quot;headerlink&quot; title=&quot;查看BIOS时间&quot;&gt;&lt;/a&gt;查看BIOS时间&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;clock
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&quot;修改时间&quot;&gt;&lt;a href=&quot;#修改时间&quot; class=&quot;headerlink&quot; title=&quot;修改时间&quot;&gt;&lt;/a&gt;修改时间&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;date -s 10/05/2016 16:02:30
+&lt;/code&gt;&lt;/pre&gt;
+    
+    </summary>
+    
+      <category term="OS" scheme="http://yoursite.com/categories/OS/"/>
+    
+      <category term="Linux" scheme="http://yoursite.com/categories/OS/Linux/"/>
+    
+    
+      <category term="linux" scheme="http://yoursite.com/tags/linux/"/>
+    
+  </entry>
+  
+</feed>

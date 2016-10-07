@@ -216,7 +216,7 @@ h6 {
   padding: 0;
   font-weight: bold;
   line-height: 1.5;
-  font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Monda', 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
 }
 h2,
 h3,
@@ -283,7 +283,7 @@ a {
   word-wrap: break-word;
 }
 a:hover {
-  color: #222;
+  color: #e74c3c;
   border-bottom-color: #222;
 }
 ul {
@@ -497,13 +497,13 @@ pre,
   margin: 20px 0;
   padding: 15px;
   font-size: 13px;
-  color: #4d4d4c;
-  background: #f7f7f7;
+  color: #ccc;
+  background: #2d2d2d;
   line-height: 1.6;
 }
 pre,
 code {
-  font-family: consolas, Menlo, "PingFang SC", "Microsoft YaHei", monospace;
+  font-family: 'PT Mono', consolas, Menlo, "PingFang SC", "Microsoft YaHei", monospace;
 }
 code {
   padding: 2px 4px;
@@ -515,7 +515,7 @@ code {
 }
 pre code {
   padding: 0;
-  color: #4d4d4c;
+  color: #ccc;
   background: none;
   text-shadow: none;
 }
@@ -535,7 +535,7 @@ pre code {
 }
 .highlight figcaption {
   font-size: 1em;
-  color: #4d4d4c;
+  color: #ccc;
   line-height: 1em;
   margin-bottom: 1em;
 }
@@ -549,10 +549,10 @@ pre code {
 }
 .highlight figcaption a {
   float: right;
-  color: #4d4d4c;
+  color: #ccc;
 }
 .highlight figcaption a:hover {
-  border-bottom-color: #4d4d4c;
+  border-bottom-color: #ccc;
 }
 .highlight .gutter pre {
   color: #666;
@@ -569,7 +569,7 @@ pre code {
   border: none;
 }
 pre .comment {
-  color: #8e908c;
+  color: #999;
 }
 pre .variable,
 pre .attribute,
@@ -583,7 +583,7 @@ pre .html .doctype,
 pre .css .id,
 pre .css .class,
 pre .css .pseudo {
-  color: #c82829;
+  color: #f2777a;
 }
 pre .number,
 pre .preprocessor,
@@ -592,7 +592,7 @@ pre .literal,
 pre .params,
 pre .constant,
 pre .command {
-  color: #f5871f;
+  color: #f99157;
 }
 pre .ruby .class .title,
 pre .css .rules .attribute,
@@ -605,11 +605,11 @@ pre .xml .cdata,
 pre .special,
 pre .number,
 pre .formula {
-  color: #718c00;
+  color: #9c9;
 }
 pre .title,
 pre .css .hexcolor {
-  color: #3e999f;
+  color: #6cc;
 }
 pre .function,
 pre .python .decorator,
@@ -619,11 +619,11 @@ pre .ruby .title .keyword,
 pre .perl .sub,
 pre .javascript .title,
 pre .coffeescript .title {
-  color: #4271ae;
+  color: #69c;
 }
 pre .keyword,
 pre .javascript .function {
-  color: #8959a8;
+  color: #c9c;
 }
 .full-image.full-image.full-image {
   border: none;
@@ -998,7 +998,7 @@ pre .javascript .function {
   opacity: 0;
 }
 .post-body {
-  font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Roboto Slab', 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
 }
 @media (max-width: 767px) {
   .post-body {
@@ -1181,7 +1181,7 @@ pre .javascript .function {
   border-bottom-color: #666;
 }
 .posts-collapse .post-header:hover::before {
-  background: #222;
+  background: #262626;
 }
 .posts-collapse .post-meta {
   position: absolute;
@@ -1263,7 +1263,7 @@ pre .javascript .function {
 .posts-expand .post-meta {
   margin: 3px 0 60px 0;
   color: #999;
-  font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Roboto Slab', 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 12px;
   text-align: center;
 }
@@ -1344,7 +1344,7 @@ pre .javascript .function {
   border-bottom: none;
 }
 .post-nav-item a:hover {
-  color: #222;
+  color: #e74c3c;
   border-bottom: none;
 }
 .post-nav-item a:active {
@@ -1399,7 +1399,7 @@ pre .javascript .function {
   width: 0;
   z-index: 1040;
   box-shadow: inset 0 2px 6px #000;
-  background: #222;
+  background: #262626;
   -webkit-transform: translateZ(0);
 }
 .sidebar a {
@@ -1432,7 +1432,7 @@ pre .javascript .function {
   width: 15px;
   height: 15px;
   padding: 5px;
-  background: #222;
+  background: #262626;
   line-height: 0;
   z-index: 1050;
   cursor: pointer;
@@ -1548,7 +1548,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff96f4;
+  background: #ff011f;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2132,7 +2132,7 @@ hr {
   margin-top: 80px;
 }
 .header {
-  background: #222;
+  background: #262626;
 }
 .header-inner {
   padding: 25px 0 20px;
@@ -2201,7 +2201,7 @@ hr {
   position: relative;
   display: block;
   height: 2px;
-  background: #222;
+  background: #262626;
 }
 @media (max-width: 767px) {
   .logo-line-before i,
@@ -2227,7 +2227,7 @@ hr {
 .custom-logo .site-title {
   margin: 10px auto 0;
   font-size: 24px;
-  color: #222;
+  color: #262626;
 }
 .custom-logo .site-title a {
   border: none;
@@ -2335,7 +2335,7 @@ hr {
   }
 }
 .posts-expand .post-title:hover:before {
-  background: #222;
+  background: #262626;
 }
 .posts-expand .post-body img {
   margin: 0;
@@ -2378,7 +2378,7 @@ hr {
   }
 }
 .post-more-link a:hover {
-  border-bottom-color: #222;
+  border-bottom-color: #262626;
 }
 .links-of-blogroll-inline .links-of-blogroll-item {
   display: inline-block;
@@ -2431,7 +2431,7 @@ hr {
 .footer {
   margin-top: 80px;
   padding: 10px 0;
-  background: #222;
+  background: #262626;
   color: #666;
 }
 .footer-inner {
