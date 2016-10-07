@@ -1548,7 +1548,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff011f;
+  background: #dbffff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2235,7 +2235,7 @@ hr {
 .custom-logo-image {
   margin: 0 auto;
   max-width: 250px;
-  background: #fff;
+  background: #262626;
 }
 .site-nav-toggle {
   position: static;

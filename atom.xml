@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-10-07T07:31:08.100Z</updated>
+  <updated>2016-10-07T05:44:51.369Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,39 +14,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>weiphp的ueditor报错</title>
-    <link href="http://yoursite.com/2016/10/07/weiphp%E7%9A%84ueditor%E6%8A%A5%E9%94%99/"/>
-    <id>http://yoursite.com/2016/10/07/weiphp的ueditor报错/</id>
-    <published>2016-10-07T01:44:13.000Z</published>
-    <updated>2016-10-07T07:31:08.100Z</updated>
-    
-    <content type="html"><![CDATA[<blockquote>
-<p> GET <a href="http://*.com/Public/static/ueditor/php/controller.php?action=config&amp;&amp;noCache=1475802337777" target="_blank" rel="external">http://*.com/Public/static/ueditor/php/controller.php?action=config&amp;&amp;noCache=1475802337777</a> 403 (Forbidden)</p>
-<p>请求后台配置项http错误，上传功能将不能正常使用！</p>
-</blockquote>
-<a id="more"></a>
-<p>修改NGINX配置文件</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;blockquote&gt;
-&lt;p&gt; GET &lt;a href=&quot;http://*.com/Public/static/ueditor/php/controller.php?action=config&amp;amp;&amp;amp;noCache=1475802337777&quot;&gt;http://*.com/Public/static/ueditor/php/controller.php?action=config&amp;amp;&amp;amp;noCache=1475802337777&lt;/a&gt; 403 (Forbidden)&lt;/p&gt;
-&lt;p&gt;请求后台配置项http错误，上传功能将不能正常使用！&lt;/p&gt;
-&lt;/blockquote&gt;
-    
-    </summary>
-    
-      <category term="LANGUAGE" scheme="http://yoursite.com/categories/LANGUAGE/"/>
-    
-      <category term="PHP" scheme="http://yoursite.com/categories/LANGUAGE/PHP/"/>
-    
-    
-      <category term="linux" scheme="http://yoursite.com/tags/linux/"/>
-    
-  </entry>
   
   <entry>
     <title>nginx+php-fpm上传报错</title>
@@ -76,6 +43,39 @@
 &lt;h2 id=&quot;解决方案&quot;&gt;&lt;a href=&quot;#解决方案&quot; class=&quot;headerlink&quot; title=&quot;解决方案&quot;&gt;&lt;/a&gt;解决方案&lt;/h2&gt;&lt;p&gt;Nginx配置文件nginx.conf 中的 http{} 段增加 client_max_body_size 5m;&lt;br&gt;上传最大文件大小为5M，其它需求自行调整&lt;br&gt;
     
     </summary>
+    
+    
+      <category term="linux" scheme="http://yoursite.com/tags/linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>weiphp的ueditor报错</title>
+    <link href="http://yoursite.com/2016/10/07/weiphp%E7%9A%84ueditor%E6%8A%A5%E9%94%99/"/>
+    <id>http://yoursite.com/2016/10/07/weiphp的ueditor报错/</id>
+    <published>2016-10-07T01:44:13.000Z</published>
+    <updated>2016-10-07T07:31:08.100Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote>
+<p> GET <a href="http://*.com/Public/static/ueditor/php/controller.php?action=config&amp;&amp;noCache=1475802337777" target="_blank" rel="external">http://*.com/Public/static/ueditor/php/controller.php?action=config&amp;&amp;noCache=1475802337777</a> 403 (Forbidden)</p>
+<p>请求后台配置项http错误，上传功能将不能正常使用！</p>
+</blockquote>
+<a id="more"></a>
+<p>修改NGINX配置文件</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt; GET &lt;a href=&quot;http://*.com/Public/static/ueditor/php/controller.php?action=config&amp;amp;&amp;amp;noCache=1475802337777&quot;&gt;http://*.com/Public/static/ueditor/php/controller.php?action=config&amp;amp;&amp;amp;noCache=1475802337777&lt;/a&gt; 403 (Forbidden)&lt;/p&gt;
+&lt;p&gt;请求后台配置项http错误，上传功能将不能正常使用！&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="LANGUAGE" scheme="http://yoursite.com/categories/LANGUAGE/"/>
+    
+      <category term="PHP" scheme="http://yoursite.com/categories/LANGUAGE/PHP/"/>
     
     
       <category term="linux" scheme="http://yoursite.com/tags/linux/"/>
