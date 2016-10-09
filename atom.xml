@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-10-07T05:44:51.369Z</updated>
+  <updated>2016-10-09T05:36:04.094Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,35 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>大前端自动化开发环境grunt使用教程汇总</title>
+    <link href="http://yoursite.com/2016/10/09/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%87%AA%E5%8A%A8%E5%8C%96%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83grunt%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B%E6%B1%87%E6%80%BB/"/>
+    <id>http://yoursite.com/2016/10/09/大前端自动化开发环境grunt使用教程汇总/</id>
+    <published>2016-10-09T05:31:59.000Z</published>
+    <updated>2016-10-09T05:36:04.094Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="大前端自动化开发环境grunt使用教程汇总"><a href="#大前端自动化开发环境grunt使用教程汇总" class="headerlink" title="大前端自动化开发环境grunt使用教程汇总"></a>大前端自动化开发环境grunt使用教程汇总</h1><h2 id="优秀博文"><a href="#优秀博文" class="headerlink" title="优秀博文"></a>优秀博文</h2><ol>
+<li><a href="http://blog.csdn.net/wangfupeng1988/article/details/46418203/" target="_blank" rel="external">用grunt搭建自动化的web前端开发环境-完整教程</a></li>
+</ol>
+]]></content>
+    
+    <summary type="html">
+    
+      大前端自动化开发环境grunt使用教程汇总
+    
+    </summary>
+    
+      <category term="LANGUAGE" scheme="http://yoursite.com/categories/LANGUAGE/"/>
+    
+      <category term="Javascript" scheme="http://yoursite.com/categories/LANGUAGE/Javascript/"/>
+    
+    
+      <category term="grunt" scheme="http://yoursite.com/tags/grunt/"/>
+    
+      <category term="自动化" scheme="http://yoursite.com/tags/%E8%87%AA%E5%8A%A8%E5%8C%96/"/>
+    
+  </entry>
   
   <entry>
     <title>nginx+php-fpm上传报错</title>
@@ -83,46 +112,6 @@
   </entry>
   
   <entry>
-    <title>centos6.5+nginx1.8.0+php5.6+mysql5.1环境配置</title>
-    <link href="http://yoursite.com/2016/10/05/centos6.5+nginx1.8.0+php5.6+mysql5.1%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/"/>
-    <id>http://yoursite.com/2016/10/05/centos6.5+nginx1.8.0+php5.6+mysql5.1环境配置/</id>
-    <published>2016-10-05T08:04:13.000Z</published>
-    <updated>2016-10-07T07:29:42.162Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="Centos6-5-nginx-php-fpm-mysql-install-configure"><a href="#Centos6-5-nginx-php-fpm-mysql-install-configure" class="headerlink" title="Centos6.5-nginx-php-fpm-mysql-install-configure"></a>Centos6.5-nginx-php-fpm-mysql-install-configure</h1><h1 id="服务器环境"><a href="#服务器环境" class="headerlink" title="服务器环境"></a>服务器环境</h1><ol>
-<li>php 5.6.26</li>
-<li>mysql  Ver 14.14 Distrib 5.1.73, for redhat-linux-gnu (x86_64) using readline 5.1</li>
-<li>nginx/1.8.0</li>
-</ol>
-<a id="more"></a>
-<h1 id="安装软件"><a href="#安装软件" class="headerlink" title="安装软件"></a>安装软件</h1><h2 id="1-安装PHP"><a href="#1-安装PHP" class="headerlink" title="1.安装PHP"></a>1.安装PHP</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$ rpm -Uvh http://ftp.iij.ad.jp/pub/linux/fedora/epel/6/x86_64/epel-release-6-8.noarch.rpm;</div><div class="line">$ rpm -Uvh http://rpms.famillecollet.com/enterprise/remi-release-6.rpm</div><div class="line">$ yum -y install --enablerepo=remi --enablerepo=remi-php56 nginx mysql-server php php-fpm php-cli php-pdo php-mysql php-mcrypt php-mbstring php-gd php-tidy php-xml php-xmlrpc php-pear php-pecl-memcache php-eaccelerator</div></pre></td></tr></table></figure>
-<h2 id="2-安装mysql"><a href="#2-安装mysql" class="headerlink" title="2.安装mysql"></a>2.安装mysql</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ yum install mysql-server</div></pre></td></tr></table></figure>
-<h2 id="3-安装nginx"><a href="#3-安装nginx" class="headerlink" title="3.安装nginx"></a>3.安装nginx</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ yum install nginx</div></pre></td></tr></table></figure>
-<h1 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h1><h2 id="1-开机启动"><a href="#1-开机启动" class="headerlink" title="1.开机启动"></a>1.开机启动</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$ chkconfig mysqld on</div><div class="line">$ chkconfig nginx on</div><div class="line">$ chkconfig php-fpm on</div></pre></td></tr></table></figure>
-<h2 id="2-配置mysql"><a href="#2-配置mysql" class="headerlink" title="2.配置mysql"></a>2.配置mysql</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ mysql_secure_installation</div></pre></td></tr></table></figure>
-<p>全部选择Y</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h1 id=&quot;Centos6-5-nginx-php-fpm-mysql-install-configure&quot;&gt;&lt;a href=&quot;#Centos6-5-nginx-php-fpm-mysql-install-configure&quot; class=&quot;headerlink&quot; title=&quot;Centos6.5-nginx-php-fpm-mysql-install-configure&quot;&gt;&lt;/a&gt;Centos6.5-nginx-php-fpm-mysql-install-configure&lt;/h1&gt;&lt;h1 id=&quot;服务器环境&quot;&gt;&lt;a href=&quot;#服务器环境&quot; class=&quot;headerlink&quot; title=&quot;服务器环境&quot;&gt;&lt;/a&gt;服务器环境&lt;/h1&gt;&lt;ol&gt;
-&lt;li&gt;php 5.6.26&lt;/li&gt;
-&lt;li&gt;mysql  Ver 14.14 Distrib 5.1.73, for redhat-linux-gnu (x86_64) using readline 5.1&lt;/li&gt;
-&lt;li&gt;nginx/1.8.0&lt;/li&gt;
-&lt;/ol&gt;
-    
-    </summary>
-    
-      <category term="OS" scheme="http://yoursite.com/categories/OS/"/>
-    
-      <category term="Linux" scheme="http://yoursite.com/categories/OS/Linux/"/>
-    
-    
-      <category term="linux" scheme="http://yoursite.com/tags/linux/"/>
-    
-  </entry>
-  
-  <entry>
     <title>不重启修改LINUX时区和时间</title>
     <link href="http://yoursite.com/2016/10/05/%E4%B8%8D%E9%87%8D%E5%90%AF%E4%BF%AE%E6%94%B9LINUX%E6%97%B6%E5%8C%BA%E5%92%8C%E6%97%B6%E9%97%B4/"/>
     <id>http://yoursite.com/2016/10/05/不重启修改LINUX时区和时间/</id>
@@ -154,6 +143,46 @@ Thu 06 Oct 2016 03:59:49 PM CST  -0.891096 seconds
 &lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&quot;查看BIOS时间&quot;&gt;&lt;a href=&quot;#查看BIOS时间&quot; class=&quot;headerlink&quot; title=&quot;查看BIOS时间&quot;&gt;&lt;/a&gt;查看BIOS时间&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;clock
 &lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&quot;修改时间&quot;&gt;&lt;a href=&quot;#修改时间&quot; class=&quot;headerlink&quot; title=&quot;修改时间&quot;&gt;&lt;/a&gt;修改时间&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;date -s 10/05/2016 16:02:30
 &lt;/code&gt;&lt;/pre&gt;
+    
+    </summary>
+    
+      <category term="OS" scheme="http://yoursite.com/categories/OS/"/>
+    
+      <category term="Linux" scheme="http://yoursite.com/categories/OS/Linux/"/>
+    
+    
+      <category term="linux" scheme="http://yoursite.com/tags/linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>centos6.5+nginx1.8.0+php5.6+mysql5.1环境配置</title>
+    <link href="http://yoursite.com/2016/10/05/centos6.5+nginx1.8.0+php5.6+mysql5.1%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/"/>
+    <id>http://yoursite.com/2016/10/05/centos6.5+nginx1.8.0+php5.6+mysql5.1环境配置/</id>
+    <published>2016-10-05T08:04:13.000Z</published>
+    <updated>2016-10-07T07:29:42.162Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Centos6-5-nginx-php-fpm-mysql-install-configure"><a href="#Centos6-5-nginx-php-fpm-mysql-install-configure" class="headerlink" title="Centos6.5-nginx-php-fpm-mysql-install-configure"></a>Centos6.5-nginx-php-fpm-mysql-install-configure</h1><h1 id="服务器环境"><a href="#服务器环境" class="headerlink" title="服务器环境"></a>服务器环境</h1><ol>
+<li>php 5.6.26</li>
+<li>mysql  Ver 14.14 Distrib 5.1.73, for redhat-linux-gnu (x86_64) using readline 5.1</li>
+<li>nginx/1.8.0</li>
+</ol>
+<a id="more"></a>
+<h1 id="安装软件"><a href="#安装软件" class="headerlink" title="安装软件"></a>安装软件</h1><h2 id="1-安装PHP"><a href="#1-安装PHP" class="headerlink" title="1.安装PHP"></a>1.安装PHP</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$ rpm -Uvh http://ftp.iij.ad.jp/pub/linux/fedora/epel/6/x86_64/epel-release-6-8.noarch.rpm;</div><div class="line">$ rpm -Uvh http://rpms.famillecollet.com/enterprise/remi-release-6.rpm</div><div class="line">$ yum -y install --enablerepo=remi --enablerepo=remi-php56 nginx mysql-server php php-fpm php-cli php-pdo php-mysql php-mcrypt php-mbstring php-gd php-tidy php-xml php-xmlrpc php-pear php-pecl-memcache php-eaccelerator</div></pre></td></tr></table></figure>
+<h2 id="2-安装mysql"><a href="#2-安装mysql" class="headerlink" title="2.安装mysql"></a>2.安装mysql</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ yum install mysql-server</div></pre></td></tr></table></figure>
+<h2 id="3-安装nginx"><a href="#3-安装nginx" class="headerlink" title="3.安装nginx"></a>3.安装nginx</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ yum install nginx</div></pre></td></tr></table></figure>
+<h1 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h1><h2 id="1-开机启动"><a href="#1-开机启动" class="headerlink" title="1.开机启动"></a>1.开机启动</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$ chkconfig mysqld on</div><div class="line">$ chkconfig nginx on</div><div class="line">$ chkconfig php-fpm on</div></pre></td></tr></table></figure>
+<h2 id="2-配置mysql"><a href="#2-配置mysql" class="headerlink" title="2.配置mysql"></a>2.配置mysql</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ mysql_secure_installation</div></pre></td></tr></table></figure>
+<p>全部选择Y</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;Centos6-5-nginx-php-fpm-mysql-install-configure&quot;&gt;&lt;a href=&quot;#Centos6-5-nginx-php-fpm-mysql-install-configure&quot; class=&quot;headerlink&quot; title=&quot;Centos6.5-nginx-php-fpm-mysql-install-configure&quot;&gt;&lt;/a&gt;Centos6.5-nginx-php-fpm-mysql-install-configure&lt;/h1&gt;&lt;h1 id=&quot;服务器环境&quot;&gt;&lt;a href=&quot;#服务器环境&quot; class=&quot;headerlink&quot; title=&quot;服务器环境&quot;&gt;&lt;/a&gt;服务器环境&lt;/h1&gt;&lt;ol&gt;
+&lt;li&gt;php 5.6.26&lt;/li&gt;
+&lt;li&gt;mysql  Ver 14.14 Distrib 5.1.73, for redhat-linux-gnu (x86_64) using readline 5.1&lt;/li&gt;
+&lt;li&gt;nginx/1.8.0&lt;/li&gt;
+&lt;/ol&gt;
     
     </summary>
     
