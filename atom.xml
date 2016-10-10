@@ -79,26 +79,25 @@
   </entry>
   
   <entry>
-    <title>weiphp的ueditor报错</title>
-    <link href="http://yoursite.com/2016/10/07/weiphp%E7%9A%84ueditor%E6%8A%A5%E9%94%99/"/>
-    <id>http://yoursite.com/2016/10/07/weiphp的ueditor报错/</id>
+    <title>weiphp中ueditor报错问题汇总</title>
+    <link href="http://yoursite.com/2016/10/07/weiphp%E4%B8%ADueditor%E6%8A%A5%E9%94%99%E9%97%AE%E9%A2%98%E6%B1%87%E6%80%BB/"/>
+    <id>http://yoursite.com/2016/10/07/weiphp中ueditor报错问题汇总/</id>
     <published>2016-10-07T01:44:13.000Z</published>
-    <updated>2016-10-07T07:31:08.100Z</updated>
+    <updated>2016-10-10T02:40:03.548Z</updated>
     
-    <content type="html"><![CDATA[<blockquote>
+    <content type="html"><![CDATA[<p>#</p>
+<h2 id="ueditor-不能获取到配置文件"><a href="#ueditor-不能获取到配置文件" class="headerlink" title="ueditor 不能获取到配置文件"></a>ueditor 不能获取到配置文件</h2><blockquote>
 <p> GET <a href="http://*.com/Public/static/ueditor/php/controller.php?action=config&amp;&amp;noCache=1475802337777" target="_blank" rel="external">http://*.com/Public/static/ueditor/php/controller.php?action=config&amp;&amp;noCache=1475802337777</a> 403 (Forbidden)</p>
 <p>请求后台配置项http错误，上传功能将不能正常使用！</p>
 </blockquote>
-<a id="more"></a>
 <p>修改NGINX配置文件</p>
+<h2 id="nginx报405错误"><a href="#nginx报405错误" class="headerlink" title="nginx报405错误"></a>nginx报405错误</h2><p>因为ueditor通过静态文件进行POST请求，对于NGINX是不允许的。<br><a href="https://my.oschina.net/lemonzone2010/blog/174505" target="_blank" rel="external">解决方法</a></p>
+<h2 id="目录创建失败"><a href="#目录创建失败" class="headerlink" title="目录创建失败"></a>目录创建失败</h2><figure class="highlight nginx"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">location</span> <span class="regexp">~ \.php$</span> &#123;</div><div class="line">  <span class="comment">#增加root目录</span></div><div class="line">  <span class="attribute">root</span> <span class="variable">$root_path</span>;</div></pre></td></tr></table></figure>
 ]]></content>
     
     <summary type="html">
     
-      &lt;blockquote&gt;
-&lt;p&gt; GET &lt;a href=&quot;http://*.com/Public/static/ueditor/php/controller.php?action=config&amp;amp;&amp;amp;noCache=1475802337777&quot;&gt;http://*.com/Public/static/ueditor/php/controller.php?action=config&amp;amp;&amp;amp;noCache=1475802337777&lt;/a&gt; 403 (Forbidden)&lt;/p&gt;
-&lt;p&gt;请求后台配置项http错误，上传功能将不能正常使用！&lt;/p&gt;
-&lt;/blockquote&gt;
+      weiphp部署在nginx环境下ueditor各种报错的问题汇总
     
     </summary>
     
@@ -108,6 +107,12 @@
     
     
       <category term="linux" scheme="http://yoursite.com/tags/linux/"/>
+    
+      <category term="weiphp" scheme="http://yoursite.com/tags/weiphp/"/>
+    
+      <category term="nginx" scheme="http://yoursite.com/tags/nginx/"/>
+    
+      <category term="ueditor" scheme="http://yoursite.com/tags/ueditor/"/>
     
   </entry>
   
