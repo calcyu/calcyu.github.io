@@ -114,7 +114,7 @@
 <meta property="og:url" content="http://yoursite.com/2016/10/07/weiphp中ueditor报错问题汇总/index.html">
 <meta property="og:site_name" content="Geek5-极客舞台">
 <meta property="og:description" content="weiphp部署在nginx环境下ueditor各种报错的问题汇总">
-<meta property="og:updated_time" content="2016-10-10T02:40:03.548Z">
+<meta property="og:updated_time" content="2016-10-10T02:47:44.079Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="weiphp中ueditor报错问题汇总">
 <meta name="twitter:description" content="weiphp部署在nginx环境下ueditor各种报错的问题汇总">
@@ -394,14 +394,14 @@
       
 
       
-        <p>#</p>
+        <h1 id="weiphp中ueditor报错问题汇总"><a href="#weiphp中ueditor报错问题汇总" class="headerlink" title="weiphp中ueditor报错问题汇总"></a>weiphp中ueditor报错问题汇总</h1><h2 id="ueditor-配置说明"><a href="#ueditor-配置说明" class="headerlink" title="ueditor 配置说明"></a>ueditor 配置说明</h2><p><a href="http://fex.baidu.com/ueditor/" target="_blank" rel="external">百度官方配置说明</a></p>
 <h2 id="ueditor-不能获取到配置文件"><a href="#ueditor-不能获取到配置文件" class="headerlink" title="ueditor 不能获取到配置文件"></a>ueditor 不能获取到配置文件</h2><blockquote>
 <p> GET <a href="http://*.com/Public/static/ueditor/php/controller.php?action=config&amp;&amp;noCache=1475802337777" target="_blank" rel="external">http://*.com/Public/static/ueditor/php/controller.php?action=config&amp;&amp;noCache=1475802337777</a> 403 (Forbidden)</p>
 <p>请求后台配置项http错误，上传功能将不能正常使用！</p>
 </blockquote>
 <p>修改NGINX配置文件</p>
 <h2 id="nginx报405错误"><a href="#nginx报405错误" class="headerlink" title="nginx报405错误"></a>nginx报405错误</h2><p>因为ueditor通过静态文件进行POST请求，对于NGINX是不允许的。<br><a href="https://my.oschina.net/lemonzone2010/blog/174505" target="_blank" rel="external">解决方法</a></p>
-<h2 id="目录创建失败"><a href="#目录创建失败" class="headerlink" title="目录创建失败"></a>目录创建失败</h2><figure class="highlight nginx"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">location</span> <span class="regexp">~ \.php$</span> &#123;</div><div class="line">  <span class="comment">#增加root目录</span></div><div class="line">  <span class="attribute">root</span> <span class="variable">$root_path</span>;</div></pre></td></tr></table></figure>
+<h2 id="目录创建失败"><a href="#目录创建失败" class="headerlink" title="目录创建失败"></a>目录创建失败</h2><figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">location ~ \.php$ &#123;</div><div class="line">  #增加root目录</div><div class="line">  root $root_path;</div><div class="line">...</div></pre></td></tr></table></figure>
 
       
     </div>
@@ -439,8 +439,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2016/10/05/不重启修改LINUX时区和时间/" rel="next" title="不重启修改LINUX时区和时间">
-                <i class="fa fa-chevron-left"></i> 不重启修改LINUX时区和时间
+              <a href="/2016/10/05/centos6.5+nginx1.8.0+php5.6+mysql5.1环境配置/" rel="next" title="centos6.5+nginx1.8.0+php5.6+mysql5.1环境配置">
+                <i class="fa fa-chevron-left"></i> centos6.5+nginx1.8.0+php5.6+mysql5.1环境配置
               </a>
             
           </div>
@@ -547,7 +547,7 @@
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">5</span>
+              <span class="site-state-item-count">8</span>
               <span class="site-state-item-name">posts</span>
             </a>
           </div>
@@ -634,7 +634,7 @@
               
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#ueditor-不能获取到配置文件"><span class="nav-number">1.</span> <span class="nav-text">ueditor 不能获取到配置文件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#nginx报405错误"><span class="nav-number">2.</span> <span class="nav-text">nginx报405错误</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#目录创建失败"><span class="nav-number">3.</span> <span class="nav-text">目录创建失败</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#weiphp中ueditor报错问题汇总"><span class="nav-number">1.</span> <span class="nav-text">weiphp中ueditor报错问题汇总</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#ueditor-配置说明"><span class="nav-number">1.1.</span> <span class="nav-text">ueditor 配置说明</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#ueditor-不能获取到配置文件"><span class="nav-number">1.2.</span> <span class="nav-text">ueditor 不能获取到配置文件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#nginx报405错误"><span class="nav-number">1.3.</span> <span class="nav-text">nginx报405错误</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#目录创建失败"><span class="nav-number">1.4.</span> <span class="nav-text">目录创建失败</span></a></li></ol></li></ol></div>
             
           </div>
         </section>
