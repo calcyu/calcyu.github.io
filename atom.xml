@@ -111,11 +111,15 @@
     <link href="http://yoursite.com/2016/10/14/%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%8C%96%E6%B1%87%E6%80%BB/"/>
     <id>http://yoursite.com/2016/10/14/前端工程化汇总/</id>
     <published>2016-10-14T09:29:37.000Z</published>
-    <updated>2016-10-15T07:14:27.587Z</updated>
+    <updated>2016-10-22T09:54:58.850Z</updated>
     
     <content type="html"><![CDATA[<h1 id="前端工程化汇总"><a href="#前端工程化汇总" class="headerlink" title="前端工程化汇总"></a>前端工程化汇总</h1><h2 id="优秀博文"><a href="#优秀博文" class="headerlink" title="优秀博文"></a>优秀博文</h2><p><a href="https://boke.io/ji-yu-gulphe-webpackde-qian-duan-gong-zuo-liu/" target="_blank" rel="external">基于gulp和webpack的前端工程化</a></p>
 <p><a href="https://github.com/demohi/learning-gulp" target="_blank" rel="external">learning-gulp</a></p>
-<p><a href="https://github.com/QMUI/QMUI_Web" target="_blank" rel="external">腾讯QMUI</a></p>
+<p>本来一起在研究前端自动化框架如何搭建和使用，结果鹅厂的同学们就开源了这么一个框架，经常有种莫名心想事成的感觉！</p>
+<p><img src="https://raw.githubusercontent.com/QMUI/qmuidemo_web/master/public/style/images/independent/BannerForGithub_2x.png" alt="QMUI"></p>
+<h1 id="QMUI-Web"><a href="#QMUI-Web" class="headerlink" title="QMUI Web "></a>QMUI Web <a href="https://github.com/QMUI/qmui_web/" title="Version Number" target="_blank" rel="external"><img src="https://img.shields.io/npm/v/generator-qmui.svg?style=flat" alt="Version Number"></a></h1><blockquote>
+<p>一个旨在提高 UI 开发效率、快速产生项目 UI 的前端框架</p>
+</blockquote>
 ]]></content>
     
     <summary type="html">
@@ -124,6 +128,14 @@
     
     </summary>
     
+    
+      <category term="gulp" scheme="http://yoursite.com/tags/gulp/"/>
+    
+      <category term="webpack" scheme="http://yoursite.com/tags/webpack/"/>
+    
+      <category term="前端自动化" scheme="http://yoursite.com/tags/%E5%89%8D%E7%AB%AF%E8%87%AA%E5%8A%A8%E5%8C%96/"/>
+    
+      <category term="QMUI" scheme="http://yoursite.com/tags/QMUI/"/>
     
   </entry>
   
