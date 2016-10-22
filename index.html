@@ -309,6 +309,127 @@
             
               
                 
+                <a class="post-title-link" href="/2016/10/22/GIT如何删除错误提交的文件/" itemprop="url">
+                  GIT如何删除错误提交的文件
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">Posted on</span>
+            <time itemprop="dateCreated" datetime="2016-10-22T11:04:17+08:00" content="2016-10-22">
+              2016-10-22
+            </time>
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2016/10/22/GIT如何删除错误提交的文件/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/10/22/GIT如何删除错误提交的文件/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+             <span id="/2016/10/22/GIT如何删除错误提交的文件/" class="leancloud_visitors" data-flag-title="GIT如何删除错误提交的文件">
+               &nbsp; | &nbsp;
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               <span class="post-meta-item-text">visitors </span>
+               <span class="leancloud-visitors-count"></span>
+              </span>
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h1 id="GIT如何删除错误提交的文件"><a href="#GIT如何删除错误提交的文件" class="headerlink" title="GIT如何删除错误提交的文件"></a>GIT如何删除错误提交的文件</h1><blockquote>
+<p>思路：</p>
+<ul>
+<li>创建和切换至临时分支</li>
+<li>删除误提交文件</li>
+<li>提交修改的内容</li>
+<li>切换至主线</li>
+<li>重组分支到主线版本</li>
+<li>删除临时分支运动</li>
+</ul>
+</blockquote>
+<p>运行下面的git命令<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div></pre></td><td class="code"><pre><div class="line"># 创建和切换至临时分支</div><div class="line">git checkout -b tempbranch &lt;sha1-of-merge&gt;</div><div class="line"></div><div class="line"># 删除误提交文件</div><div class="line">git rm somefile</div><div class="line"></div><div class="line"># 提交修改的内容</div><div class="line">git commit --amend</div><div class="line"></div><div class="line"># 切换至主线</div><div class="line">git checkout master</div><div class="line"></div><div class="line"># 重组分支到主线版本</div><div class="line">git rebase tempbranch</div><div class="line"></div><div class="line"># 删除临时分支运动</div><div class="line">git branch -d tempbranch</div></pre></td></tr></table></figure></p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
                 <a class="post-title-link" href="/2016/10/19/PHP-FPM多进程开机自启/" itemprop="url">
                   PHP-FPM多进程开机自启
                 </a>
@@ -804,121 +925,6 @@
             
               
                 
-                <a class="post-title-link" href="/2016/10/07/nginx+php-fpm上传报错/" itemprop="url">
-                  nginx+php-fpm上传报错
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">Posted on</span>
-            <time itemprop="dateCreated" datetime="2016-10-07T09:44:13+08:00" content="2016-10-07">
-              2016-10-07
-            </time>
-          </span>
-
-          
-
-          
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2016/10/07/nginx+php-fpm上传报错/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/10/07/nginx+php-fpm上传报错/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-             <span id="/2016/10/07/nginx+php-fpm上传报错/" class="leancloud_visitors" data-flag-title="nginx+php-fpm上传报错">
-               &nbsp; | &nbsp;
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               <span class="post-meta-item-text">visitors </span>
-               <span class="leancloud-visitors-count"></span>
-              </span>
-          
-
-          
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <h2 id="上传文件过大浏览器报错内容"><a href="#上传文件过大浏览器报错内容" class="headerlink" title="上传文件过大浏览器报错内容"></a>上传文件过大浏览器报错内容</h2><blockquote>
-<p>413 Request Entity Too Large</p>
-</blockquote>
-<h2 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h2><p>Nginx配置文件nginx.conf 中的 http{} 段增加 client_max_body_size 5m;<br>上传最大文件大小为5M，其它需求自行调整<br>
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2016/10/07/nginx+php-fpm上传报错/#more" rel="contents">
-              Read more &raquo;
-            </a>
-          </div>
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
                 <a class="post-title-link" href="/2016/10/07/weiphp中ueditor报错问题汇总/" itemprop="url">
                   weiphp中ueditor报错问题汇总
                 </a>
@@ -1012,6 +1018,121 @@
           weiphp部署在nginx环境下ueditor各种报错的问题汇总
           <div class="post-more-link text-center">
             <a class="btn" href="/2016/10/07/weiphp中ueditor报错问题汇总/">
+              Read more &raquo;
+            </a>
+          </div>
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2016/10/07/nginx+php-fpm上传报错/" itemprop="url">
+                  nginx+php-fpm上传报错
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">Posted on</span>
+            <time itemprop="dateCreated" datetime="2016-10-07T09:44:13+08:00" content="2016-10-07">
+              2016-10-07
+            </time>
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2016/10/07/nginx+php-fpm上传报错/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/10/07/nginx+php-fpm上传报错/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+             <span id="/2016/10/07/nginx+php-fpm上传报错/" class="leancloud_visitors" data-flag-title="nginx+php-fpm上传报错">
+               &nbsp; | &nbsp;
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               <span class="post-meta-item-text">visitors </span>
+               <span class="leancloud-visitors-count"></span>
+              </span>
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <h2 id="上传文件过大浏览器报错内容"><a href="#上传文件过大浏览器报错内容" class="headerlink" title="上传文件过大浏览器报错内容"></a>上传文件过大浏览器报错内容</h2><blockquote>
+<p>413 Request Entity Too Large</p>
+</blockquote>
+<h2 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h2><p>Nginx配置文件nginx.conf 中的 http{} 段增加 client_max_body_size 5m;<br>上传最大文件大小为5M，其它需求自行调整<br>
+          <div class="post-more-link text-center">
+            <a class="btn" href="/2016/10/07/nginx+php-fpm上传报错/#more" rel="contents">
               Read more &raquo;
             </a>
           </div>
@@ -1375,7 +1496,7 @@
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">8</span>
+              <span class="site-state-item-count">9</span>
               <span class="site-state-item-name">posts</span>
             </a>
           </div>
@@ -1392,7 +1513,7 @@
           
             <div class="site-state-item site-state-tags">
               <a href="/tags">
-                <span class="site-state-item-count">13</span>
+                <span class="site-state-item-count">14</span>
                 <span class="site-state-item-name">tags</span>
               </a>
             </div>
