@@ -4,9 +4,9 @@
   <subtitle>喜欢研究技术</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="http://geek5.cn/"/>
   <updated>2016-10-22T03:34:57.861Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>http://geek5.cn/</id>
   
   <author>
     <name>Calc Yu</name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title>GIT如何删除错误提交的文件</title>
-    <link href="http://yoursite.com/2016/10/22/GIT%E5%A6%82%E4%BD%95%E5%88%A0%E9%99%A4%E9%94%99%E8%AF%AF%E6%8F%90%E4%BA%A4%E7%9A%84%E6%96%87%E4%BB%B6/"/>
-    <id>http://yoursite.com/2016/10/22/GIT如何删除错误提交的文件/</id>
+    <link href="http://geek5.cn/2016/10/22/GIT%E5%A6%82%E4%BD%95%E5%88%A0%E9%99%A4%E9%94%99%E8%AF%AF%E6%8F%90%E4%BA%A4%E7%9A%84%E6%96%87%E4%BB%B6/"/>
+    <id>http://geek5.cn/2016/10/22/GIT如何删除错误提交的文件/</id>
     <published>2016-10-22T03:04:17.000Z</published>
     <updated>2016-10-22T03:34:57.861Z</updated>
     
@@ -45,14 +45,14 @@
     </summary>
     
     
-      <category term="git" scheme="http://yoursite.com/tags/git/"/>
+      <category term="git" scheme="http://geek5.cn/tags/git/"/>
     
   </entry>
   
   <entry>
     <title>PHP-FPM多进程开机自启</title>
-    <link href="http://yoursite.com/2016/10/19/PHP-FPM%E5%A4%9A%E8%BF%9B%E7%A8%8B%E5%BC%80%E6%9C%BA%E8%87%AA%E5%90%AF/"/>
-    <id>http://yoursite.com/2016/10/19/PHP-FPM多进程开机自启/</id>
+    <link href="http://geek5.cn/2016/10/19/PHP-FPM%E5%A4%9A%E8%BF%9B%E7%A8%8B%E5%BC%80%E6%9C%BA%E8%87%AA%E5%90%AF/"/>
+    <id>http://geek5.cn/2016/10/19/PHP-FPM多进程开机自启/</id>
     <published>2016-10-19T07:05:39.000Z</published>
     <updated>2016-10-19T07:15:58.402Z</updated>
     
@@ -67,20 +67,20 @@
     </summary>
     
     
-      <category term="linux" scheme="http://yoursite.com/tags/linux/"/>
+      <category term="centos" scheme="http://geek5.cn/tags/centos/"/>
     
-      <category term="php-fpm" scheme="http://yoursite.com/tags/php-fpm/"/>
+      <category term="linux" scheme="http://geek5.cn/tags/linux/"/>
     
-      <category term="centos" scheme="http://yoursite.com/tags/centos/"/>
+      <category term="php-fpm" scheme="http://geek5.cn/tags/php-fpm/"/>
     
-      <category term="chkconfig" scheme="http://yoursite.com/tags/chkconfig/"/>
+      <category term="chkconfig" scheme="http://geek5.cn/tags/chkconfig/"/>
     
   </entry>
   
   <entry>
     <title>2016WEB开发好东西汇总</title>
-    <link href="http://yoursite.com/2016/10/15/2016WEB%E5%BC%80%E5%8F%91%E5%A5%BD%E4%B8%9C%E8%A5%BF%E6%B1%87%E6%80%BB/"/>
-    <id>http://yoursite.com/2016/10/15/2016WEB开发好东西汇总/</id>
+    <link href="http://geek5.cn/2016/10/15/2016WEB%E5%BC%80%E5%8F%91%E5%A5%BD%E4%B8%9C%E8%A5%BF%E6%B1%87%E6%80%BB/"/>
+    <id>http://geek5.cn/2016/10/15/2016WEB开发好东西汇总/</id>
     <published>2016-10-15T03:13:21.000Z</published>
     <updated>2016-10-15T03:16:52.887Z</updated>
     
@@ -93,23 +93,23 @@
     
     </summary>
     
-      <category term="TOOLS" scheme="http://yoursite.com/categories/TOOLS/"/>
+      <category term="TOOLS" scheme="http://geek5.cn/categories/TOOLS/"/>
     
     
-      <category term="php" scheme="http://yoursite.com/tags/php/"/>
+      <category term="php" scheme="http://geek5.cn/tags/php/"/>
     
-      <category term="javascript" scheme="http://yoursite.com/tags/javascript/"/>
+      <category term="javascript" scheme="http://geek5.cn/tags/javascript/"/>
     
-      <category term="IDE" scheme="http://yoursite.com/tags/IDE/"/>
+      <category term="IDE" scheme="http://geek5.cn/tags/IDE/"/>
     
-      <category term="autotools" scheme="http://yoursite.com/tags/autotools/"/>
+      <category term="autotools" scheme="http://geek5.cn/tags/autotools/"/>
     
   </entry>
   
   <entry>
     <title>前端工程化汇总</title>
-    <link href="http://yoursite.com/2016/10/14/%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%8C%96%E6%B1%87%E6%80%BB/"/>
-    <id>http://yoursite.com/2016/10/14/前端工程化汇总/</id>
+    <link href="http://geek5.cn/2016/10/14/%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%8C%96%E6%B1%87%E6%80%BB/"/>
+    <id>http://geek5.cn/2016/10/14/前端工程化汇总/</id>
     <published>2016-10-14T09:29:37.000Z</published>
     <updated>2016-10-22T09:57:48.438Z</updated>
     
@@ -129,20 +129,20 @@
     </summary>
     
     
-      <category term="gulp" scheme="http://yoursite.com/tags/gulp/"/>
+      <category term="gulp" scheme="http://geek5.cn/tags/gulp/"/>
     
-      <category term="webpack" scheme="http://yoursite.com/tags/webpack/"/>
+      <category term="webpack" scheme="http://geek5.cn/tags/webpack/"/>
     
-      <category term="前端自动化" scheme="http://yoursite.com/tags/%E5%89%8D%E7%AB%AF%E8%87%AA%E5%8A%A8%E5%8C%96/"/>
+      <category term="前端自动化" scheme="http://geek5.cn/tags/%E5%89%8D%E7%AB%AF%E8%87%AA%E5%8A%A8%E5%8C%96/"/>
     
-      <category term="QMUI" scheme="http://yoursite.com/tags/QMUI/"/>
+      <category term="QMUI" scheme="http://geek5.cn/tags/QMUI/"/>
     
   </entry>
   
   <entry>
     <title>大前端自动化开发环境grunt使用教程汇总</title>
-    <link href="http://yoursite.com/2016/10/09/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%87%AA%E5%8A%A8%E5%8C%96%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83grunt%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B%E6%B1%87%E6%80%BB/"/>
-    <id>http://yoursite.com/2016/10/09/大前端自动化开发环境grunt使用教程汇总/</id>
+    <link href="http://geek5.cn/2016/10/09/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%87%AA%E5%8A%A8%E5%8C%96%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83grunt%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B%E6%B1%87%E6%80%BB/"/>
+    <id>http://geek5.cn/2016/10/09/大前端自动化开发环境grunt使用教程汇总/</id>
     <published>2016-10-09T05:31:59.000Z</published>
     <updated>2016-11-08T07:33:54.886Z</updated>
     
@@ -160,21 +160,59 @@
     
     </summary>
     
-      <category term="LANGUAGE" scheme="http://yoursite.com/categories/LANGUAGE/"/>
+      <category term="LANGUAGE" scheme="http://geek5.cn/categories/LANGUAGE/"/>
     
-      <category term="Javascript" scheme="http://yoursite.com/categories/LANGUAGE/Javascript/"/>
+      <category term="Javascript" scheme="http://geek5.cn/categories/LANGUAGE/Javascript/"/>
     
     
-      <category term="grunt" scheme="http://yoursite.com/tags/grunt/"/>
+      <category term="grunt" scheme="http://geek5.cn/tags/grunt/"/>
     
-      <category term="自动化" scheme="http://yoursite.com/tags/%E8%87%AA%E5%8A%A8%E5%8C%96/"/>
+      <category term="自动化" scheme="http://geek5.cn/tags/%E8%87%AA%E5%8A%A8%E5%8C%96/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>weiphp中ueditor报错问题汇总</title>
+    <link href="http://geek5.cn/2016/10/07/weiphp%E4%B8%ADueditor%E6%8A%A5%E9%94%99%E9%97%AE%E9%A2%98%E6%B1%87%E6%80%BB/"/>
+    <id>http://geek5.cn/2016/10/07/weiphp中ueditor报错问题汇总/</id>
+    <published>2016-10-07T01:44:13.000Z</published>
+    <updated>2016-10-10T02:47:44.079Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="weiphp中ueditor报错问题汇总"><a href="#weiphp中ueditor报错问题汇总" class="headerlink" title="weiphp中ueditor报错问题汇总"></a>weiphp中ueditor报错问题汇总</h1><h2 id="ueditor-配置说明"><a href="#ueditor-配置说明" class="headerlink" title="ueditor 配置说明"></a>ueditor 配置说明</h2><p><a href="http://fex.baidu.com/ueditor/" target="_blank" rel="external">百度官方配置说明</a></p>
+<h2 id="ueditor-不能获取到配置文件"><a href="#ueditor-不能获取到配置文件" class="headerlink" title="ueditor 不能获取到配置文件"></a>ueditor 不能获取到配置文件</h2><blockquote>
+<p> GET <a href="http://*.com/Public/static/ueditor/php/controller.php?action=config&amp;&amp;noCache=1475802337777" target="_blank" rel="external">http://*.com/Public/static/ueditor/php/controller.php?action=config&amp;&amp;noCache=1475802337777</a> 403 (Forbidden)</p>
+<p>请求后台配置项http错误，上传功能将不能正常使用！</p>
+</blockquote>
+<p>修改NGINX配置文件</p>
+<h2 id="nginx报405错误"><a href="#nginx报405错误" class="headerlink" title="nginx报405错误"></a>nginx报405错误</h2><p>因为ueditor通过静态文件进行POST请求，对于NGINX是不允许的。<br><a href="https://my.oschina.net/lemonzone2010/blog/174505" target="_blank" rel="external">解决方法</a></p>
+<h2 id="目录创建失败"><a href="#目录创建失败" class="headerlink" title="目录创建失败"></a>目录创建失败</h2><figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">location ~ \.php$ &#123;</div><div class="line">  #增加root目录</div><div class="line">  root $root_path;</div><div class="line">...</div></pre></td></tr></table></figure>
+]]></content>
+    
+    <summary type="html">
+    
+      weiphp部署在nginx环境下ueditor各种报错的问题汇总
+    
+    </summary>
+    
+      <category term="LANGUAGE" scheme="http://geek5.cn/categories/LANGUAGE/"/>
+    
+      <category term="PHP" scheme="http://geek5.cn/categories/LANGUAGE/PHP/"/>
+    
+    
+      <category term="nginx" scheme="http://geek5.cn/tags/nginx/"/>
+    
+      <category term="linux" scheme="http://geek5.cn/tags/linux/"/>
+    
+      <category term="weiphp" scheme="http://geek5.cn/tags/weiphp/"/>
+    
+      <category term="ueditor" scheme="http://geek5.cn/tags/ueditor/"/>
     
   </entry>
   
   <entry>
     <title>nginx+php-fpm上传报错</title>
-    <link href="http://yoursite.com/2016/10/07/nginx+php-fpm%E4%B8%8A%E4%BC%A0%E6%8A%A5%E9%94%99/"/>
-    <id>http://yoursite.com/2016/10/07/nginx+php-fpm上传报错/</id>
+    <link href="http://geek5.cn/2016/10/07/nginx+php-fpm%E4%B8%8A%E4%BC%A0%E6%8A%A5%E9%94%99/"/>
+    <id>http://geek5.cn/2016/10/07/nginx+php-fpm上传报错/</id>
     <published>2016-10-07T01:44:13.000Z</published>
     <updated>2016-10-07T05:44:51.369Z</updated>
     
@@ -201,92 +239,14 @@
     </summary>
     
     
-      <category term="linux" scheme="http://yoursite.com/tags/linux/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>weiphp中ueditor报错问题汇总</title>
-    <link href="http://yoursite.com/2016/10/07/weiphp%E4%B8%ADueditor%E6%8A%A5%E9%94%99%E9%97%AE%E9%A2%98%E6%B1%87%E6%80%BB/"/>
-    <id>http://yoursite.com/2016/10/07/weiphp中ueditor报错问题汇总/</id>
-    <published>2016-10-07T01:44:13.000Z</published>
-    <updated>2016-10-10T02:47:44.079Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="weiphp中ueditor报错问题汇总"><a href="#weiphp中ueditor报错问题汇总" class="headerlink" title="weiphp中ueditor报错问题汇总"></a>weiphp中ueditor报错问题汇总</h1><h2 id="ueditor-配置说明"><a href="#ueditor-配置说明" class="headerlink" title="ueditor 配置说明"></a>ueditor 配置说明</h2><p><a href="http://fex.baidu.com/ueditor/" target="_blank" rel="external">百度官方配置说明</a></p>
-<h2 id="ueditor-不能获取到配置文件"><a href="#ueditor-不能获取到配置文件" class="headerlink" title="ueditor 不能获取到配置文件"></a>ueditor 不能获取到配置文件</h2><blockquote>
-<p> GET <a href="http://*.com/Public/static/ueditor/php/controller.php?action=config&amp;&amp;noCache=1475802337777" target="_blank" rel="external">http://*.com/Public/static/ueditor/php/controller.php?action=config&amp;&amp;noCache=1475802337777</a> 403 (Forbidden)</p>
-<p>请求后台配置项http错误，上传功能将不能正常使用！</p>
-</blockquote>
-<p>修改NGINX配置文件</p>
-<h2 id="nginx报405错误"><a href="#nginx报405错误" class="headerlink" title="nginx报405错误"></a>nginx报405错误</h2><p>因为ueditor通过静态文件进行POST请求，对于NGINX是不允许的。<br><a href="https://my.oschina.net/lemonzone2010/blog/174505" target="_blank" rel="external">解决方法</a></p>
-<h2 id="目录创建失败"><a href="#目录创建失败" class="headerlink" title="目录创建失败"></a>目录创建失败</h2><figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">location ~ \.php$ &#123;</div><div class="line">  #增加root目录</div><div class="line">  root $root_path;</div><div class="line">...</div></pre></td></tr></table></figure>
-]]></content>
-    
-    <summary type="html">
-    
-      weiphp部署在nginx环境下ueditor各种报错的问题汇总
-    
-    </summary>
-    
-      <category term="LANGUAGE" scheme="http://yoursite.com/categories/LANGUAGE/"/>
-    
-      <category term="PHP" scheme="http://yoursite.com/categories/LANGUAGE/PHP/"/>
-    
-    
-      <category term="linux" scheme="http://yoursite.com/tags/linux/"/>
-    
-      <category term="weiphp" scheme="http://yoursite.com/tags/weiphp/"/>
-    
-      <category term="nginx" scheme="http://yoursite.com/tags/nginx/"/>
-    
-      <category term="ueditor" scheme="http://yoursite.com/tags/ueditor/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>centos6.5+nginx1.8.0+php5.6+mysql5.1环境配置</title>
-    <link href="http://yoursite.com/2016/10/05/centos6.5+nginx1.8.0+php5.6+mysql5.1%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/"/>
-    <id>http://yoursite.com/2016/10/05/centos6.5+nginx1.8.0+php5.6+mysql5.1环境配置/</id>
-    <published>2016-10-05T08:04:13.000Z</published>
-    <updated>2016-10-07T07:29:42.162Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="Centos6-5-nginx-php-fpm-mysql-install-configure"><a href="#Centos6-5-nginx-php-fpm-mysql-install-configure" class="headerlink" title="Centos6.5-nginx-php-fpm-mysql-install-configure"></a>Centos6.5-nginx-php-fpm-mysql-install-configure</h1><h1 id="服务器环境"><a href="#服务器环境" class="headerlink" title="服务器环境"></a>服务器环境</h1><ol>
-<li>php 5.6.26</li>
-<li>mysql  Ver 14.14 Distrib 5.1.73, for redhat-linux-gnu (x86_64) using readline 5.1</li>
-<li>nginx/1.8.0</li>
-</ol>
-<a id="more"></a>
-<h1 id="安装软件"><a href="#安装软件" class="headerlink" title="安装软件"></a>安装软件</h1><h2 id="1-安装PHP"><a href="#1-安装PHP" class="headerlink" title="1.安装PHP"></a>1.安装PHP</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$ rpm -Uvh http://ftp.iij.ad.jp/pub/linux/fedora/epel/6/x86_64/epel-release-6-8.noarch.rpm;</div><div class="line">$ rpm -Uvh http://rpms.famillecollet.com/enterprise/remi-release-6.rpm</div><div class="line">$ yum -y install --enablerepo=remi --enablerepo=remi-php56 nginx mysql-server php php-fpm php-cli php-pdo php-mysql php-mcrypt php-mbstring php-gd php-tidy php-xml php-xmlrpc php-pear php-pecl-memcache php-eaccelerator</div></pre></td></tr></table></figure>
-<h2 id="2-安装mysql"><a href="#2-安装mysql" class="headerlink" title="2.安装mysql"></a>2.安装mysql</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ yum install mysql-server</div></pre></td></tr></table></figure>
-<h2 id="3-安装nginx"><a href="#3-安装nginx" class="headerlink" title="3.安装nginx"></a>3.安装nginx</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ yum install nginx</div></pre></td></tr></table></figure>
-<h1 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h1><h2 id="1-开机启动"><a href="#1-开机启动" class="headerlink" title="1.开机启动"></a>1.开机启动</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$ chkconfig mysqld on</div><div class="line">$ chkconfig nginx on</div><div class="line">$ chkconfig php-fpm on</div></pre></td></tr></table></figure>
-<h2 id="2-配置mysql"><a href="#2-配置mysql" class="headerlink" title="2.配置mysql"></a>2.配置mysql</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ mysql_secure_installation</div></pre></td></tr></table></figure>
-<p>全部选择Y</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h1 id=&quot;Centos6-5-nginx-php-fpm-mysql-install-configure&quot;&gt;&lt;a href=&quot;#Centos6-5-nginx-php-fpm-mysql-install-configure&quot; class=&quot;headerlink&quot; title=&quot;Centos6.5-nginx-php-fpm-mysql-install-configure&quot;&gt;&lt;/a&gt;Centos6.5-nginx-php-fpm-mysql-install-configure&lt;/h1&gt;&lt;h1 id=&quot;服务器环境&quot;&gt;&lt;a href=&quot;#服务器环境&quot; class=&quot;headerlink&quot; title=&quot;服务器环境&quot;&gt;&lt;/a&gt;服务器环境&lt;/h1&gt;&lt;ol&gt;
-&lt;li&gt;php 5.6.26&lt;/li&gt;
-&lt;li&gt;mysql  Ver 14.14 Distrib 5.1.73, for redhat-linux-gnu (x86_64) using readline 5.1&lt;/li&gt;
-&lt;li&gt;nginx/1.8.0&lt;/li&gt;
-&lt;/ol&gt;
-    
-    </summary>
-    
-      <category term="OS" scheme="http://yoursite.com/categories/OS/"/>
-    
-      <category term="Linux" scheme="http://yoursite.com/categories/OS/Linux/"/>
-    
-    
-      <category term="linux" scheme="http://yoursite.com/tags/linux/"/>
+      <category term="linux" scheme="http://geek5.cn/tags/linux/"/>
     
   </entry>
   
   <entry>
     <title>不重启修改LINUX时区和时间</title>
-    <link href="http://yoursite.com/2016/10/05/%E4%B8%8D%E9%87%8D%E5%90%AF%E4%BF%AE%E6%94%B9LINUX%E6%97%B6%E5%8C%BA%E5%92%8C%E6%97%B6%E9%97%B4/"/>
-    <id>http://yoursite.com/2016/10/05/不重启修改LINUX时区和时间/</id>
+    <link href="http://geek5.cn/2016/10/05/%E4%B8%8D%E9%87%8D%E5%90%AF%E4%BF%AE%E6%94%B9LINUX%E6%97%B6%E5%8C%BA%E5%92%8C%E6%97%B6%E9%97%B4/"/>
+    <id>http://geek5.cn/2016/10/05/不重启修改LINUX时区和时间/</id>
     <published>2016-10-05T08:04:13.000Z</published>
     <updated>2016-10-07T07:29:13.605Z</updated>
     
@@ -318,12 +278,494 @@ Thu 06 Oct 2016 03:59:49 PM CST  -0.891096 seconds
     
     </summary>
     
-      <category term="OS" scheme="http://yoursite.com/categories/OS/"/>
+      <category term="OS" scheme="http://geek5.cn/categories/OS/"/>
     
-      <category term="Linux" scheme="http://yoursite.com/categories/OS/Linux/"/>
+      <category term="Linux" scheme="http://geek5.cn/categories/OS/Linux/"/>
     
     
-      <category term="linux" scheme="http://yoursite.com/tags/linux/"/>
+      <category term="linux" scheme="http://geek5.cn/tags/linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>centos6.5+nginx1.8.0+php5.6+mysql5.1环境配置</title>
+    <link href="http://geek5.cn/2016/10/05/centos6.5+nginx1.8.0+php5.6+mysql5.1%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/"/>
+    <id>http://geek5.cn/2016/10/05/centos6.5+nginx1.8.0+php5.6+mysql5.1环境配置/</id>
+    <published>2016-10-05T08:04:13.000Z</published>
+    <updated>2016-10-07T07:29:42.162Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Centos6-5-nginx-php-fpm-mysql-install-configure"><a href="#Centos6-5-nginx-php-fpm-mysql-install-configure" class="headerlink" title="Centos6.5-nginx-php-fpm-mysql-install-configure"></a>Centos6.5-nginx-php-fpm-mysql-install-configure</h1><h1 id="服务器环境"><a href="#服务器环境" class="headerlink" title="服务器环境"></a>服务器环境</h1><ol>
+<li>php 5.6.26</li>
+<li>mysql  Ver 14.14 Distrib 5.1.73, for redhat-linux-gnu (x86_64) using readline 5.1</li>
+<li>nginx/1.8.0</li>
+</ol>
+<a id="more"></a>
+<h1 id="安装软件"><a href="#安装软件" class="headerlink" title="安装软件"></a>安装软件</h1><h2 id="1-安装PHP"><a href="#1-安装PHP" class="headerlink" title="1.安装PHP"></a>1.安装PHP</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$ rpm -Uvh http://ftp.iij.ad.jp/pub/linux/fedora/epel/6/x86_64/epel-release-6-8.noarch.rpm;</div><div class="line">$ rpm -Uvh http://rpms.famillecollet.com/enterprise/remi-release-6.rpm</div><div class="line">$ yum -y install --enablerepo=remi --enablerepo=remi-php56 nginx mysql-server php php-fpm php-cli php-pdo php-mysql php-mcrypt php-mbstring php-gd php-tidy php-xml php-xmlrpc php-pear php-pecl-memcache php-eaccelerator</div></pre></td></tr></table></figure>
+<h2 id="2-安装mysql"><a href="#2-安装mysql" class="headerlink" title="2.安装mysql"></a>2.安装mysql</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ yum install mysql-server</div></pre></td></tr></table></figure>
+<h2 id="3-安装nginx"><a href="#3-安装nginx" class="headerlink" title="3.安装nginx"></a>3.安装nginx</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ yum install nginx</div></pre></td></tr></table></figure>
+<h1 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h1><h2 id="1-开机启动"><a href="#1-开机启动" class="headerlink" title="1.开机启动"></a>1.开机启动</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$ chkconfig mysqld on</div><div class="line">$ chkconfig nginx on</div><div class="line">$ chkconfig php-fpm on</div></pre></td></tr></table></figure>
+<h2 id="2-配置mysql"><a href="#2-配置mysql" class="headerlink" title="2.配置mysql"></a>2.配置mysql</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ mysql_secure_installation</div></pre></td></tr></table></figure>
+<p>全部选择Y</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;Centos6-5-nginx-php-fpm-mysql-install-configure&quot;&gt;&lt;a href=&quot;#Centos6-5-nginx-php-fpm-mysql-install-configure&quot; class=&quot;headerlink&quot; title=&quot;Centos6.5-nginx-php-fpm-mysql-install-configure&quot;&gt;&lt;/a&gt;Centos6.5-nginx-php-fpm-mysql-install-configure&lt;/h1&gt;&lt;h1 id=&quot;服务器环境&quot;&gt;&lt;a href=&quot;#服务器环境&quot; class=&quot;headerlink&quot; title=&quot;服务器环境&quot;&gt;&lt;/a&gt;服务器环境&lt;/h1&gt;&lt;ol&gt;
+&lt;li&gt;php 5.6.26&lt;/li&gt;
+&lt;li&gt;mysql  Ver 14.14 Distrib 5.1.73, for redhat-linux-gnu (x86_64) using readline 5.1&lt;/li&gt;
+&lt;li&gt;nginx/1.8.0&lt;/li&gt;
+&lt;/ol&gt;
+    
+    </summary>
+    
+      <category term="OS" scheme="http://geek5.cn/categories/OS/"/>
+    
+      <category term="Linux" scheme="http://geek5.cn/categories/OS/Linux/"/>
+    
+    
+      <category term="linux" scheme="http://geek5.cn/tags/linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>nginx配置参数详细解释</title>
+    <link href="http://geek5.cn/2016/09/30/nginx-e9-85-8d-e7-bd-ae-e5-8f-82-e6-95-b0-e8-af-a6-e7-bb-86-e8-a7-a3-e9-87-8a/"/>
+    <id>http://geek5.cn/2016/09/30/nginx-e9-85-8d-e7-bd-ae-e5-8f-82-e6-95-b0-e8-af-a6-e7-bb-86-e8-a7-a3-e9-87-8a/</id>
+    <published>2016-09-30T14:25:22.000Z</published>
+    <updated>2016-11-14T08:09:57.576Z</updated>
+    
+    <content type="html"><![CDATA[<p>#定义Nginx运行的用户和用户组<br>user www www;</p>
+<p>#nginx进程数，建议设置为等于CPU总核心数。<br>worker_processes 8;</p>
+<p>#全局错误日志定义类型，[ debug | info | notice | warn | error | crit ]<br>error_log /var/log/nginx/error.log info;</p>
+<p>#进程文件<br>pid /var/run/nginx.pid;</p>
+<p>#一个nginx进程打开的最多文件描述符数目，理论值应该是最多打开文件数（系统的值ulimit -n）与nginx进程数相除，但是nginx分配请求并不均匀，所以建议与ulimit -n的值保持一致。<br>worker_rlimit_nofile 65535;</p>
+<p>#工作模式与连接数上限<br>events<br>{</p>
+<p>#参考事件模型，use [ kqueue | rtsig | epoll | /dev/poll | select | poll ]; epoll模型是Linux 2.6以上版本内核中的高性能网络I/O模型，如果跑在FreeBSD上面，就用kqueue模型。<br>use epoll;</p>
+<p>#单个进程最大连接数（最大连接数=连接数*进程数）<br>worker_connections 65535;<br>}</p>
+<p>#设定http服务器<br>http<br>{<br>include mime.types; #文件扩展名与文件类型映射表<br>default_type application/octet-stream; #默认文件类型</p>
+<p>#charset utf-8; #默认编码<br>server_names_hash_bucket_size 128; #服务器名字的hash表大小<br>client_header_buffer_size 32k; #上传文件大小限制<br>large_client_header_buffers 4 64k; #设定请求缓<br>client_max_body_size 8m; #设定请求缓<br>sendfile on; #开启高效文件传输模式，sendfile指令指定nginx是否调用sendfile函数来输出文件，对于普通应用设为 on，如果用来进行下载等应用磁盘IO重负载应用，可设置为off，以平衡磁盘与网络I/O处理速度，降低系统的负载。注意：如果图片显示不正常把这个改成off。<br>autoindex on; #开启目录列表访问，合适下载服务器，默认关闭。<br>tcp_nopush on; #防止网络阻塞<br>tcp_nodelay on; #防止网络阻塞<br>keepalive_timeout 120; #长连接超时时间，单位是秒</p>
+<p>#FastCGI相关参数是为了改善网站的性能：减少资源占用，提高访问速度。下面参数看字面意思都能理解。<br>fastcgi_connect_timeout 300;<br>fastcgi_send_timeout 300;<br>fastcgi_read_timeout 300;<br>fastcgi_buffer_size 64k;<br>fastcgi_buffers 4 64k;<br>fastcgi_busy_buffers_size 128k;<br>fastcgi_temp_file_write_size 128k;</p>
+<p>#gzip模块设置<br>gzip on; #开启gzip压缩输出<br>gzip_min_length 1k; #最小压缩文件大小<br>gzip_buffers 4 16k; #压缩缓冲区<br>gzip_http_version 1.0; #压缩版本（默认1.1，前端如果是squid2.5请使用1.0）<br>gzip_comp_level 2; #压缩等级<br>gzip_types text/plain application/x-javascript text/css application/xml;</p>
+<p>#压缩类型，默认就已经包含text/html，所以下面就不用再写了，写上去也不会有问题，但是会有一个warn。<br>gzip_vary on;</p>
+<p>#limit_zone crawler $binary_remote_addr 10m; #开启限制IP连接数的时候需要使用</p>
+<p>upstream blog.ha97.com {</p>
+<p>#upstream的负载均衡，weight是权重，可以根据机器配置定义权重。weigth参数表示权值，权值越高被分配到的几率越大。<br>server 192.168.80.121:80 weight=3;<br>server 192.168.80.122:80 weight=2;<br>server 192.168.80.123:80 weight=3;<br>}</p>
+<p>#虚拟主机的配置<br>server<br>{</p>
+<p>#监听端口<br>listen 80;</p>
+<p>#域名可以有多个，用空格隔开<br>server<em>name www.ha97.com ha97.com;<br>index index.html index.htm index.php;<br>root /data/www/ha97;<br>location ~ .</em>&#46;(php|php5)?$<br>{<br>fastcgi_pass 127.0.0.1:9000;<br>fastcgi_index index.php;<br>include fastcgi.conf;<br>}</p>
+<p>#图片缓存时间设置<br>location ~ ._&#46;(gif|jpg|jpeg|png|bmp|swf)$<br>{<br>expires 10d;<br>}</p>
+<p>#JS和CSS缓存时间设置<br>location ~ .*&#46;(js|css)?$<br>{<br>expires 1h;<br>}</p>
+<p>#日志格式设定<br>log_format access ‘$remote_addr - $remote_user [$time_local] “$request” ‘<br>‘$status $body_bytes_sent “$http_referer” ‘<br>‘“$http_user_agent” $http_x_forwarded_for’;</p>
+<p>#定义本虚拟主机的访问日志<br>access_log /var/log/nginx/ha97access.log access;</p>
+<p>#对 “/“ 启用反向代理<br>location / {<br>proxy_pass <a href="http://127.0.0.1:88" target="_blank" rel="external">http://127.0.0.1:88</a>;<br>proxy_redirect off;<br>proxy_set_header X-Real-IP $remote_addr;</p>
+<p>#后端的Web服务器可以通过X-Forwarded-For获取用户真实IP<br>proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;</p>
+<p>#以下是一些反向代理的配置，可选。<br>proxy_set_header Host $host;<br>client_max_body_size 10m; #允许客户端请求的最大单文件字节数<br>client_body_buffer_size 128k; #缓冲区代理缓冲用户端请求的最大字节数，<br>proxy_connect_timeout 90; #nginx跟后端服务器连接超时时间(代理连接超时)<br>proxy_send_timeout 90; #后端服务器数据回传时间(代理发送超时)<br>proxy_read_timeout 90; #连接成功后，后端服务器响应时间(代理接收超时)<br>proxy_buffer_size 4k; #设置代理服务器（nginx）保存用户头信息的缓冲区大小<br>proxy_buffers 4 32k; #proxy_buffers缓冲区，网页平均在32k以下的设置<br>proxy_busy_buffers_size 64k; #高负荷下缓冲大小（proxy_buffers*2）<br>proxy_temp_file_write_size 64k;</p>
+<p>#设定缓存文件夹大小，大于这个值，将从upstream服务器传<br>}</p>
+<p>#设定查看Nginx状态的地址<br>location /NginxStatus {<br>stub_status on;<br>access_log on;<br>auth_basic “NginxStatus”;<br>auth_basic_user_file conf/htpasswd;</p>
+<p>#htpasswd文件的内容可以用apache提供的htpasswd工具来产生。<br>}</p>
+<p>#本地动静分离反向代理配置</p>
+<p>#所有jsp的页面均交由tomcat或resin处理<br>location ~ .(jsp|jspx|do)?$ {<br>proxy_set_header Host $host;<br>proxy_set_header X-Real-IP $remote_addr;<br>proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;<br>proxy_pass <a href="http://127.0.0.1:8080" target="_blank" rel="external">http://127.0.0.1:8080</a>;<br>}</p>
+<p>#所有静态文件由nginx直接读取不经过tomcat或resin<br>location ~ .<em>.(htm|html|gif|jpg|jpeg|png|bmp|swf|ioc|rar|zip|txt|flv|mid|doc|ppt|pdf|xls|mp3|wma)$<br>{ expires 15d; }<br>location ~ .</em>.(js|css)?$<br>{ expires 1h; }<br>}<br>}</p>
+<p>更详细的模块参数请参考：<a href="http://wiki.nginx.org/Main" target="_blank" rel="external">http://wiki.nginx.org/Main</a></p>
+<blockquote>
+<p><a href="http://www.ha97.com/5194.html" target="_blank" rel="external">http://www.ha97.com/5194.html</a></p>
+</blockquote>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;#定义Nginx运行的用户和用户组&lt;br&gt;user www www;&lt;/p&gt;
+&lt;p&gt;#nginx进程数，建议设置为等于CPU总核心数。&lt;br&gt;worker_processes 8;&lt;/p&gt;
+&lt;p&gt;#全局错误日志定义类型，[ debug | info | notice | w
+    
+    </summary>
+    
+      <category term="LINUX" scheme="http://geek5.cn/categories/LINUX/"/>
+    
+      <category term="Tools" scheme="http://geek5.cn/categories/LINUX/Tools/"/>
+    
+    
+      <category term="fastcgi" scheme="http://geek5.cn/tags/fastcgi/"/>
+    
+      <category term="gzip" scheme="http://geek5.cn/tags/gzip/"/>
+    
+      <category term="nginx" scheme="http://geek5.cn/tags/nginx/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PHP-FPM多pool多用户多进程的配置方式</title>
+    <link href="http://geek5.cn/2016/09/26/php-fpm-e5-a4-9apool-e5-a4-9a-e7-94-a8-e6-88-b7-e5-a4-9a-e8-bf-9b-e7-a8-8b-e7-9a-84-e9-85-8d-e7-bd-ae-e6-96-b9-e5-bc-8f/"/>
+    <id>http://geek5.cn/2016/09/26/php-fpm-e5-a4-9apool-e5-a4-9a-e7-94-a8-e6-88-b7-e5-a4-9a-e8-bf-9b-e7-a8-8b-e7-9a-84-e9-85-8d-e7-bd-ae-e6-96-b9-e5-bc-8f/</id>
+    <published>2016-09-26T07:33:58.000Z</published>
+    <updated>2016-11-14T08:09:57.576Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="http://www.renyiwei.com/archives/1253.html" target="_blank" rel="external">php-fpm多用户运行的两种方式</a></p>
+<p><a href="http://www.cnblogs.com/zrp2013/p/4183546.html" target="_blank" rel="external">php-fpm多用户权限解释</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;http://www.renyiwei.com/archives/1253.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;php-fpm多用户运行的两种方式&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.cnbl
+    
+    </summary>
+    
+      <category term="LINUX" scheme="http://geek5.cn/categories/LINUX/"/>
+    
+      <category term="Tools" scheme="http://geek5.cn/categories/LINUX/Tools/"/>
+    
+    
+      <category term="php-fpm" scheme="http://geek5.cn/tags/php-fpm/"/>
+    
+      <category term="pool" scheme="http://geek5.cn/tags/pool/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>vagrant-install-config</title>
+    <link href="http://geek5.cn/2016/09/24/vagrant-install-config/"/>
+    <id>http://geek5.cn/2016/09/24/vagrant-install-config/</id>
+    <published>2016-09-24T02:53:20.000Z</published>
+    <updated>2016-11-14T08:09:57.576Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Install"><a href="#Install" class="headerlink" title="Install"></a>Install</h1><p>First install <a href="https://releases.hashicorp.com/vagrant/1.8.5/vagrant_1.8.5.msi" target="_blank" rel="external">Vagrant</a> and <a href="http://download.virtualbox.org/virtualbox/5.1.6/VirtualBox-5.1.6-110634-Win.exe" target="_blank" rel="external">VirtualBox</a></p>
+<p>Open URL <a href="http://www.vagrant.ex" target="_blank" rel="external">www.vagrant.ex</a></p>
+<p>Download box <a href="https://github.com/2creatives/vagrant-centos/releases/download/v6.5.3/centos65-x86_64-20140116.box" target="_blank" rel="external">centos65-x86_64-20140116.box</a></p>
+<h1 id="Configure"><a href="#Configure" class="headerlink" title="Configure"></a>Configure</h1><p>[code]vagrant box add geek5 centos65-x86_64-20140116.box<br>vagrant init geek5<br>[/code]</p>
+<p>The Vagrantfile file is created in the current directory</p>
+<p>Open Vagrantfile file</p>
+<p>Set port</p>
+<p>Remove the “#”</p>
+<blockquote>
+<p>config.vm.network “forwarded_port”, guest: 80, host: 8080<br>  config.vm.network “private_network”, ip: “192.168.33.10”<br>  config.vm.synced_folder “./www”, “/var/www/html”</p>
+</blockquote>
+<p>[code]vagrant up<br>[/code]</p>
+<h1 id="Issues"><a href="#Issues" class="headerlink" title="Issues"></a>Issues</h1><blockquote>
+<p>this kernel requires an x86-64 cpu but only detected an i686 cpu unable to boot please use a kernel appropriate for your cpu<br>  Open Virtualization Technology in Bios</p>
+<p>  default: Warning: Authentication failure. Retrying…<br>  Add configuration item in Vagrantfile file</p>
+</blockquote>
+<p>[code]config.ssh.username = “vagrant”<br>config.ssh.password = “vagrant”<br>[/code]</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;Install&quot;&gt;&lt;a href=&quot;#Install&quot; class=&quot;headerlink&quot; title=&quot;Install&quot;&gt;&lt;/a&gt;Install&lt;/h1&gt;&lt;p&gt;First install &lt;a href=&quot;https://releases.hashicorp.
+    
+    </summary>
+    
+      <category term="LINUX" scheme="http://geek5.cn/categories/LINUX/"/>
+    
+      <category term="Tools" scheme="http://geek5.cn/categories/LINUX/Tools/"/>
+    
+    
+      <category term="vagrant" scheme="http://geek5.cn/tags/vagrant/"/>
+    
+      <category term="configure" scheme="http://geek5.cn/tags/configure/"/>
+    
+      <category term="cpu" scheme="http://geek5.cn/tags/cpu/"/>
+    
+      <category term="x86-64" scheme="http://geek5.cn/tags/x86-64/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>5步完成ionic环境配置</title>
+    <link href="http://geek5.cn/2016/09/14/ionic-e7-8e-af-e5-a2-83-e9-85-8d-e7-bd-ae/"/>
+    <id>http://geek5.cn/2016/09/14/ionic-e7-8e-af-e5-a2-83-e9-85-8d-e7-bd-ae/</id>
+    <published>2016-09-14T08:59:20.000Z</published>
+    <updated>2016-11-14T08:09:57.576Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="第一步"><a href="#第一步" class="headerlink" title="第一步"></a>第一步</h2><p>安装NodeJS,<a href="https://nodejs.org/en/" target="_blank" rel="external">下载地址</a></p>
+<h2 id="第二步"><a href="#第二步" class="headerlink" title="第二步"></a>第二步</h2><p>配置npm参数</p>
+<ol>
+<li>自定义全局安装目录[code] npm config set prefix “D:\nodejs\node_global”[/code]</li>
+<li>自定义缓存目录[code] npm config set cache “D:\nodejs\node_cache”[/code]</li>
+<li>自定义淘宝镜像地址[code] npm config set registry <a href="https://registry.npm.taobao.org" target="_blank" rel="external">https://registry.npm.taobao.org</a>  [/code]</li>
+<li>因为node默认地址修改了，所有需要在系统环境变量PATH中增加[code] D:\nodejs\node_global [/code]</li>
+</ol>
+<h2 id="第三步"><a href="#第三步" class="headerlink" title="第三步"></a>第三步</h2><p>安装cordova ionic 命令行工具<br>[code] npm install -g cordova ionic [/code]</p>
+<h2 id="第四步"><a href="#第四步" class="headerlink" title="第四步"></a>第四步</h2><p>创建项目<br>[code] ionic start geek5.cn tabs [/code]</p>
+<h2 id="第五步"><a href="#第五步" class="headerlink" title="第五步"></a>第五步</h2><p>运行项目<br>[code]cd geek5.cn<br>ionic serve<br>[/code]</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;第一步&quot;&gt;&lt;a href=&quot;#第一步&quot; class=&quot;headerlink&quot; title=&quot;第一步&quot;&gt;&lt;/a&gt;第一步&lt;/h2&gt;&lt;p&gt;安装NodeJS,&lt;a href=&quot;https://nodejs.org/en/&quot; target=&quot;_blank&quot; rel=&quot;ext
+    
+    </summary>
+    
+      <category term="Android" scheme="http://geek5.cn/categories/Android/"/>
+    
+      <category term="Cordova" scheme="http://geek5.cn/categories/Android/Cordova/"/>
+    
+      <category term="HTML5" scheme="http://geek5.cn/categories/Android/Cordova/HTML5/"/>
+    
+      <category term="ionic" scheme="http://geek5.cn/categories/Android/Cordova/HTML5/ionic/"/>
+    
+      <category term="IOS" scheme="http://geek5.cn/categories/Android/Cordova/HTML5/ionic/IOS/"/>
+    
+      <category term="Javascript" scheme="http://geek5.cn/categories/Android/Cordova/HTML5/ionic/IOS/Javascript/"/>
+    
+    
+      <category term="cordova" scheme="http://geek5.cn/tags/cordova/"/>
+    
+      <category term="ionic" scheme="http://geek5.cn/tags/ionic/"/>
+    
+      <category term="npm" scheme="http://geek5.cn/tags/npm/"/>
+    
+      <category term="tabs" scheme="http://geek5.cn/tags/tabs/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>React-native创建的例子启动就报错怎么玩</title>
+    <link href="http://geek5.cn/2016/08/26/react-native-e5-88-9b-e5-bb-ba-e7-9a-84-e4-be-8b-e5-ad-90-e5-90-af-e5-8a-a8-e5-b0-b1-e6-8a-a5-e9-94-99-e6-80-8e-e4-b9-88-e7-8e-a9/"/>
+    <id>http://geek5.cn/2016/08/26/react-native-e5-88-9b-e5-bb-ba-e7-9a-84-e4-be-8b-e5-ad-90-e5-90-af-e5-8a-a8-e5-b0-b1-e6-8a-a5-e9-94-99-e6-80-8e-e4-b9-88-e7-8e-a9/</id>
+    <published>2016-08-26T08:50:46.000Z</published>
+    <updated>2016-11-14T08:09:57.576Z</updated>
+    
+    <content type="html"><![CDATA[<p>好不容易把“脸叔”FACEBOOK开源项目 REACT-NATIVE（移动跨平台解决方案）的环境搭建好，</p>
+<p>通过命令行创建了HELLOWORLD项目</p>
+<p>[code]react-<span class="hljs-keyword">native</span> init geek5<br>cd geek5<br>react-<span class="hljs-keyword">native</span> run-android<br>[/code]</p>
+<p>启动就报错怎么玩</p>
+<p>[code]Could not get BatchedBridge, make sure your bundle is packaged correctly[/code]</p>
+<p>解决方案是凯哥辛苦百出来的，请笑纳！</p>
+<p>在ANDROID项目根目录运行下面的命令</p>
+<p>[code]react-native bundle –platform android –dev false –entry-file index.android.js –bundle-output android/app/src/main/assets/index.android.bundle –sourcemap-output android/app/src/main/assets/index.android.map –assets-dest android/app/src/main/res/[/code]</p>
+<p>注：记得在ANDROID项目中创建assets目录，不然会提示目录不存在</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;好不容易把“脸叔”FACEBOOK开源项目 REACT-NATIVE（移动跨平台解决方案）的环境搭建好，&lt;/p&gt;
+&lt;p&gt;通过命令行创建了HELLOWORLD项目&lt;/p&gt;
+&lt;p&gt;[code]react-&lt;span class=&quot;hljs-keyword&quot;&gt;native&lt;/sp
+    
+    </summary>
+    
+      <category term="Javascript" scheme="http://geek5.cn/categories/Javascript/"/>
+    
+      <category term="React-Native" scheme="http://geek5.cn/categories/Javascript/React-Native/"/>
+    
+    
+      <category term="error" scheme="http://geek5.cn/tags/error/"/>
+    
+      <category term="react-native" scheme="http://geek5.cn/tags/react-native/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>phonegap.apk下载地址</title>
+    <link href="http://geek5.cn/2016/08/24/phonegap-apk-e4-b8-8b-e8-bd-bd-e5-9c-b0-e5-9d-80/"/>
+    <id>http://geek5.cn/2016/08/24/phonegap-apk-e4-b8-8b-e8-bd-bd-e5-9c-b0-e5-9d-80/</id>
+    <published>2016-08-24T03:58:15.000Z</published>
+    <updated>2016-11-14T08:09:57.576Z</updated>
+    
+    <content type="html"><![CDATA[<p>因为GOOGLE市场被屏，所以分享PHONEGAP的APK版本下载地址，IOS版本可以直接在APP STORE下载。</p>
+<p><a href="https://yunpan.cn/cM36ePHHRrEpR" target="_blank" rel="external">https://yunpan.cn/cM36ePHHRrEpR</a>  访问密码 f8f8</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;因为GOOGLE市场被屏，所以分享PHONEGAP的APK版本下载地址，IOS版本可以直接在APP STORE下载。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://yunpan.cn/cM36ePHHRrEpR&quot; target=&quot;_blank&quot; rel=&quot;external
+    
+    </summary>
+    
+      <category term="Android" scheme="http://geek5.cn/categories/Android/"/>
+    
+      <category term="Cordova" scheme="http://geek5.cn/categories/Android/Cordova/"/>
+    
+      <category term="Tools" scheme="http://geek5.cn/categories/Android/Cordova/Tools/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>解决cordova ios 状态栏和页面重叠的问题</title>
+    <link href="http://geek5.cn/2016/08/18/e8-a7-a3-e5-86-b3cordova-ios-e7-8a-b6-e6-80-81-e6-a0-8f-e5-92-8c-e9-a1-b5-e9-9d-a2-e9-87-8d-e5-8f-a0-e7-9a-84-e9-97-ae-e9-a2-98/"/>
+    <id>http://geek5.cn/2016/08/18/e8-a7-a3-e5-86-b3cordova-ios-e7-8a-b6-e6-80-81-e6-a0-8f-e5-92-8c-e9-a1-b5-e9-9d-a2-e9-87-8d-e5-8f-a0-e7-9a-84-e9-97-ae-e9-a2-98/</id>
+    <published>2016-08-18T09:33:58.000Z</published>
+    <updated>2016-11-14T08:09:57.576Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="http://blog.csdn.net/abc__d/article/details/51322870" target="_blank" rel="external"> 解决Cordova开发的iOS的app界面被状态栏覆盖</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;http://blog.csdn.net/abc__d/article/details/51322870&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt; 解决Cordova开发的iOS的app界面被状态栏覆盖&lt;/a&gt;&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="Cordova" scheme="http://geek5.cn/categories/Cordova/"/>
+    
+      <category term="IOS" scheme="http://geek5.cn/categories/Cordova/IOS/"/>
+    
+      <category term="Javascript" scheme="http://geek5.cn/categories/Cordova/IOS/Javascript/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>SVN常见问题</title>
+    <link href="http://geek5.cn/2016/08/17/svn-e5-b8-b8-e8-a7-81-e9-97-ae-e9-a2-98/"/>
+    <id>http://geek5.cn/2016/08/17/svn-e5-b8-b8-e8-a7-81-e9-97-ae-e9-a2-98/</id>
+    <published>2016-08-17T09:38:39.000Z</published>
+    <updated>2016-11-14T08:09:57.576Z</updated>
+    
+    <content type="html"><![CDATA[<p>Path is not a working copy directory<br>SVN中删除报错的目录，开发环境中清理，再更新。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Path is not a working copy directory&lt;br&gt;SVN中删除报错的目录，开发环境中清理，再更新。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="Tools" scheme="http://geek5.cn/categories/Tools/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Cocos run -p web报错</title>
+    <link href="http://geek5.cn/2016/08/16/cocos-run-p-web-e6-8a-a5-e9-94-99/"/>
+    <id>http://geek5.cn/2016/08/16/cocos-run-p-web-e6-8a-a5-e9-94-99/</id>
+    <published>2016-08-16T06:27:14.000Z</published>
+    <updated>2016-11-14T08:09:57.576Z</updated>
+    
+    <content type="html"><![CDATA[<p><code>编译模式：debug
+部署模式：debug
+启动应用。
+Traceback (most recent call last):
+File &quot;E:\Labs\cocos2d-x-3.12\tools\cocos2d-console\bin\/cocos.py&quot;, line 992, in &amp;lt;module&amp;gt;
+run_plugin(command, argv, plugins)
+File &quot;E:\Labs\cocos2d-x-3.12\tools\cocos2d-console\bin\/cocos.py&quot;, line 916, in run_plugin
+plugin.run(argv, dependencies_objects)
+File &quot;E:\Labs\cocos2d-x-3.12\tools\cocos2d-console\plugins\plugin_run\project_run.py&quot;, line 228, in run
+self.run_web(dependencies)
+File &quot;E:\Labs\cocos2d-x-3.12\tools\cocos2d-console\plugins\plugin_run\project_run.py&quot;, line 142, in run_web
+from SimpleHTTPServer import SimpleHTTPRequestHandler
+File &quot;D:\Python27\lib\SimpleHTTPServer.py&quot;, line 27, in &amp;lt;module&amp;gt;
+class SimpleHTTPRequestHandler(BaseHTTPServer.BaseHTTPRequestHandler):
+File &quot;D:\Python27\lib\SimpleHTTPServer.py&quot;, line 208, in SimpleHTTPRequestHandler
+mimetypes.init() # try to read system mime.types
+File &quot;D:\Python27\lib\mimetypes.py&quot;, line 358, in init
+db.read_windows_registry()
+File &quot;D:\Python27\lib\mimetypes.py&quot;, line 258, in read_windows_registry
+for subkeyname in enum_types(hkcr):
+File &quot;D:\Python27\lib\mimetypes.py&quot;, line 249, in enum_types
+ctype = ctype.encode(default_encoding) # omit in 3.x!
+UnicodeDecodeError: &#39;ascii&#39; codec can&#39;t decode byte 0xb0 in position 1: ordinal not in range(128)</code></p>
+<p><span style="color: #ff0000;"><strong>解决办法：</strong></span></p>
+<p>打开cocos.py这个文件，增加下面这段代码</p>
+<p><code>default_encoding = &#39;GBK&#39;
+if sys.getdefaultencoding() != default_encoding:
+reload(sys)
+sys.setdefaultencoding(default_encoding)</code></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;code&gt;编译模式：debug
+部署模式：debug
+启动应用。
+Traceback (most recent call last):
+File &amp;quot;E:\Labs\cocos2d-x-3.12\tools\cocos2d-console\bin\/cocos.p
+    
+    </summary>
+    
+      <category term="Cocos" scheme="http://geek5.cn/categories/Cocos/"/>
+    
+      <category term="Game" scheme="http://geek5.cn/categories/Cocos/Game/"/>
+    
+      <category term="Javascript" scheme="http://geek5.cn/categories/Cocos/Game/Javascript/"/>
+    
+    
+      <category term="cocos" scheme="http://geek5.cn/tags/cocos/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>linux定时任务crontabs</title>
+    <link href="http://geek5.cn/2016/08/09/linux-e5-ae-9a-e6-97-b6-e4-bb-bb-e5-8a-a1crontabs/"/>
+    <id>http://geek5.cn/2016/08/09/linux-e5-ae-9a-e6-97-b6-e4-bb-bb-e5-8a-a1crontabs/</id>
+    <published>2016-08-09T07:27:55.000Z</published>
+    <updated>2016-11-14T08:09:57.576Z</updated>
+    
+    <content type="html"><![CDATA[<p>安装crontab:<br>yum install crontabs</p>
+<p>说明：<br>/sbin/service crond start //启动服务<br>/sbin/service crond stop //关闭服务<br>/sbin/service crond restart //重启服务<br>/sbin/service crond reload //重新载入配置</p>
+<p>查看crontab服务状态：service crond status</p>
+<p>手动启动crontab服务：service crond start</p>
+<p>查看crontab服务是否已设置为开机启动，执行命令：ntsysv</p>
+<p>加入开机自动启动:<br>chkconfig –level 35 crond on</p>
+<p>1，crontab命令</p>
+<p>功能说明：设置计时器。</p>
+<p>语　　法：crontab [-u &lt;用户名称&gt;][配置文件] 或 crontab [-u &lt;用户名称&gt;][-elr]</p>
+<p>补充说明：cron是一个常驻服务，它提供计时器的功能，让用户在特定的时间得以执行预设的指令或程序。只要用户会编辑计时器的配置文件，就可以使 用计时器的功能。其配置文件格式如下：<br>Minute Hour Day Month DayOFWeek Command</p>
+<p>参　　数：<br>-e 　编辑该用户的计时器设置。<br>-l 　列出该用户的计时器设置。<br>-r 　删除该用户的计时器设置。<br>-u&lt;用户名称&gt; 　指定要设定计时器的用户名称。</p>
+<p>2，crontab 格式</p>
+<p>基本格式 :</p>
+<ul>
+<li><em>　 </em>　 <em>　 </em>　　command<br>分　时　日　月　周　 命令</li>
+</ul>
+<p>第1列表示分钟1～59 每分钟用<em>或者 </em>/1表示<br>第2列表示小时1～23（0表示0点）<br>第3列表示日期1～31<br>第4列 表示月份1～12<br>第5列标识号星期0～6（0表示星期天）<br>第6列要运行的命令</p>
+<h1 id="Use-the-hash-sign-to-prefix-a-comment"><a href="#Use-the-hash-sign-to-prefix-a-comment" class="headerlink" title="Use the hash sign to prefix a comment"></a>Use the hash sign to prefix a comment</h1><h1 id="—————-minute-0-–-59"><a href="#—————-minute-0-–-59" class="headerlink" title="+—————- minute (0 – 59)"></a>+—————- minute (0 – 59)</h1><h1 id="————-hour-0-–-23"><a href="#————-hour-0-–-23" class="headerlink" title="| +————- hour (0 – 23)"></a>| +————- hour (0 – 23)</h1><h1 id="———-day-of-month-1-–-31"><a href="#———-day-of-month-1-–-31" class="headerlink" title="| | +———- day of month (1 – 31)"></a>| | +———- day of month (1 – 31)</h1><h1 id="——-month-1-–-12"><a href="#——-month-1-–-12" class="headerlink" title="| | | +——- month (1 – 12)"></a>| | | +——- month (1 – 12)</h1><h1 id="—-day-of-week-0-–-7-Sunday-0-or-7"><a href="#—-day-of-week-0-–-7-Sunday-0-or-7" class="headerlink" title="| | | | +—- day of week (0 – 7) (Sunday=0 or 7)"></a>| | | | +—- day of week (0 – 7) (Sunday=0 or 7)</h1><h1 id=""><a href="#" class="headerlink" title="| | | | |"></a>| | | | |</h1><h1 id="command-to-be-executed"><a href="#command-to-be-executed" class="headerlink" title="    * command to be executed"></a><em> </em> <em> </em> * command to be executed</h1><p>crontab文件的一些例子：</p>
+<p>30 21 <em> </em> * /etc/init.d/<a href="http://www.ha97.com/tag/nginx" target="_blank" rel="external">nginx</a> restart<br>每晚的21:30重启 nginx。</p>
+<p>45 4 1,10,22 <em> </em> /etc/init.d/nginx restart<br>每月1、 10、22日的4 : 45重启nginx。</p>
+<p>10 1 <em> </em> 6,0 /etc/init.d/nginx restart<br>每周六、周日的1 : 10重启nginx。</p>
+<p>0,30 18-23 <em> </em> * /etc/init.d/nginx restart<br>每天18 : 00至23 : 00之间每隔30分钟重启nginx。</p>
+<p>0 23 <em> </em> 6 /etc/init.d/nginx restart<br>每星期六的11 : 00 pm重启nginx。</p>
+<ul>
+<li><p><em>/1 </em> <em> </em> /etc/init.d/nginx restart<br>每一小时重启nginx</p>
+</li>
+<li><p>23-7/1 <em> </em> * /etc/init.d/nginx restart<br>晚上11点到早上7点之间，每 隔一小时重启nginx</p>
+</li>
+</ul>
+<p>0 11 4 * mon-wed /etc/init.d/nginx restart<br>每月的4号与每周一到周三 的11点重启nginx</p>
+<p>0 4 1 jan * /etc/init.d/nginx restart<br>一月一号的4点重启nginx</p>
+<p><em>/30 </em> <em> </em> * /usr/sbin/ntpdate 210.72.145.20<br>每半小时同步一下时间</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;安装crontab:&lt;br&gt;yum install crontabs&lt;/p&gt;
+&lt;p&gt;说明：&lt;br&gt;/sbin/service crond start //启动服务&lt;br&gt;/sbin/service crond stop //关闭服务&lt;br&gt;/sbin/service cro
+    
+    </summary>
+    
+      <category term="LINUX" scheme="http://geek5.cn/categories/LINUX/"/>
+    
+      <category term="Tools" scheme="http://geek5.cn/categories/LINUX/Tools/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Maven私服nexus配置和使用</title>
+    <link href="http://geek5.cn/2016/08/06/maven-e7-a7-81-e6-9c-8dnexus-e9-85-8d-e7-bd-ae-e5-92-8c-e4-bd-bf-e7-94-a8/"/>
+    <id>http://geek5.cn/2016/08/06/maven-e7-a7-81-e6-9c-8dnexus-e9-85-8d-e7-bd-ae-e5-92-8c-e4-bd-bf-e7-94-a8/</id>
+    <published>2016-08-06T05:16:53.000Z</published>
+    <updated>2016-11-14T08:09:57.576Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="http://blog.csdn.net/sunmenggmail/article/details/43667817" target="_blank" rel="external">http://blog.csdn.net/sunmenggmail/article/details/43667817</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;http://blog.csdn.net/sunmenggmail/article/details/43667817&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://blog.csdn.net/sunmenggmail/art
+    
+    </summary>
+    
+      <category term="JAVA" scheme="http://geek5.cn/categories/JAVA/"/>
+    
+      <category term="Maven" scheme="http://geek5.cn/categories/JAVA/Maven/"/>
+    
+      <category term="PHP" scheme="http://geek5.cn/categories/JAVA/Maven/PHP/"/>
+    
     
   </entry>
   
