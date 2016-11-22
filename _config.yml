@@ -2,7 +2,7 @@ title: "Geek5==A geek 's 舞zone"
 email: hi@geek5.cn
 description: "Software engineer obsessed with Web technologies"
 baseurl: ""
-url: "https://geek5.cn"
+url: "http://geek5.cn"
 
 markdown: kramdown
 
@@ -16,7 +16,7 @@ exclude:
 paginate: 6
 paginate_path: "/page/:num/"
 
-googleAnalyticsId: UA-54012006-1  
+#googleAnalyticsId: UA-54012006-1  
 
 gems:
   - jekyll-paginate
@@ -31,21 +31,4 @@ port:    4100
 host:    0.0.0.0
 
 # Staticman
-staticmanUrl: https://api.staticman.net/v2/entry/calcyu/calcyu.github.io/master
-
-staticman:
-  allowedFields          : ["name", "email", "url", "message"]
-  branch                 : "master"
-  commitMessage          : "New comment."
-  filename               : comment-{@timestamp}
-  format                 : "yml"
-  moderation             : true
-  path                   : "_data/comments/{options.slug}"
-  requiredFields         : ["name", "message"]
-  transforms:
-    email                : "md5"
-  generatedFields:
-    date:
-      type               : "date"
-      options:
-        format           : "timestamp-seconds" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+staticmanUrl: https://api.staticman.net/v2/entry/calcyu/calcyu.github.io/master/comments
