@@ -31,4 +31,21 @@ port:    4100
 host:    0.0.0.0
 
 # Staticman
-staticmanUrl: https://api.staticman.net/v2/entry/calcyu/calcyu.github.io/master/comments
+staticmanUrl: https://api.staticman.net/v2/entry/calcyu/calcyu.github.io/master
+
+staticman:
+  allowedFields          : ["name", "email", "url", "message"]
+  branch                 : "master"
+  commitMessage          : "New comment."
+  filename               : comment-{@timestamp}
+  format                 : "yml"
+  moderation             : true
+  path                   : "_data/comments/{options.slug}"
+  requiredFields         : ["name", "message"]
+  transforms:
+    email                : "md5"
+  generatedFields:
+    date:
+      type               : "date"
+      options:
+        format           : "timestamp-seconds" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
