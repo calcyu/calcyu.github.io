@@ -2,7 +2,7 @@ title: "Geek5==A geek 's 舞zone"
 email: hi@geek5.cn
 description: "Software engineer obsessed with Web technologies"
 baseurl: ""
-url: "http://geek5.cn"
+url: "https://geek5.cn"
 
 markdown: kramdown
 
