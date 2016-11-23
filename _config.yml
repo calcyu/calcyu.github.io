@@ -2,7 +2,7 @@ title: "Geek5==A geek 's 舞zone"
 email: hi@geek5.cn
 description: "Software engineer obsessed with Web technologies"
 baseurl: ""
-url: "https://geek5.cn"
+url: "http://geek5.cn"
 
 markdown: kramdown
 
@@ -27,7 +27,7 @@ future: true
 
 # Serving
 detach:  false
-port:    4100
+port:    4000
 host:    0.0.0.0
 
 # Staticman

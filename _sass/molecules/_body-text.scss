@@ -76,6 +76,14 @@
 		margin-bottom: $post-vertical-rythm * 0.6;
 	}
 
+	h3 {
+		@include heading3;
+		@include constrain($post-body-max-width, true);
+
+		margin-top: $post-vertical-rythm * 1.8;
+		margin-bottom: $post-vertical-rythm * 0.6;
+	}
+
 	a {
 		@include link(true);
 	}
@@ -100,6 +108,24 @@
 				text-align: left;
 				min-width: $post-body-max-width;
 			}
+		}
+
+		@include media('>=medium') {
+			font-size: 0.8em;
+			margin: ($post-vertical-rythm * 3) 0;
+			padding-left: 0;
+		}
+	}
+	pre.highlight {
+		font-size: 0.5em;
+		margin: ($post-vertical-rythm * 2) 0;
+		padding-left: 10px;
+		text-align: center;
+
+		>code {
+			display: inline-block;
+			text-align: left;
+			min-width: $post-body-max-width;
 		}
 
 		@include media('>=medium') {

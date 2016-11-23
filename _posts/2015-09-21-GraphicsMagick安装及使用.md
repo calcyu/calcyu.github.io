@@ -1,11 +1,11 @@
 ---
 layout: post
 title: GraphicsMagick安装及使用
+tags: GraphicsMagick
 categories:
   - LINUX
   - tools
 date: 2015-09-21 15:02:00
-tags: abc cde
 ---
 
 <div id="cnblogs_post_body">
