@@ -16,7 +16,7 @@ exclude:
 paginate: 6
 paginate_path: "/page/:num/"
 
-#googleAnalyticsId: UA-54012006-1  
+googleAnalyticsId: UA-87935934-1  
 
 gems:
   - jekyll-paginate
