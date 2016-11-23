@@ -1,7 +1,6 @@
 ---
 layout: post
 title: weiphp中ueditor报错问题汇总
-date: 2016-10-07 9:44:13
 categories:
 - LANGUAGE
 - PHP
@@ -10,7 +9,6 @@ tags:
 - weiphp
 - nginx
 - ueditor
-description: weiphp部署在nginx环境下ueditor各种报错的问题汇总
 ---
 # weiphp中ueditor报错问题汇总
 ## ueditor 配置说明

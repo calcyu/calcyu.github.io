@@ -1,7 +1,7 @@
 ---
 layout: post
 title: nginx+php-fpm上传报错
-date: 2016-10-07 9:44:13
+categories: blog
 tags: linux
 ---
 

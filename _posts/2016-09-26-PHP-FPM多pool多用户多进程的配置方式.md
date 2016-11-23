@@ -8,7 +8,6 @@ id: 286
 categories:
   - LINUX
   - Tools
-date: 2016-09-26 15:33:58
 ---
 
 [php-fpm多用户运行的两种方式](http://www.renyiwei.com/archives/1253.html)

@@ -4,11 +4,9 @@ title: React-native创建的例子启动就报错怎么玩
 tags:
   - error
   - react-native
-id: 232
 categories:
   - Javascript
   - React-Native
-date: 2016-08-26 16:50:46
 ---
 
 好不容易把“脸叔”FACEBOOK开源项目 REACT-NATIVE（移动跨平台解决方案）的环境搭建好，

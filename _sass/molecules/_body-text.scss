@@ -68,6 +68,14 @@
 		}
 	}
 
+	h1 {
+		@include heading1;
+		@include constrain($post-body-max-width, true);
+
+		margin-top: $post-vertical-rythm * 1.8;
+		margin-bottom: $post-vertical-rythm * 0.6;
+	}
+
 	h2 {
 		@include heading2;
 		@include constrain($post-body-max-width, true);
