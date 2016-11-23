@@ -21,9 +21,8 @@ user www www;
 ```
 worker_processes 8;
 ```
-
+<!--more-->
 # 全局错误日志定义类型，[ debug | info | notice | warn | error | crit ]
 ```
 error_log /var/log/nginx/error.log info;
 ```
-<!--more-->

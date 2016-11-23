@@ -1,24 +1,23 @@
 ---
 layout: post
-title: Mybatis分页插件生成本土SQL
-tags:
-  - mybatis
-id: 80
-categories:
-  - Mybatis
-date: 2015-10-08 15:27:17
+title: Mybatis分页插件生成分页SQL
+tags: mybatis
+categories: Mybatis
 ---
 
-**应用场景：**
+## **应用场景：**
 
 MYBATIS生成的XML文件中不带分页SQL，手动添加太不优雅了。
 
-**使用方法：**
+## **使用方法：**
 
 mybatisGeneratorConfig.xml文件中添加下面这句配置即可。
-<pre>&lt;plugin type="org.mybatis.generator.ext.plugin.MySQLPaginationPlugin"/&gt;</pre>
-&nbsp;
-<pre>package org.mybatis.generator.ext.plugin;
+<!--more-->
+``` xml
+<plugin type="org.mybatis.generator.ext.plugin.MySQLPaginationPlugin"/>
+```
+``` java
+package org.mybatis.generator.ext.plugin;
 
 /**
 * Created by calcyu on 2015/10/8.
@@ -99,4 +98,5 @@ topLevelClass.addMethod(method);
 public boolean validate(List warnings) {
 return true;
 }
-}</pre>
+}
+```

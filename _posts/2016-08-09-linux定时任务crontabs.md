@@ -1,23 +1,20 @@
 ---
 layout: post
 title: linux定时任务crontabs
-id: 168
-categories:
-  - LINUX
-  - Tools
-date: 2016-08-09 15:27:55
-tags:
+categories: LINUX Tools
+tags: linux tools
 ---
 
 安装crontab:
+```
 yum install crontabs
-
+```
 说明：
 /sbin/service crond start //启动服务
 /sbin/service crond stop //关闭服务
 /sbin/service crond restart //重启服务
 /sbin/service crond reload //重新载入配置
-
+<!--more-->
 查看crontab服务状态：service crond status
 
 手动启动crontab服务：service crond start
@@ -31,7 +28,7 @@ chkconfig –level 35 crond on
 
 功能说明：设置计时器。
 
-语　　法：crontab [-u &lt;用户名称&gt;][配置文件] 或 crontab [-u &lt;用户名称&gt;][-elr]
+语　　法：crontab [-u <用户名称>][配置文件] 或 crontab [-u <用户名称>][-elr]
 
 补充说明：cron是一个常驻服务，它提供计时器的功能，让用户在特定的时间得以执行预设的指令或程序。只要用户会编辑计时器的配置文件，就可以使 用计时器的功能。其配置文件格式如下：
 Minute Hour Day Month DayOFWeek Command
@@ -40,7 +37,7 @@ Minute Hour Day Month DayOFWeek Command
 -e 　编辑该用户的计时器设置。
 -l 　列出该用户的计时器设置。
 -r 　删除该用户的计时器设置。
--u&lt;用户名称&gt; 　指定要设定计时器的用户名称。
+-u<用户名称> 　指定要设定计时器的用户名称。
 
 2，crontab 格式
 

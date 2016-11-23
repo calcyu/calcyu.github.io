@@ -1,11 +1,10 @@
 ---
-layout: post
+layout: external-post
 title: Maven oschina 镜像配置
-id: 141
 categories:
   - Maven
-date: 2016-08-04 11:32:38
-tags:
+tags: maven
+external-url: http://www.baikeyang.com/code/985.html
 ---
 
 http://www.baikeyang.com/code/985.html

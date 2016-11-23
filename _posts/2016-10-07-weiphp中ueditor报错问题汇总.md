@@ -18,7 +18,7 @@ tags:
 >  GET http://*.com/Public/static/ueditor/php/controller.php?action=config&&noCache=1475802337777 403 (Forbidden)
 
 > 请求后台配置项http错误，上传功能将不能正常使用！
-
+<!--more-->
 修改NGINX配置文件
 
 ## nginx报405错误
