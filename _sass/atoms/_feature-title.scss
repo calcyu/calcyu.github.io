@@ -19,7 +19,7 @@
 	display: inline-block;
 	white-space: nowrap;
 	text-transform: uppercase;
-	line-height: 0.78;
+	line-height: 1;
 	opacity: 0;
     
 	@include media('<medium') {
