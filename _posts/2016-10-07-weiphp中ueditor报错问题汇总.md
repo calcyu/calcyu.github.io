@@ -10,7 +10,6 @@ tags:
 - nginx
 - ueditor
 ---
-# weiphp中ueditor报错问题汇总
 ## ueditor 配置说明
 [百度官方配置说明](http://fex.baidu.com/ueditor/)
 
