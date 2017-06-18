@@ -1,0 +1,1219 @@
+
+
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Blog - React</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:title" content="Blog - React">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://geek5.cn/blog/">
+  <meta property="og:image" content="https://geek5.cn/img/logo.png">
+  <meta property="og:description" content="A JavaScript library for building user interfaces">
+
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="alternate" type="application/rss+xml" title="Geek5" href="https://geek5.cn/feed.xml">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" />
+  <link rel="stylesheet" href="/css/syntax.css">
+  <link rel="stylesheet" href="/css/codemirror.css">
+  <link rel="stylesheet" href="/css/react.css">
+
+  <script src="//use.typekit.net/vqa1hcx.js"></script>
+  <script>try{Typekit.load();}catch(e){}</script>
+
+  <!--[if lte IE 8]>
+  <script src="https://unpkg.com/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://unpkg.com/es5-shim@4.5.9/es5-shim.min.js"></script>
+  <script src="https://unpkg.com/es5-shim@4.5.9/es5-sham.min.js"></script>
+  <![endif]-->
+  <script src="https://unpkg.com/docsearch.js@1.5.0/dist/cdn/docsearch.min.js"></script>
+  <script src="https://unpkg.com/codemirror@5.15.2"></script>
+  <script src="https://unpkg.com/codemirror@5.15.2/mode/javascript/javascript.js"></script>
+  <script src="https://unpkg.com/codemirror@5.15.2/mode/xml/xml.js"></script>
+  <script src="https://unpkg.com/codemirror@5.15.2/mode/jsx/jsx.js"></script>
+  <script src="https://unpkg.com/react/dist/react.min.js"></script>
+  <script src="https://unpkg.com/react-dom/dist/react-dom.min.js"></script>
+  <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+  <script src="/js/live_editor.js"></script>
+</head>
+<body>
+
+  <div class="container">
+
+    <div class="nav-main">
+  <div class="wrap">
+    <a class="nav-home" href="/">
+      Geek
+      <img class="nav-logo" src="/img/logo.png" width="36" height="36">
+    </a>
+    <div class="nav-lists">
+      <ul class="nav-site nav-site-internal">
+        <li><a href="/blog/" class="active">Blog</a></li>
+        <li><a href="/blog/category/">Categories</a></li>
+        <li><a href="/blog/tag/">Tags</a></li>
+        <li><a href="https://github.com/calcyu">GitHub</a></li>
+      </ul>
+      <ul class="nav-site nav-site-external">
+        <li class="nav-site-search">
+          <input id="algolia-doc-search" type="text" placeholder="Search..." />
+        </li>
+        <li><a href="/about">About</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+    <section class="content wrap blogContent">
+  <div class="nav-docs nav-blog">
+  <div class="nav-docs-section">
+    <h3>Recent posts</h3>
+    <ul>
+      
+        <li><a href="/blog/2017/06/06/WebStorm-common-shortcut-key.html">WebStorm快捷键</a></li>
+      
+        <li><a href="/blog/2017/04/01/ECLIPSE-common-shortcut-key.html">ECLIPSE常用快捷键</a></li>
+      
+        <li><a href="/blog/2017/01/10/GIT-common-cls.html">GIT常用命令整理</a></li>
+      
+        <li><a href="/blog/2017/01/03/over-the-wall-method.html">国际学习交流方法</a></li>
+      
+        <li><a href="/blog/2016/11/22/Git-branch-method.html">Git分支管理策略</a></li>
+      
+        <li><a href="/blog/2016/10/22/GIT-issue-summary.html">GIT如何删除错误提交的文件</a></li>
+      
+        <li><a href="/blog/2016/10/19/PHP-FPM-multi-process-auto-run.html">PHP-FPM多进程开机自启</a></li>
+      
+        <li><a href="/blog/2016/10/15/WEB-development-summary.html">2016 WEB 开发好东西汇总</a></li>
+      
+        <li><a href="/blog/2016/10/14/font-end-autoproject-summary.html">前端工程化汇总</a></li>
+      
+        <li><a href="/blog/2016/10/09/grunt-tutorial-summary.html">大前端自动化开发环境grunt使用教程汇总</a></li>
+      
+      <li><a href="/blog/all.html">All posts ...</a></li>
+    </ul>
+  </div>
+  <div class="nav-docs-section">
+    <h3>Categories</h3>
+    <ul>
+      
+      <li><a href="/blog/category/#JAVA">JAVA (4)</a></li>
+      
+      <li><a href="/blog/category/#LINUX">LINUX (8)</a></li>
+      
+      <li><a href="/blog/category/#tools">tools (4)</a></li>
+      
+      <li><a href="/blog/category/#Tools">Tools (6)</a></li>
+      
+      <li><a href="/blog/category/#B/S(ERP OA)">B/S(ERP OA) (3)</a></li>
+      
+      <li><a href="/blog/category/#Spring">Spring (4)</a></li>
+      
+      <li><a href="/blog/category/#Mybatis">Mybatis (1)</a></li>
+      
+      <li><a href="/blog/category/#HTML5">HTML5 (2)</a></li>
+      
+      <li><a href="/blog/category/#PHP">PHP (5)</a></li>
+      
+      <li><a href="/blog/category/#Maven">Maven (3)</a></li>
+      
+      <li><a href="/blog/category/#MYSQL">MYSQL (1)</a></li>
+      
+      <li><a href="/blog/category/#GIT">GIT (1)</a></li>
+      
+      <li><a href="/blog/category/#Cocos">Cocos (1)</a></li>
+      
+      <li><a href="/blog/category/#Game">Game (1)</a></li>
+      
+      <li><a href="/blog/category/#Javascript">Javascript (5)</a></li>
+      
+      <li><a href="/blog/category/#error">error (1)</a></li>
+      
+      <li><a href="/blog/category/#Cordova">Cordova (3)</a></li>
+      
+      <li><a href="/blog/category/#IOS">IOS (2)</a></li>
+      
+      <li><a href="/blog/category/#Android">Android (2)</a></li>
+      
+      <li><a href="/blog/category/#React-Native">React-Native (1)</a></li>
+      
+      <li><a href="/blog/category/#ionic">ionic (1)</a></li>
+      
+      <li><a href="/blog/category/#OS">OS (1)</a></li>
+      
+      <li><a href="/blog/category/#Linux">Linux (1)</a></li>
+      
+      <li><a href="/blog/category/#blog">blog (6)</a></li>
+      
+      <li><a href="/blog/category/#LANGUAGE">LANGUAGE (2)</a></li>
+      
+      <li><a href="/blog/category/#git">git (2)</a></li>
+      
+      <li><a href="/blog/category/#TOOLS">TOOLS (1)</a></li>
+      
+      <li><a href="/blog/category/#IDE">IDE (2)</a></li>
+      
+      <li><a href="/blog/category/#java">java (1)</a></li>
+      
+      <li><a href="/blog/category/#js">js (1)</a></li>
+      
+    </ul>
+  </div>
+  <div class="nav-docs-section">
+    <h3>Popular tags</h3>
+    <div class="tags-cloud">
+      
+      
+      
+      
+
+      
+
+      
+      
+      
+      
+      
+      
+      <a href="/blog/tag/#ECLIPSE" style="display: inline-block;font-size: 9pt; color: #999;">ECLIPSE</a>
+      
+      
+      
+      
+      
+      
+      <a href="/blog/tag/#JAR" style="display: inline-block;font-size: 9pt; color: #999;">JAR</a>
+      
+      
+      
+      
+      
+      
+      <a href="/blog/tag/#JAVA" style="display: inline-block;font-size: 9pt; color: #999;">JAVA</a>
+      
+      
+      
+      
+      
+      
+      <a href="/blog/tag/#PLUGIN" style="display: inline-block;font-size: 9pt; color: #999;">PLUGIN</a>
+      
+      
+      
+      
+      
+      
+      <a href="/blog/tag/#GraphicsMagick" style="display: inline-block;font-size: 9pt; color: #999;">GraphicsMagick</a>
+      
+      
+      
+      
+      
+      
+      <a href="/blog/tag/#tomcat" style="display: inline-block;font-size: 9pt; color: #999;">tomcat</a>
+      
+      
+      
+      
+      
+      
+      <a href="/blog/tag/#jdk" style="display: inline-block;font-size: 9pt; color: #999;">jdk</a>
+      
+      
+      
+      
+      
+      
+      <a href="/blog/tag/#aop" style="display: inline-block;font-size: 9pt; color: #999;">aop</a>
+      
+      
+      
+      
+      
+      
+      <a href="/blog/tag/#spring" style="display: inline-block;font-size: 9pt; color: #999;">spring</a>
+      
+      
+      
+      
+      
+      
+      <a href="/blog/tag/#freemarker" style="display: inline-block;font-size: 11pt; color: #777;">freemarker</a>
+      
+      
+      
+      
+      
+      
+      <a href="/blog/tag/#springframework" style="display: inline-block;font-size: 9pt; color: #999;">springframework</a>
+      
+      
+      
+      
+      
+      
+      <a href="/blog/tag/#mybatis" style="display: inline-block;font-size: 11pt; color: #777;">mybatis</a>
+      
+      
+      
+      
+      
+      
+      <a href="/blog/tag/#SpringMVC" style="display: inline-block;font-size: 9pt; color: #999;">SpringMVC</a>
+      
+      
+      
+      
+      
+      
+      <a href="/blog/tag/#edge" style="display: inline-block;font-size: 9pt; color: #999;">edge</a>
+      
+      
+      
+      
+      
+      
+      <a href="/blog/tag/#html5" style="display: inline-block;font-size: 9pt; color: #999;">html5</a>
+      
+      
+      
+      
+      
+      
+      <a href="/blog/tag/#PHP" style="display: inline-block;font-size: 12.5pt; color: #555;">PHP</a>
+      
+      
+      
+      
+      
+      
+      <a href="/blog/tag/#composer" style="display: inline-block;font-size: 9pt; color: #999;">composer</a>
+      
+      
+      
+      
+      
+      
+      <a href="/blog/tag/#github" style="display: inline-block;font-size: 9pt; color: #999;">github</a>
+      
+      
+      
+      
+      
+      
+      <a href="/blog/tag/#laravel" style="display: inline-block;font-size: 11pt; color: #777;">laravel</a>
+      
+      
+      
+      
+      
+      
+      <a href="/blog/tag/#token" style="display: inline-block;font-size: 9pt; color: #999;">token</a>
+      
+      
+      
+      
+      
+      
+      <a href="/blog/tag/#centos" style="display: inline-block;font-size: 11pt; color: #777;">centos</a>
+      
+      
+      
+      
+      
+      
+      <a href="/blog/tag/#mvn" style="display: inline-block;font-size: 9pt; color: #999;">mvn</a>
+      
+      
+      
+      
+      
+      
+      <a href="/blog/tag/#homestead" style="display: inline-block;font-size: 9pt; color: #999;">homestead</a>
+      
+      
+      
+      
+      
+      
+      <a href="/blog/tag/#vagrant" style="display: inline-block;font-size: 11pt; color: #777;">vagrant</a>
+      
+      
+      
+      
+      
+      
+      <a href="/blog/tag/#mysql" style="display: inline-block;font-size: 9pt; color: #999;">mysql</a>
+      
+      
+      
+      
+      
+      
+      <a href="/blog/tag/#git" style="display: inline-block;font-size: 14.5pt; color: #444;">git</a>
+      
+      
+      
+      
+      
+      
+      <a href="/blog/tag/#内置WEB服务，中间件，测试" style="display: inline-block;font-size: 9pt; color: #999;">内置WEB服务，中间件，测试</a>
+      
+      
+      
+      
+      
+      
+      <a href="/blog/tag/#maven" style="display: inline-block;font-size: 9pt; color: #999;">maven</a>
+      
+      
+      
+      
+      
+      
+      <a href="/blog/tag/#linux" style="display: inline-block;font-size: 18pt; color: #000;">linux</a>
+      
+      
+      
+      
+      
+      
+      <a href="/blog/tag/#tools" style="display: inline-block;font-size: 11pt; color: #777;">tools</a>
+      
+      
+      
+      
+      
+      
+      <a href="/blog/tag/#cocos" style="display: inline-block;font-size: 9pt; color: #999;">cocos</a>
+      
+      
+      
+      
+      
+      
+      <a href="/blog/tag/#svn" style="display: inline-block;font-size: 9pt; color: #999;">svn</a>
+      
+      
+      
+      
+      
+      
+      <a href="/blog/tag/#ios" style="display: inline-block;font-size: 9pt; color: #999;">ios</a>
+      
+      
+      
+      
+      
+      
+      <a href="/blog/tag/#phonegap" style="display: inline-block;font-size: 9pt; color: #999;">phonegap</a>
+      
+      
+      
+      
+      
+      
+      <a href="/blog/tag/#error" style="display: inline-block;font-size: 9pt; color: #999;">error</a>
+      
+      
+      
+      
+      
+      
+      <a href="/blog/tag/#react-native" style="display: inline-block;font-size: 9pt; color: #999;">react-native</a>
+      
+      
+      
+      
+      
+      
+      <a href="/blog/tag/#cordova" style="display: inline-block;font-size: 9pt; color: #999;">cordova</a>
+      
+      
+      
+      
+      
+      
+      <a href="/blog/tag/#ionic" style="display: inline-block;font-size: 9pt; color: #999;">ionic</a>
+      
+      
+      
+      
+      
+      
+      <a href="/blog/tag/#npm" style="display: inline-block;font-size: 9pt; color: #999;">npm</a>
+      
+      
+      
+      
+      
+      
+      <a href="/blog/tag/#tabs" style="display: inline-block;font-size: 9pt; color: #999;">tabs</a>
+      
+      
+      
+      
+      
+      
+      <a href="/blog/tag/#configure" style="display: inline-block;font-size: 9pt; color: #999;">configure</a>
+      
+      
+      
+      
+      
+      
+      <a href="/blog/tag/#cpu" style="display: inline-block;font-size: 9pt; color: #999;">cpu</a>
+      
+      
+      
+      
+      
+      
+      <a href="/blog/tag/#x86-64" style="display: inline-block;font-size: 9pt; color: #999;">x86-64</a>
+      
+      
+      
+      
+      
+      
+      <a href="/blog/tag/#php-fpm" style="display: inline-block;font-size: 11pt; color: #777;">php-fpm</a>
+      
+      
+      
+      
+      
+      
+      <a href="/blog/tag/#pool" style="display: inline-block;font-size: 9pt; color: #999;">pool</a>
+      
+      
+      
+      
+      
+      
+      <a href="/blog/tag/#fastcgi" style="display: inline-block;font-size: 9pt; color: #999;">fastcgi</a>
+      
+      
+      
+      
+      
+      
+      <a href="/blog/tag/#gzip" style="display: inline-block;font-size: 9pt; color: #999;">gzip</a>
+      
+      
+      
+      
+      
+      
+      <a href="/blog/tag/#nginx" style="display: inline-block;font-size: 11pt; color: #777;">nginx</a>
+      
+      
+      
+      
+      
+      
+      <a href="/blog/tag/#weiphp" style="display: inline-block;font-size: 9pt; color: #999;">weiphp</a>
+      
+      
+      
+      
+      
+      
+      <a href="/blog/tag/#ueditor" style="display: inline-block;font-size: 9pt; color: #999;">ueditor</a>
+      
+      
+      
+      
+      
+      
+      <a href="/blog/tag/#grunt" style="display: inline-block;font-size: 9pt; color: #999;">grunt</a>
+      
+      
+      
+      
+      
+      
+      <a href="/blog/tag/#自动化" style="display: inline-block;font-size: 9pt; color: #999;">自动化</a>
+      
+      
+      
+      
+      
+      
+      <a href="/blog/tag/#gulp" style="display: inline-block;font-size: 9pt; color: #999;">gulp</a>
+      
+      
+      
+      
+      
+      
+      <a href="/blog/tag/#webpack" style="display: inline-block;font-size: 9pt; color: #999;">webpack</a>
+      
+      
+      
+      
+      
+      
+      <a href="/blog/tag/#前端自动化" style="display: inline-block;font-size: 9pt; color: #999;">前端自动化</a>
+      
+      
+      
+      
+      
+      
+      <a href="/blog/tag/#QMUI" style="display: inline-block;font-size: 9pt; color: #999;">QMUI</a>
+      
+      
+      
+      
+      
+      
+      <a href="/blog/tag/#php" style="display: inline-block;font-size: 9pt; color: #999;">php</a>
+      
+      
+      
+      
+      
+      
+      <a href="/blog/tag/#javascript" style="display: inline-block;font-size: 11pt; color: #777;">javascript</a>
+      
+      
+      
+      
+      
+      
+      <a href="/blog/tag/#IDE" style="display: inline-block;font-size: 9pt; color: #999;">IDE</a>
+      
+      
+      
+      
+      
+      
+      <a href="/blog/tag/#autotools" style="display: inline-block;font-size: 9pt; color: #999;">autotools</a>
+      
+      
+      
+      
+      
+      
+      <a href="/blog/tag/#chkconfig" style="display: inline-block;font-size: 9pt; color: #999;">chkconfig</a>
+      
+      
+      
+      
+      
+      
+      <a href="/blog/tag/#科学上网" style="display: inline-block;font-size: 9pt; color: #999;">科学上网</a>
+      
+      
+      
+      
+      
+      
+      <a href="/blog/tag/#shadowsocks" style="display: inline-block;font-size: 9pt; color: #999;">shadowsocks</a>
+      
+      
+      
+      
+      
+      
+      <a href="/blog/tag/#python" style="display: inline-block;font-size: 9pt; color: #999;">python</a>
+      
+      
+      
+      
+      
+      
+      <a href="/blog/tag/#config" style="display: inline-block;font-size: 9pt; color: #999;">config</a>
+      
+      
+      
+      
+      
+      
+      <a href="/blog/tag/#cmd" style="display: inline-block;font-size: 9pt; color: #999;">cmd</a>
+      
+      
+      
+      
+      
+      
+      <a href="/blog/tag/#eclipse" style="display: inline-block;font-size: 9pt; color: #999;">eclipse</a>
+      
+      
+      
+      
+      
+      
+      <a href="/blog/tag/#shotcut" style="display: inline-block;font-size: 11pt; color: #777;">shotcut</a>
+      
+      
+      
+      
+      
+      
+      <a href="/blog/tag/#java" style="display: inline-block;font-size: 9pt; color: #999;">java</a>
+      
+      
+      
+      
+      
+      
+      <a href="/blog/tag/#webstorm" style="display: inline-block;font-size: 9pt; color: #999;">webstorm</a>
+      
+    </div>
+  </div>
+</div>
+
+  <div class="inner-content">
+    
+      <div class="post-list-item">
+        
+
+<h1>
+
+  <a href="/blog/2017/06/06/WebStorm-common-shortcut-key.html">WebStorm快捷键</a>
+
+</h1>
+
+<p class="meta">
+  June  6, 2017
+  by
+  
+</p>
+
+<hr>
+
+<div class="post">
+  <h2>webstorm常用快捷键整理</h2>
+
+<!--more-->
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">//写代码
+Ctrl + X    删除行
+Ctrl + D    复制行
+Ctrl + Delete   删除光标至单词结束
+Ctrl + Backspace    删除光标至单词开始
+Ctrl + Shift + Up / Down    代码向上/下移动
+Shift + Enter   重新开始一行（无论光标在哪个位置）
+双击Shift 根据输入的关键字查看文件、类、方法、属性
+Ctrl + / 或 Ctrl + Shift + /   注释（// 或者/*…*/ ）
+Ctrl + Alt + L  格式化代码
+写代码，按Tab  生成代码
+
+//读代码
+Ctrl + B 或 Ctrl + 鼠标左键单击  快速打开光标处的类或方法，（NB的功能）
+Alt + Up / Down 跳转到上一个/下一个方法
+Ctrl + Shift + I    快速查看某个方法的实现代码
+Ctrl + P    方法参数提示
+Ctrl + E    弹出最近打开的文件
+F2 或 Shift + F2   高亮错误或警告快速定位
+Ctrl + Shift + F7   高亮显示所有该文本，按Esc高亮消失，和 Ctrl + F 效果相同。<span class="o">(</span>因为这个功能我就可以发放心的放弃sublime了<span class="o">)</span>
+
+//重构代码
+Shift+F6    重构-重命名
+
+
+//查找替换代码
+Ctrl + R    替换文本
+Ctrl + F    查找文本
+F3  查找下一个
+Shift+F3    查找上一个
+
+
+//其它快捷键
+F11 切换书签状态，就是sublime text 的F2
+Ctrl + G    查找行
+Ctrl + Alt + S  打开配置窗口
+Ctrl + Alt + T  with…（if, <span class="k">else</span>, try, catch, <span class="k">for</span>, etc）用 * 来围绕选中的代码行，（ * 包括 <span class="k">if</span> 、 <span class="k">while</span> 、 try catch 等）
+Ctrl + Shift + F12  // 切换最大化编辑器
+Alt + Shift + F //添至收藏夹
+Ctrl + Shift + U    光标所在位置大小写
+</code></pre></div>
+</div>
+
+
+
+      </div>
+    
+      <div class="post-list-item">
+        
+
+<h1>
+
+  <a href="/blog/2017/04/01/ECLIPSE-common-shortcut-key.html">ECLIPSE常用快捷键</a>
+
+</h1>
+
+<p class="meta">
+  April  1, 2017
+  by
+  
+</p>
+
+<hr>
+
+<div class="post">
+  <h2>现在工作环境要用eclipse  - -!!! 整理一下快捷键，虽然以前就用过和知道，但因为现在脑子里有好几套快捷键，程序狂狗都懂的。</h2>
+
+<!--more-->
+
+<p>Ctrl+Q 最后编辑的地方<br>
+Ctrl+1 快速修复<br>
+Alt+/ 全局 内容辅助(代码提示)    </p>
+
+<p>Ctrl+Shift+O 自动导入所需要的包<br>
+Ctrl+Shift+F 格式化当前代码  </p>
+
+<p>Ctrl+D: 删除当前行<br>
+Ctrl+Alt+↓ 复制当前行到下一行(复制增加)<br>
+Ctrl+Alt+↑ 复制当前行到上一行(复制增加)<br>
+Alt+↓ 当前行和下面一行交互位置(特别实用,可以省去先剪切,再粘贴了)<br>
+Alt+↑ 当前行和上面一行交互位置(同上)  </p>
+
+<p>Alt+Shift+Z 重构的后悔药(Undo)  </p>
+
+<p>Ctrl+Shift+R 全局 打开资源(类似INTELLIJ双SHIFT)</p>
+
+<h2>可以不用记得，会用电脑的都知道</h2>
+
+<p>Ctrl+F 全局 查找并替换<br>
+Ctrl+Z 全局 撤销<br>
+Ctrl+C 全局 复制<br>
+Ctrl+X 全局 剪切  </p>
+
+</div>
+
+
+
+      </div>
+    
+      <div class="post-list-item">
+        
+
+<h1>
+
+  <a href="/blog/2017/01/10/GIT-common-cls.html">GIT常用命令整理</a>
+
+</h1>
+
+<p class="meta">
+  January 10, 2017
+  by
+  
+</p>
+
+<hr>
+
+<div class="post">
+  <p>博主整理非常好摘过来了
+&lt;!--more--&gt;</p>
+
+<h2>初始化配置</h2>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="c">#配置使用git仓库的人员姓名</span>
+git config --global user.name <span class="s2">&quot;Your Name Comes Here&quot;</span>
+
+<span class="c">#配置使用git仓库的人员email</span>
+git config --global user.email you@yourdomain.example.com
+
+<span class="c">#配置到缓存 默认15分钟</span>
+git config --global credential.helper cache 
+
+<span class="c">#修改缓存时间</span>
+git config --global credential.helper <span class="s1">&#39;cache --timeout=3600&#39;</span>  
+
+git config --global color.ui <span class="nb">true</span>
+git config --global alias.co checkout
+git config --global alias.ci commit
+git config --global alias.st status
+git config --global alias.br branch
+git config --global core.editor <span class="s2">&quot;mate -w&quot;</span>    <span class="c"># 设置Editor使用textmate</span>
+git config -1 <span class="c">#列举所有配置</span>
+
+<span class="c">#用户的git配置文件~/.gitconfig</span>
+</code></pre></div>
+<h2>查看、添加、提交、删除、找回，重置修改文件</h2>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">git <span class="nb">help</span> &lt;<span class="nb">command</span>&gt;  <span class="c"># 显示command的help</span>
+git show            <span class="c"># 显示某次提交的内容</span>
+git show <span class="nv">$id</span>
+
+git co  -- &lt;file&gt;   <span class="c"># 抛弃工作区修改</span>
+git co  .           <span class="c"># 抛弃工作区修改</span>
+
+git add &lt;file&gt;      <span class="c"># 将工作文件修改提交到本地暂存区</span>
+git add .           <span class="c"># 将所有修改过的工作文件提交暂存区</span>
+
+git rm &lt;file&gt;       <span class="c"># 从版本库中删除文件</span>
+git rm &lt;file&gt; --cached  <span class="c"># 从版本库中删除文件，但不删除文件</span>
+
+git reset &lt;file&gt;    <span class="c"># 从暂存区恢复到工作文件</span>
+git reset -- .      <span class="c"># 从暂存区恢复到工作文件</span>
+git reset --hard    <span class="c"># 恢复最近一次提交过的状态，即放弃上次提交后的所有本次修改</span>
+
+git ci &lt;file&gt;
+git ci .
+git ci -a           <span class="c"># 将git add, git rm和git ci等操作都合并在一起做</span>
+git ci -am <span class="s2">&quot;some comments&quot;</span>
+git ci --amend      <span class="c"># 修改最后一次提交记录</span>
+
+git revert &lt;<span class="nv">$id</span>&gt;    <span class="c"># 恢复某次提交的状态，恢复动作本身也创建了一次提交对象</span>
+git revert HEAD     <span class="c"># 恢复最后一次提交的状态</span>
+</code></pre></div>
+<h2>查看文件diff</h2>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">git diff &lt;file&gt;     <span class="c"># 比较当前文件和暂存区文件差异</span>
+git diff
+git diff &lt;<span class="nv">$id1</span>&gt; &lt;<span class="nv">$id2</span>&gt;   <span class="c"># 比较两次提交之间的差异</span>
+git diff &lt;branch1&gt;..&lt;branch2&gt; <span class="c"># 在两个分支之间比较</span>
+git diff --staged   <span class="c"># 比较暂存区和版本库差异</span>
+git diff --cached   <span class="c"># 比较暂存区和版本库差异</span>
+git diff --stat     <span class="c"># 仅仅比较统计信息</span>
+</code></pre></div>
+<h2>查看提交记录</h2>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">git log
+git log &lt;file&gt;      <span class="c"># 查看该文件每次提交记录</span>
+git log -p &lt;file&gt;   <span class="c"># 查看每次详细修改内容的diff</span>
+git log -p -2       <span class="c"># 查看最近两次详细修改内容的diff</span>
+git log --stat      <span class="c">#查看提交统计信息</span>
+</code></pre></div>
+<h2>取得Git仓库</h2>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="c">#初始化一个版本仓库</span>
+git init
+
+<span class="c">#Clone远程版本库</span>
+git clone git@xbc.me:wordpress.git
+
+<span class="c">#添加远程版本库origin，语法为 git remote add [shortname] [url]</span>
+git remote add origin git@xbc.me:wordpress.git
+
+<span class="c">#查看远程仓库</span>
+git remote -v
+</code></pre></div>
+<h2>提交你的修改</h2>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="c">#添加当前修改的文件到暂存区</span>
+git add .
+
+<span class="c">#如果你自动追踪文件，包括你已经手动删除的，状态为Deleted的文件</span>
+git add -u
+
+<span class="c">#提交你的修改</span>
+git commit –m <span class="s2">&quot;你的注释&quot;</span>
+
+<span class="c">#推送你的更新到远程服务器,语法为 git push [远程名] [本地分支]:[远程分支]</span>
+git push origin master
+
+<span class="c">#查看文件状态</span>
+git status
+
+<span class="c">#跟踪新文件</span>
+git add readme.txt
+
+<span class="c">#从当前跟踪列表移除文件，并完全删除</span>
+git rm readme.txt
+
+<span class="c">#仅在暂存区删除，保留文件在当前目录，不再跟踪</span>
+git rm –cached readme.txt
+
+<span class="c">#重命名文件</span>
+git mv reademe.txt readme
+
+<span class="c">#查看提交的历史记录</span>
+git log
+
+<span class="c">#修改最后一次提交注释的，利用–amend参数</span>
+git commit --amend
+
+<span class="c">#忘记提交某些修改，下面的三条命令只会得到一个提交。</span>
+git commit –m <span class="p">&amp;</span>quot<span class="p">;</span>add readme.txt<span class="p">&amp;</span>quot<span class="p">;</span>
+git add readme_forgotten
+git commit –amend
+
+<span class="c">#假设你已经使用git add .，将修改过的文件a、b加到暂存区</span>
+
+<span class="c">#现在你只想提交a文件，不想提交b文件，应该这样</span>
+git reset HEAD b
+
+<span class="c">#取消对文件的修改</span>
+git checkout –- readme.txt
+</code></pre></div>
+<h2>查看、切换、创建和删除分支</h2>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">git br -r           <span class="c"># 查看远程分支</span>
+git br &lt;new_branch&gt; <span class="c"># 创建新的分支</span>
+git br -v           <span class="c"># 查看各个分支最后提交信息</span>
+git br --merged     <span class="c"># 查看已经被合并到当前分支的分支</span>
+git br --no-merged  <span class="c"># 查看尚未被合并到当前分支的分支</span>
+
+git co &lt;branch&gt;     <span class="c"># 切换到某个分支</span>
+git co -b &lt;new_branch&gt; <span class="c"># 创建新的分支，并且切换过去</span>
+git co -b &lt;new_branch&gt; &lt;branch&gt;  <span class="c"># 基于branch创建新的new_branch</span>
+
+git co <span class="nv">$id</span>          <span class="c"># 把某次历史提交记录checkout出来，但无分支信息，切换到其他分支会自动删除</span>
+git co <span class="nv">$id</span> -b &lt;new_branch&gt;  <span class="c"># 把某次历史提交记录checkout出来，创建成一个分支</span>
+
+git br -d &lt;branch&gt;  <span class="c"># 删除某个分支</span>
+git br -D &lt;branch&gt;  <span class="c"># 强制删除某个分支 (未被合并的分支被删除的时候需要强制)</span>
+</code></pre></div>
+<h2>分支合并和rebase</h2>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">git merge &lt;branch&gt;               <span class="c"># 将branch分支合并到当前分支</span>
+git merge origin/master --no-ff  <span class="c"># 不要Fast-Foward合并，这样可以生成merge提交</span>
+
+git rebase master &lt;branch&gt;       <span class="c"># 将master rebase到branch，相当于：</span>
+git co &lt;branch&gt; <span class="o">&amp;&amp;</span> git rebase master <span class="o">&amp;&amp;</span> git co master <span class="o">&amp;&amp;</span> git merge &lt;branch&gt;
+</code></pre></div>
+<h2>Git补丁管理(方便在多台机器上开发同步时用)</h2>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">git diff &gt; ../sync.patch         <span class="c"># 生成补丁</span>
+git apply ../sync.patch          <span class="c"># 打补丁</span>
+git apply --check ../sync.patch  <span class="c">#测试补丁能否成功</span>
+</code></pre></div>
+<h2>Git暂存管理</h2>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">git stash                        <span class="c"># 暂存</span>
+git stash list                   <span class="c"># 列所有stash</span>
+git stash apply                  <span class="c"># 恢复暂存的内容</span>
+git stash drop                   <span class="c"># 删除暂存区</span>
+</code></pre></div>
+<h2>Git远程分支管理</h2>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">git pull                         <span class="c"># 抓取远程仓库所有分支更新并合并到本地</span>
+git pull --no-ff                 <span class="c"># 抓取远程仓库所有分支更新并合并到本地，不要快进合并</span>
+git fetch origin                 <span class="c"># 抓取远程仓库更新</span>
+git merge origin/master          <span class="c"># 将远程主分支合并到本地当前分支</span>
+git co --track origin/branch     <span class="c"># 跟踪某个远程分支创建相应的本地分支</span>
+git co -b &lt;local_branch&gt; origin/&lt;remote_branch&gt;  <span class="c"># 基于远程分支创建本地分支，功能同上</span>
+
+git push                         <span class="c"># push所有分支</span>
+git push origin master           <span class="c"># 将本地主分支推到远程主分支</span>
+git push -u origin master        <span class="c"># 将本地主分支推到远程(如无远程主分支则创建，用于初始化远程仓库)</span>
+git push origin &lt;local_branch&gt;   <span class="c"># 创建远程分支， origin是远程仓库名</span>
+git push origin &lt;local_branch&gt;:&lt;remote_branch&gt;  <span class="c"># 创建远程分支</span>
+git push origin :&lt;remote_branch&gt;  <span class="c">#先删除本地分支(git br -d &lt;branch&gt;)，然后再push删除远程分支</span>
+</code></pre></div>
+<h2>基本的分支管理</h2>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="c">#创建一个分支</span>
+git branch iss53
+
+<span class="c">#切换工作目录到iss53</span>
+git chekcout iss53
+
+<span class="c">#将上面的命令合在一起，创建iss53分支并切换到iss53</span>
+git chekcout –b iss53
+
+<span class="c">#合并iss53分支，当前工作目录为master</span>
+git merge iss53
+
+<span class="c">#合并完成后，没有出现冲突，删除iss53分支</span>
+git branch –d iss53
+
+<span class="c">#拉去远程仓库的数据，语法为 git fetch [remote-name]</span>
+git fetch
+
+<span class="c">#fetch 会拉去最新的远程仓库数据，但不会自动到当前目录下，要自动合并</span>
+git pull
+
+<span class="c">#查看远程仓库的信息</span>
+git remote show origin
+
+<span class="c">#建立本地的dev分支追踪远程仓库的develop分支</span>
+git checkout –b dev origin/develop
+</code></pre></div>
+<h2>Git远程仓库管理</h2>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">git remote -v                    <span class="c"># 查看远程服务器地址和仓库名称</span>
+git remote show origin           <span class="c"># 查看远程服务器仓库状态</span>
+git remote add origin git@ github:robbin/robbin_site.git         <span class="c"># 添加远程仓库地址</span>
+git remote <span class="nb">set</span>-url origin git@ github.com:robbin/robbin_site.git <span class="c"># 设置远程仓库地址(用于修改远程仓库地址)</span>
+git remote rm &lt;repository&gt;       <span class="c"># 删除远程仓库</span>
+</code></pre></div>
+<h2>创建远程仓库</h2>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">git clone --bare robbin_site robbin_site.git  <span class="c"># 用带版本的项目创建纯版本仓库</span>
+scp -r my_project.git git@ git.csdn.net:~      <span class="c"># 将纯仓库上传到服务器上</span>
+
+mkdir robbin_site.git <span class="o">&amp;&amp;</span> <span class="nb">cd </span>robbin_site.git <span class="o">&amp;&amp;</span> git --bare init <span class="c"># 在服务器创建纯仓库</span>
+git remote add origin git@ github.com:robbin/robbin_site.git    <span class="c"># 设置远程仓库地址</span>
+git push -u origin master                                      <span class="c"># 客户端首次提交</span>
+git push -u origin develop  <span class="c"># 首次将本地develop分支提交到远程develop分支，并且track</span>
+
+git remote <span class="nb">set</span>-head origin master   <span class="c"># 设置远程仓库的HEAD指向master分支</span>
+</code></pre></div>
+<h2>也可以命令设置跟踪远程库和本地库</h2>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">git branch --set-upstream master origin/master
+git branch --set-upstream develop origin/develop
+</code></pre></div>
+<h3>参考资料</h3>
+
+<p><a href="http://justcoding.iteye.com/blog/1830388">Git 常用命令整理</a></p>
+
+</div>
+
+
+
+      </div>
+    
+      <div class="post-list-item">
+        
+
+<h1>
+
+  <a href="/blog/2017/01/03/over-the-wall-method.html">国际学习交流方法</a>
+
+</h1>
+
+<p class="meta">
+  January  3, 2017
+  by
+  
+</p>
+
+<hr>
+
+<div class="post">
+  <h2>环境要求</h2>
+
+<p>搬瓦工VPS账号一个
+Centos6.5系统
+IPhone手机或Android手机一步</p>
+
+<h2>配置步骤</h2>
+
+<ol>
+<li>搬瓦工VPS账号购买和系统安装直接略过，现在购买支持支付宝，简直就是零门槛。</li>
+<li>安装shadowsocks<br></li>
+</ol>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">yum install epel-release  
+yum update  
+yum install python-setuptools m2crypto supervisor  
+easy_install pip  
+pip install shadowsocks
+</code></pre></div>
+<ol>
+<li>shadowsocks配置文件 </li>
+</ol>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">vi /etc/shadowsocks.json
+</code></pre></div>
+<p>输入以下JSON内容  </p>
+<div class="highlight"><pre><code class="language-json" data-lang="json"><span class="p">{</span> 
+<span class="nt">&quot;server&quot;</span><span class="p">:</span><span class="s2">&quot;VPS服务器IP&quot;</span><span class="p">,</span> 
+<span class="nt">&quot;server_port&quot;</span><span class="p">:</span><span class="mi">18388</span><span class="p">,</span> 
+<span class="nt">&quot;local_address&quot;</span><span class="p">:</span> <span class="s2">&quot;127.0.0.1&quot;</span><span class="p">,</span> 
+<span class="nt">&quot;local_port&quot;</span><span class="p">:</span><span class="mi">1080</span><span class="p">,</span> 
+<span class="nt">&quot;password&quot;</span><span class="p">:</span><span class="s2">&quot;客户端连接密码&quot;</span><span class="p">,</span> 
+<span class="nt">&quot;timeout&quot;</span><span class="p">:</span><span class="mi">600</span><span class="p">,</span> 
+<span class="nt">&quot;method&quot;</span><span class="p">:</span><span class="s2">&quot;rc4-md5&quot;</span>
+<span class="p">}</span>
+</code></pre></div>
+<h2>运行服务</h2>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="c">#ssserver -c /etc/shadowsocks.json -d start</span>
+<span class="c">#通过参数运行</span>
+ ssserver -p <span class="m">18388</span> -k geek5 -m rc4-md5 -d start
+</code></pre></div>
+<h2>停止服务</h2>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"> ssserver -c /etc/shadowsocks.json -d stop
+</code></pre></div>
+<h2>客户端</h2>
+
+<ol>
+<li>IPhone手机从App store直接下载shadowsocks应用</li>
+<li>android手机可以从github上下载最新的shadowsocks版本，有兴趣的还可以研究一下客户端代码</li>
+</ol>
+
+</div>
+
+
+
+      </div>
+    
+      <div class="post-list-item">
+        
+
+<h1>
+
+  <a href="/blog/2016/11/22/Git-branch-method.html">Git分支管理策略</a>
+
+</h1>
+
+<p class="meta">
+  November 22, 2016
+  by
+  
+</p>
+
+<hr>
+
+<div class="post">
+  <p>如果你严肃对待编程，就必定会使用&quot;版本管理系统&quot;（Version Control System）。
+眼下最流行的&quot;版本管理系统&quot;，非Git莫属。</p>
+
+<p>相比同类软件，Git有很多优点。其中很显著的一点，就是版本的分支（branch）和合并（merge）十分方便。有些传统的版本管理软件，分支操作实际上会生成一份现有代码的物理拷贝，而Git只生成一个指向当前版本（又称&quot;快照&quot;）的指针，因此非常快捷易用。
+但是，太方便了也会产生副作用。如果你不加注意，很可能会留下一个枝节蔓生、四处开放的版本库，到处都是分支，完全看不出主干发展的脉络。</p>
+
+</div>
+
+
+
+      </div>
+    
+
+    <div class="pagination">
+      
+      
+        <a href="/blog/page2/" class="next">
+          Next Page &raquo;
+        </a>
+      
+    </div>
+  </div>
+</section>
+
+
+    <footer class="nav-footer">
+  <section class="sitemap">
+    <div style="margin-left: 80px">
+      <h5>Nav</h5>
+      <a href="/blog/">Blog</a>
+      <a href="/blog/category/">Categories</a>
+      <a href="/blog/tag/">Tags</a>
+      <a href="/blog/archive">Archives</a>
+    </div>
+    <div>
+      <h5>Community</h5>
+      <a href="http://weibo.com/e73g" target="_blank">Weibo</a>
+      <a href="mailto:hi@geek5.cn">Email</a>
+      <a href="https://www.linkedin.com/in/calcyu" target="_blank">Linkedin</a>
+      <a href="https://www.facebook.com/calcyu" target="_blank">Facebook</a>
+      <a href="https://twitter.com/calcyu" target="_blank">Twitter</a>
+    </div>
+    <div>
+      <h5>Repositories</h5>
+      <a href="https://github.com/calcyu/LXPuzzle">LXPuzzle</a>
+      <a href="https://github.com/calcyu/react-starter-kit">react-starter-kit</a>
+    </div>
+    <div>
+      <h5>Links</h5>
+      <a href="https://github.com/facebook/react" target="_blank">React</a>
+    </div>
+  </section>
+  <section class="copyright">
+    Copyright © 2017 Geek5.cn
+  </section>
+</footer>
+
+  </div>
+
+  <div id="fb-root"></div>
+  <script src="/js/anchor-links.js"></script>
+  <script>
+//    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+//    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+//    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+//    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+//    ga('create', 'UA-41298772-1', 'geek5.cn');
+//    ga('send', 'pageview');
+//
+//    !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+
+    docsearch({
+      apiKey: 'ab55cb31bd8d064f57ea2aadf0081e84',
+      indexName: 'geek5',
+      inputSelector: '#algolia-doc-search'
+    });
+  </script>
+</body>
+</html>
