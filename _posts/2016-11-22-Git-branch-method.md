@@ -1,10 +1,9 @@
 ---
-layout: external-post
+layout: redirect
 title: Git分支管理策略
 categories: tools git
 tags: git
-external-url: http://www.ruanyifeng.com/blog/2012/07/git.html
-external-name: ruanyifeng blog
+dest_url: http://www.ruanyifeng.com/blog/2012/07/git.html
 ---
 如果你严肃对待编程，就必定会使用"版本管理系统"（Version Control System）。
 眼下最流行的"版本管理系统"，非Git莫属。

@@ -1,5 +1,5 @@
 ---
-layout: external-post
+layout: redirect
 title: （总结）Nginx配置文件nginx.conf中文详解
 categories:
   - LINUX
@@ -8,8 +8,7 @@ tags:
   - fastcgi
   - gzip
   - nginx
-external-url: http://www.ha97.com/5194.html
-external-name: （总结）Nginx配置文件nginx.conf中文详解
+dest_url: http://www.ha97.com/5194.html
 ---
 
 # 定义Nginx运行的用户和用户组

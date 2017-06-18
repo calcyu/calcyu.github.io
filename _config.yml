@@ -1,34 +1,43 @@
-title: "极客舞"
-email: hi@geek5.cn
-description: "Software engineer obsessed with Web technologies"
-baseurl: ""
-url: "http://geek5.cn"
-
-markdown: kramdown
-
-sass:
-  sass_dir: _sass
-  style: compressed
+---
+name: Geek5
+description: Software engineer obsessed with Web technologies
+url: https://geek5.cn
+baseurl:
+permalink: "/blog/:year/:month/:day/:title.html"
+paginate_path: "/blog/page:num/"
+paginate: 5
+timezone: Asia/Shanghai
+highlighter: pygments
+port: 4001
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+    sectionid: blog
+- scope:
+    path: blog
+    type: pages
+  values:
+    sectionid: blog
 
 exclude:
-  - node_modules
-
-paginate: 6
-paginate_path: "/page/:num/"
-
-googleAnalyticsId: UA-87935934-1  
-
+- Gemfile
+- Gemfile.lock
+- README.md
+- Rakefile
+- vendor/bundle
+markdown: redcarpet
+redcarpet:
+  extensions:
+  - fenced_code_blocks
+  - footnotes
+sass:
+  style: :compressed
+  sass_dir: _css
 gems:
-  - jekyll-paginate
+- jekyll-redirect-from
+- jekyll-paginate
 
-excerpt_separator: <!--more-->
-
-future: true
-
-# Serving
-detach:  false
-port:    4000
-host:    0.0.0.0
-
-# Staticman
-staticmanUrl: https://api.staticman.net/v2/entry/calcyu/calcyu.github.io/master/comments
+excerpt_separator: "<!--more-->"

@@ -1,5 +1,7 @@
-_site/
-.sass-cache/
-npm-debug.log
-_drafts
-.wing/
+_site
+.sass-cache
+.jekyll-metadata
+.vscode
+.idea
+.DS_Store
+geek5.html

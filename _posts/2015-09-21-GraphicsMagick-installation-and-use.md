@@ -1,10 +1,9 @@
 ---
-layout: external-post
+layout: redirect
 title: GraphicsMagick安装及使用
 categories: LINUX tools
 tags: GraphicsMagick
-external-url: http://www.cnblogs.com/javapro/archive/2013/04/28/3048393.html
-external-name: cnblog
+dest_url: http://www.cnblogs.com/javapro/archive/2013/04/28/3048393.html
 ---
 
 
