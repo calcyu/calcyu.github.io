@@ -1,14 +1,8 @@
 ---
 layout: post
 title: vagrant-install-config
-categories:
-  - LINUX
-  - Tools
-tags:
-  - configure
-  - cpu
-  - vagrant
-  - x86-64
+categories: LINUX
+tags: VAGRANT
 ---
 
 ## Install

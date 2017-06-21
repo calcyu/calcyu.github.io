@@ -2,12 +2,10 @@
 layout: post
 title: Homestead laravel常见问题
 tags:
-  - homestead
-  - laravel
-  - vagrant
-categories:
-  - LINUX
-  - PHP
+  - HOMESTEAD
+  - LARAVEL
+  - VAGRANT
+categories: LARAVEL
 ---
 
 ## 问题1：

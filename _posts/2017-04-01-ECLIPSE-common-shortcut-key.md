@@ -1,14 +1,11 @@
 ---
 layout: post
 title: ECLIPSE常用快捷键
-categories:
-  - IDE
-  - tools
-  - java
+categories: ECLIPSE
 tags:
-  - eclipse
-  - shotcut
-  - java
+  - ECLIPSE
+  - SHOTCUT
+  - JAVA
 ---
 
 ## 现在工作环境要用eclipse  - -!!! 整理一下快捷键，虽然以前就用过和知道，但因为现在脑子里有好几套快捷键，程序狂狗都懂的。

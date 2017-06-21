@@ -1,13 +1,10 @@
 ---
 layout: redirect
 title: 详解Spring MVC 4之ViewResolver视图解析器
-categories:
-  - B/S(ERP OA)
-  - JAVA
-  - Spring
+categories: SPRING
 tags:
-  - freemarker
-  - SpringMVC
+  - FREEMARKER
+  - SPRINGMVC
 dest_url: http://bbs.51cto.com/thread-1133128-1.html
 ---
 

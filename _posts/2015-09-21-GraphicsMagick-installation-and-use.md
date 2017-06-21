@@ -1,8 +1,7 @@
 ---
 layout: redirect
 title: GraphicsMagick安装及使用
-categories: LINUX tools
-tags: GraphicsMagick
+tags: GRAPHICSMAGICK LINUX
 dest_url: http://www.cnblogs.com/javapro/archive/2013/04/28/3048393.html
 ---
 

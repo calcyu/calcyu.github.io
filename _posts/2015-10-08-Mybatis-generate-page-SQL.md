@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Mybatis分页插件生成分页SQL
-tags: mybatis
-categories: Mybatis
+tags: MYBATIS
+categories: MYBATIS
 ---
 
 ## **应用场景：**

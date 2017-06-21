@@ -2,7 +2,7 @@
 layout: post
 title: ECLIPSE插件万能安装方法
 categories:
-  - JAVA
+  - ECLIPSE
 tags:
   - ECLIPSE
   - JAR

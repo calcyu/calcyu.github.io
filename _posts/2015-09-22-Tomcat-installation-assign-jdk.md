@@ -1,10 +1,8 @@
 ---
 layout: redirect
 title: Tomcat使用指定版本JDK的安装方法
-categories:
-  - LINUX
-  - Tools
-tags: tomcat jdk
+categories: TOMCAT
+tags: TOMCAT JDK LINUX
 dest_url: http://www.cnblogs.com/lioillioil/archive/2011/10/08/2202169.html
 ---
 

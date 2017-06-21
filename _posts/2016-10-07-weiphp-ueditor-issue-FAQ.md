@@ -1,14 +1,12 @@
 ---
 layout: post
 title: weiphp中ueditor报错问题汇总
-categories:
-- LANGUAGE
-- PHP
+categories: PHP
 tags:
-- linux
-- weiphp
-- nginx
-- ueditor
+- LINUX
+- WEIPHP
+- NGINX
+- UEDITOR
 ---
 ## ueditor 配置说明
 [百度官方配置说明](http://fex.baidu.com/ueditor/)

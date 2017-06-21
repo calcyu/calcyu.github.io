@@ -1,13 +1,12 @@
 ---
 layout: post
 title: 国际学习交流方法
-categories:
-  - TOOLS
+categories: GW
 tags:
   - 科学上网
-  - shadowsocks
-  - python
-  - config
+  - SHADOWSOCKS
+  - PYTHON
+  - CONFIG
 ---
 
 ## 环境要求

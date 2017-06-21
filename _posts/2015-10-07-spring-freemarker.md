@@ -2,10 +2,9 @@
 layout: post
 title: Spring freemarker 配置说明
 tags:
-  - freemarker
-  - springframework
-categories:
-  - Spring
+  - FREEMARKER
+  - SPRINGFRAMEWORK
+categories: SPRING
 ---
 
 ``` xml

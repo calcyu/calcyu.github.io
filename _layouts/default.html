@@ -1,11 +1,10 @@
 {% if page.excerpt %}
-{% assign type = 'article' %}
-{% assign sectionTitle = 'React Blog' %}
-{% assign f = page.excerpt | strip_html %}
+  {% assign type = 'article' %}
+  {% assign sectionTitle = 'Blog' %}
+  {% assign f = page.excerpt | strip_html %}
 {% else %}
-{% assign type = 'website' %}
-{% assign sectionTitle = 'React' %}
-{% assign description = 'A JavaScript library for building user interfaces' %}
+  {% assign type = 'website' %}
+  {% assign sectionTitle = 'Geek5' %}
 {% endif %}
 {% if page.id == 'home' %}
   {% assign title = sectionTitle | append: ' - ' | append: page.title %}
@@ -24,7 +23,7 @@
   <meta property="og:type" content="{{ type }}">
   <meta property="og:url" content="https://geek5.cn{{ page.url }}">
   <meta property="og:image" content="https://geek5.cn/img/logo.png">
-  <meta property="og:description" content="{{ description }}">
+  <meta property="og:description" content="{{ site.description }}">
 
   <link rel="shortcut icon" href="/favicon.ico">
   <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.url }}{{ site.baseurl }}/feed.xml">
@@ -73,6 +72,7 @@
 //    !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
 
     docsearch({
+      appId: 'Z8F4DOSV5P', // if you are running the crawler yourself
       apiKey: 'ab55cb31bd8d064f57ea2aadf0081e84',
       indexName: 'geek5',
       inputSelector: '#algolia-doc-search'

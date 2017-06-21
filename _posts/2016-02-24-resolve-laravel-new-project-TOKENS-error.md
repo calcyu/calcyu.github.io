@@ -2,13 +2,11 @@
 layout: post
 title: 解决laravel新建项目时，提示输入TOKENS的问题
 tags:
-  - composer
-  - github
-  - laravel
-  - token
-categories:
-  - B/S(ERP OA)
-  - PHP
+  - COMPOSER
+  - GITHUB
+  - LARAVEL
+  - TOKEN
+categories: PHP
 ---
 
 解决LARAVEL新建项目时，提示输入TOKENS的问题

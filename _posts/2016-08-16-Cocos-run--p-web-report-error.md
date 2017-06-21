@@ -1,12 +1,8 @@
 ---
 layout: post
 title: Cocos run -p web报错
-tags:
-  - cocos
-categories:
-  - Cocos
-  - Game
-  - Javascript
+tags: COCOS
+categories: COCOS
 ---
 
 ```

@@ -1,12 +1,8 @@
 ---
 layout: post
 title: React-native创建的例子启动就报错怎么玩
-tags:
-  - error
-  - react-native
-categories:
-  - Javascript
-  - React-Native
+tags: ERROR REACT-NATIVE
+categories: REACT-NATIVE
 ---
 
 好不容易把“脸叔”FACEBOOK开源项目 REACT-NATIVE（移动跨平台解决方案）的环境搭建好，

@@ -1,8 +1,8 @@
 ---
 layout: post
 title: GIT如何删除错误提交的文件
-categories: blog
-tags: git
+categories: GIT
+tags: GIT
 ---
 ## 思路：
  - 创建和切换至临时分支

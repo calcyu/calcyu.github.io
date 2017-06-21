@@ -1,8 +1,8 @@
 ---
 layout: redirect
 title: Git分支管理策略
-categories: tools git
-tags: git
+categories: GIT
+tags: GIT
 dest_url: http://www.ruanyifeng.com/blog/2012/07/git.html
 ---
 如果你严肃对待编程，就必定会使用"版本管理系统"（Version Control System）。

@@ -1,10 +1,10 @@
 ---
 layout: post
 title: 前端工程化汇总
-categories: blog
+categories: JAVASCRIPT
 tags:
-- gulp
-- webpack
+- GULP
+- WEBPACK
 - 前端自动化
 - QMUI
 ---

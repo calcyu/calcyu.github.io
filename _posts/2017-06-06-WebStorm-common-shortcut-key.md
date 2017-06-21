@@ -1,14 +1,11 @@
 ---
 layout: post
 title: WebStorm快捷键
-categories:
-  - IDE
-  - tools
-  - js
+categories: WEBSTORM
 tags:
-  - webstorm
-  - shotcut
-  - javascript
+  - WEBSTORM
+  - SHOTCUT
+  - JAVASCRIPT
 ---
 
 ## webstorm常用快捷键整理

@@ -1,11 +1,10 @@
 ---
 layout: post
 title: GIT常用命令整理
-categories:
-  - git
+categories: GIT
 tags:
-  - git
-  - cmd
+  - GIT
+  - CMD
 ---
 
 博主整理非常好摘过来了

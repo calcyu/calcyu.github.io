@@ -1,12 +1,12 @@
 ---
 layout: post
 title: PHP-FPM多进程开机自启
-categories: blog
+categories: PHP
 tags:
-- php-fpm
-- linux
-- centos
-- chkconfig
+- PHP-FPM
+- LINUX
+- CENTOS
+- CHKCONFIG
 ---
 ## 自启sh脚本文件start-php
 <!--more-->

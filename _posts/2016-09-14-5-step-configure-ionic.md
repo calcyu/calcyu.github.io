@@ -2,17 +2,11 @@
 layout: post
 title: 5步完成ionic环境配置
 tags:
-  - cordova
-  - ionic
-  - npm
-  - tabs
-categories:
-  - Android
-  - Cordova
-  - HTML5
-  - ionic
-  - IOS
-  - Javascript
+  - CORDOVA
+  - IONIC
+  - NPM
+  - TABS
+categories: IONIC
 ---
 
 ## 第一步

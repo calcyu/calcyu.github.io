@@ -1,8 +1,8 @@
 ---
 layout: post
 title: linux定时任务crontabs
-categories: LINUX Tools
-tags: linux tools
+categories: LINUX
+tags: LINUX TOOLS
 ---
 
 安装crontab:

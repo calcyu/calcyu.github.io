@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 不重启修改LINUX时区和时间
-categories: blog
-tags: linux
+categories: LINUX
+tags: LINUX
 ---
 
 ## 查看系统时间

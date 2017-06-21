@@ -9,7 +9,7 @@ sectionid: blog
   <div class="inner-content">
     {% for page in paginator.posts %}
       <div class="post-list-item">
-        {% include blog_post.html page=page content=page.content%}
+        {% include blog_post.html page=page content=page.excerpt %}
       </div>
     {% endfor %}
 

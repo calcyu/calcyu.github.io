@@ -1,8 +1,8 @@
 ---
 layout: post
 title: nginx+php-fpm上传报错
-categories: blog
-tags: linux
+categories: LINUX
+tags: LINUX
 ---
 
 ## 上传文件过大浏览器报错内容

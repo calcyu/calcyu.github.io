@@ -1,13 +1,8 @@
 ---
 layout: post
 title: PHP-FPM多pool多用户多进程的配置方式
-tags:
-  - php-fpm
-  - pool
-id: 286
-categories:
-  - LINUX
-  - Tools
+tags: PHP-FPM POOL
+categories: LINUX
 ---
 
 [php-fpm多用户运行的两种方式](http://www.renyiwei.com/archives/1253.html)

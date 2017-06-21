@@ -2,8 +2,8 @@
 layout: post
 title: 三天完成HTML5动画的制作
 tags:
-  - edge
-  - html5
+  - EDGE
+  - HTML5
   - PHP
 categories:
   - HTML5

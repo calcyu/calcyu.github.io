@@ -12,7 +12,7 @@
     <h3>Categories</h3>
     <ul>
       {% for category in site.categories%}
-      <li><a href="/blog/category/#{{ category | first }}">{{ category | first }} ({{ category | last | size }})</a></li>
+      <li><a href="/blog/category/#{{ category | first }}">{{ category | first | upcase }} ({{ category | last | size }})</a></li>
       {% endfor %}
     </ul>
   </div>

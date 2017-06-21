@@ -58,4 +58,3 @@ id: home
   <script src="/js/examples/todo.js"></script>
   <script src="/js/examples/markdown.js"></script>
 </section>
-</section>

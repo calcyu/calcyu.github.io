@@ -1,14 +1,12 @@
 ---
 name: Geek5
 description: Software engineer obsessed with Web technologies
-url: https://geek5.cn
+url: http://geek5.cn
 baseurl:
 permalink: "/blog/:year/:month/:day/:title.html"
 paginate_path: "/blog/page:num/"
-paginate: 5
-timezone: Asia/Shanghai
-highlighter: pygments
-#port: 4001
+paginate: 10
+
 defaults:
 - scope:
     path: ''
@@ -28,11 +26,16 @@ exclude:
 - README.md
 - Rakefile
 - vendor/bundle
-markdown: redcarpet
-redcarpet:
-  extensions:
-  - fenced_code_blocks
-  - footnotes
+#markdown: redcarpet
+#redcarpet:
+#  extensions:
+#  - fenced_code_blocks
+#  - footnotes
+#highlighter: pygments
+markdown:    kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 sass:
   style: :compressed
   sass_dir: _css
@@ -40,4 +43,4 @@ gems:
 - jekyll-redirect-from
 - jekyll-paginate
 
-excerpt_separator: "<!--more-->"
+excerpt_separator: "\n\n"

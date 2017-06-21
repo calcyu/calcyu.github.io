@@ -1,10 +1,8 @@
 ---
 layout: post
 title: mvn常用命令
-tags:
-  - mvn
-categories:
-  - Maven
+tags: MVN
+categories: MAVEN
 ---
 
 ## Maven常用命令： 

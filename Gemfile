@@ -20,10 +20,10 @@ gem 'rb-fsevent'
 gem 'sanitize', '~>2.0'
 
 # Markdown
-gem 'redcarpet'
+gem 'kramdown'
 
 # Syntax highlighting
-gem 'pygments.rb'
+gem 'rouge'
 
 # Avoid having to poll for changes on Windows
 gem 'wdm', '>= 0.1.0' if Gem.win_platform?

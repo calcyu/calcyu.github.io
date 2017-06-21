@@ -1,10 +1,8 @@
 ---
 layout: post
 title: mysql修改sql_mode参数
-tags:
-  - mysql
-categories:
-  - MYSQL
+tags: MYSQL
+categories: MYSQL
 ---
 
 mysql报错

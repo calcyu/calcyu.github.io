@@ -2,7 +2,7 @@
 layout: post
 title: Git常用命令整理
 categories: GIT
-tags: git
+tags: GIT
 ---
 ## 初始化配置
 ```

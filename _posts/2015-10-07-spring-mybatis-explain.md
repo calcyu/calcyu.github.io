@@ -1,10 +1,8 @@
 ---
 layout: post
 title: Spring mybatis 配置说明
-tags:
-  - mybatis
-categories:
-  - Spring
+tags: MYBATIS
+categories: SPRING
 ---
 
 ``` xml

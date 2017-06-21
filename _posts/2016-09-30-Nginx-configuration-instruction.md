@@ -1,13 +1,11 @@
 ---
 layout: redirect
 title: （总结）Nginx配置文件nginx.conf中文详解
-categories:
-  - LINUX
-  - Tools
+categories: LINUX
 tags:
-  - fastcgi
-  - gzip
-  - nginx
+  - FASTCGI
+  - GZIP
+  - NGINX
 dest_url: http://www.ha97.com/5194.html
 ---
 
