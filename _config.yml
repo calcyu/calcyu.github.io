@@ -39,8 +39,13 @@ kramdown:
 sass:
   style: :compressed
   sass_dir: _css
-gems:
+plugins:
 - jekyll-redirect-from
 - jekyll-paginate
+- algoliasearch-jekyll
 
 excerpt_separator: "\n\n"
+
+algolia:
+  application_id: 'Z8F4DOSV5P'
+  index_name:     'geek5'

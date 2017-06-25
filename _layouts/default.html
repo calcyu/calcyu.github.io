@@ -28,7 +28,6 @@
   <link rel="shortcut icon" href="/favicon.ico">
   <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.url }}{{ site.baseurl }}/feed.xml">
 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" />
   <link rel="stylesheet" href="/css/syntax.css">
   <link rel="stylesheet" href="/css/codemirror.css">
   <link rel="stylesheet" href="/css/react.css">
@@ -38,7 +37,6 @@
   <script src="https://unpkg.com/es5-shim@4.5.9/es5-shim.min.js"></script>
   <script src="https://unpkg.com/es5-shim@4.5.9/es5-sham.min.js"></script>
   <![endif]-->
-  <script src="https://unpkg.com/docsearch.js@1.5.0/dist/cdn/docsearch.min.js"></script>
   <script src="https://unpkg.com/codemirror@5.15.2"></script>
   <script src="https://unpkg.com/codemirror@5.15.2/mode/javascript/javascript.js"></script>
   <script src="https://unpkg.com/codemirror@5.15.2/mode/xml/xml.js"></script>
@@ -59,24 +57,128 @@
     {% include footer.html %}
   </div>
 
-  <div id="fb-root"></div>
-  <script src="/js/anchor-links.js"></script>
+  <style>
+    .algolia-autocomplete {
+      width: 100%;
+      color: #000;
+    }
+    .algolia-autocomplete .aa-input, .algolia-autocomplete .aa-hint {
+      width: 100%;
+    }
+    .algolia-autocomplete .aa-hint {
+      color: #999;
+    }
+    .algolia-autocomplete .aa-dropdown-menu {
+      width: 100%;
+      background-color: #fff;
+      border: 1px solid #999;
+      border-top: none;
+      left: 120px !important;
+    }
+    .algolia-autocomplete .aa-dropdown-menu .aa-suggestion {
+      cursor: pointer;
+      padding: 5px 4px;
+    }
+    .algolia-autocomplete .aa-dropdown-menu .aa-suggestion.aa-cursor {
+      background-color: #B2D7FF;
+    }
+    .algolia-autocomplete .aa-dropdown-menu .aa-suggestion em {
+      font-weight: bold;
+      font-style: normal;
+    }
+    .algolia__result-highlight{
+      color: #c05b4d;
+    }
+  </style>
+  <script src="https://cdn.jsdelivr.net/jquery/2.1.4/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js"></script>
   <script>
-//    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-//    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-//    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-//    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-//    ga('create', 'UA-41298772-1', 'geek5.cn');
-//    ga('send', 'pageview');
-//
-//    !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
 
-    docsearch({
-      appId: 'Z8F4DOSV5P', // if you are running the crawler yourself
-      apiKey: 'ab55cb31bd8d064f57ea2aadf0081e84',
-      indexName: 'geek5',
-      inputSelector: '#algolia-doc-search'
+  // strip HTML tags + keep <em>, <p>, <b>, <i>, <u>, <strong>
+  function stripTags(v) {
+    return $('<textarea />').text(v).html()
+      .replace(/&lt;(\/)?(em|p|b|i|u|strong)&gt;/g, '<$1$2>');
+  }
+  
+  // handle attribute from tree
+  function getStringAttributeFromObject(attr_string, hit) {
+    var attr_array = attr_string.split(".");
+    var attr = hit;
+    $.each(attr_array, function(i) {
+      attr = attr && attr[attr_array[i]];
     });
+    if (!attr) {
+      return false;
+    }
+    if (attr.value) {
+      // we're on a highlighted form
+      return attr.value;
+    }
+    if (Object.prototype.toString.call(attr) === '[object Array]') {
+      var str = [];
+      $.each(attr, function(i, e) {
+        if (e && typeof e === 'string') {
+          str.push(e);
+        } else if (e && e.value) {
+          str.push(e.value);
+        } else if (e) {
+          str.push(objToString(e));
+        }
+      });
+      return str.join(', ');
+    }
+    if (typeof attr === 'object') {
+      attr = objToString(attr);
+    }
+    return '' + attr;
+  }
+
+  var client = algoliasearch('Z8F4DOSV5P', 'ab55cb31bd8d064f57ea2aadf0081e84');
+  var index = client.initIndex('geek5');
+  $('#algolia-doc-search').autocomplete({ hint: false }, [
+      {
+          source: $.fn.autocomplete.sources.hits(index, { hitsPerPage: 5 }),
+          displayKey: 'title',
+          templates: {
+              suggestion: function(suggestion) {
+                  return suggestion._highlightResult.title.value;
+              }
+          }
+      }
+  ]).on('autocomplete:selected', function(event, suggestion, dataset) {
+      if (stripTags('url') !== '') {
+        var url = getStringAttributeFromObject('url', suggestion);
+  
+        if (url) {
+          location.href = url;
+        }
+      }
+  });
   </script>
+
+<script>
+  console && console.log(
+    "%c Built With:\n" +
+    "\n" +
+    "                      oooo                                        oooo     oo                \n" +
+    "        ooooo         oooo                                       ooooo   ooooo               \n" +
+    "       ooooooo        oooo                         oxxxxxxo      ooooo     oo                \n" +
+    "      ooooooooo       oooo          ooooo     ooo  oooooooo      ooooo              oooooo   \n" +
+    "     oooooooooo       oooo     ooooooooooooo oxxxooxxxxxxxxoo    ooooo    oooo    ooooooooooo\n" +
+    "    ooooo  ooooo      oooo    oooooo    oooo  oxxxooo  oooxxxoo  ooooo    oooo           oooo\n" +
+    "   ooooo    ooooo     oooo   ooooo      oooo  oxxoo   oxxxxoxxxo ooooo    oooo           oooo\n" +
+    "   ooooooooooooooo    oooo   ooooo      oooo  xxxo    oooo  xxxo ooooo    oooo    ooooooooooo\n" +
+    "  ooooooooooooooooo   oooo   ooooo      oooo  oxxo         oxxxo ooooo    oooo  oooooo   oooo\n" +
+    " ooooo         oooo   oooo    oooooo   ooooo  ooxxoo      ooxxo  ooooo    oooo  ooooo     ooo\n" +
+    "ooooo          ooooo  oooooo   ooooooooooooo    oxxxoooooxxxoo    oooooo  oooo   oooooooooooo\n" +
+    "oooo            oooo   ooooo           ooooo      oooooooooo       ooooo  oooo     oooooooooo\n" +
+    "                               oo      ooooo                                                 \n" +
+    "                              ooooooooooooo                                                  \n" +
+    "\n" +
+    "                      POWERFUL REALTIME SEARCH API BUILT FOR DEVELOPERS\n" +
+    "                               http://www.algolia.com/console", "font-family: monospace"
+  );
+</script>
 </body>
 </html>
