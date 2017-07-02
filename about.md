@@ -14,7 +14,7 @@ permalink: /about
 - [美女拼图](https://github.com/calcyu/LXPuzzle)使用EGRET游戏引擎开发的一个HTML5拼图游戏，内有H未成年谨入。{TypeScript,Egret}
 - [微信客户端](https://github.com/calcyu/react-starter-kit)使用WEUI和Reactjs做的一个仿微信客户端程序{Reactjs}
 
-我和WEB技术的不解之缘已经到了一种非常痴迷的一种状态，比如为了`( 研究&&解决 )`某个技术问题，经常会弄的很晚，不过这个已经是干IT这行的一个通病。比如凌晨4、5点钟的时候我还在写代码，[github更新时间]()
+我和WEB技术的不解之缘已经到了一种非常痴迷的一种状态，比如为了`( 研究&&解决 )`某个技术问题，经常会弄的很晚，不过这个已经是干IT这行的一个通病。比如凌晨4、5点钟的时候我还在写代码，[github更新时间](https://github.com/calcyu/calcyu.github.io/commit/005db2fdf3e56f9663d6d4436e6b7203ac2cd8f3)
 
 最后介绍一下我自己，虽然年龄已不小(上面有答案)，但是长像就是这么任性，所以大家都叫我凯哥。
 CalcYu（网络名）calc Windows系统中计算器的程序名，你可以通过Win+R 输入 calc 回车打开计算器 ^-^
