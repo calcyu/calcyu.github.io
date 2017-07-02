@@ -23,6 +23,12 @@ CalcYu（网络名）calc Windows系统中计算器的程序名，你可以通�
 - [Weibo](http://weibo.com/e73g)
 - [Twitter](https://twitter.com/calcyu)
 
+*现在的我*   
+![calcyu](/img/calcyu.jpg)
+
+*未来的我*   
+![calcyu](/img/calcyu_future.jpg)
+
 ### 关于本站
 
 geek5 极客舞/武 你想要成为一个IT界的舞/武林高手，就要不断的修炼！！
