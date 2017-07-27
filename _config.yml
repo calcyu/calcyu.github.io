@@ -26,19 +26,17 @@ exclude:
 - README.md
 - Rakefile
 - vendor/bundle
-#markdown: redcarpet
-#redcarpet:
-#  extensions:
-#  - fenced_code_blocks
-#  - footnotes
-#highlighter: pygments
+
 markdown:    kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
+highlighter: rouge
+
 sass:
   style: :compressed
   sass_dir: _css
+
 plugins:
 - jekyll-redirect-from
 - jekyll-paginate

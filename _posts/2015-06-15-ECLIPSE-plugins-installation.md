@@ -10,7 +10,6 @@ tags:
   - PLUGIN
 ---
 
-ECLIPSE插件万能安装方法
 
 ## 简介
 
