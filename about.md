@@ -1,8 +1,8 @@
 ---
 layout: single
+title: 关于我
 permalink: /about
 ---
-### 关于我
 
 我在web开发领域摸爬滚打`( year > 10 )`，`( 研究 && 实践 )`过的技术很多，最早使用的语言是ActionScript，经历了他的2.0到3.0转换的历程。当时用AS来开发一些非常酷炫的Flash全站（现在的全栈工程狮难道都有这个背景），以及Flex富客户端程序。
 > [Adobe](http://baike.baidu.com/link?url=gIwOzE96QcsH2OABKfYpjCfzjZUXOYUz4t1My3spBWtDuGZfjIwIxQ7XNH_5pDA8K-mZgM0f6OPk0c6uiWwlP_)是我最敬佩的公司之一，这家公司的年龄`（age == myAge + 1）`，现在的互联网世界这么丰富多彩，Adobe的软件产品在背后发挥着关键性的作用，比如著名的Phoneshop Dreamweaver Flash
