@@ -33,14 +33,16 @@ tomcat 有绿色版，开包即用，前题需要配置好JDK
 [下载TOMCAT](http://tomcat.apache.org/download-90.cgi)  
 
 ## 常见错误
-> the file is indented with 2 spaces instead  of 4
+> the file is indented with 2 spaces instead  of 4  
+
 当前文本缩进使用的是两个空格是否修改为四个
 
-> Error running Tomcat 9.0.0.M1: Address localhost:8080 is already in use
-> Error running Tomcat 9.0.0.M1: Unable to open debugger port (127.0.0.1:54167): java.net.SocketException "socket closed"
+> Error running Tomcat 9.0.0.M1: Address localhost:8080 is already in use  
+> Error running Tomcat 9.0.0.M1: Unable to open debugger port (127.0.0.1:54167): java.net.SocketException "socket closed"  
+
 8080端口被占用了，可以通过`Edit Configuration`修改tomcat启动端口。
 
-> 	Error running Unnamed: Unable to open debugger port (127.0.0.1:58568): java.net.BindException "Address already in use: JVM_Bind"
+> Error running Unnamed: Unable to open debugger port (127.0.0.1:58568): java.net.BindException "Address already in use: JVM_Bind"  
 
 打开任务管理器，结束所有JAVA的进程，再尝试启动
 
