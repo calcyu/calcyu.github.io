@@ -1,22 +1,22 @@
 <div class="nav-main">
-  <div class="wrap">
-    <a class="nav-home" href="/">
+    <div class="wrap">
+        <a class="nav-home" href="/">
       Geek
       <img class="nav-logo" src="/img/logo.png" width="36" height="36">
     </a>
-    <div class="nav-lists">
-      <ul class="nav-site nav-site-internal">
-        <li><a href="/blog/"{% if page.sectionid == 'blog' %} class="active"{% endif %}>Blog</a></li>
-        <li><a href="/blog/category/"{% if page.sectionid == 'category' %} class="active"{% endif %}>Categories</a></li>
-        <li><a href="/blog/tag/"{% if page.sectionid == 'tag' %} class="active"{% endif %}>Tags</a></li>
-        <li><a href="https://github.com/calcyu">GitHub</a></li>
-      </ul>
-      <ul class="nav-site nav-site-external">
-        <li class="nav-site-search">
-          <input id="algolia-doc-search" type="text" placeholder="Search..." />
-        </li>
-        <li><a href="/about">About</a></li>
-      </ul>
+        <div class="nav-lists">
+            <ul class="nav-site nav-site-internal">
+                <li><a href="/blog/" {% if page.sectionid=='blog' %} class="active" {% endif %}>Blog</a></li>
+                <li><a href="/blog/category/" {% if page.sectionid=='category' %} class="active" {% endif %}>Categories</a></li>
+                <li><a href="/blog/tag/" {% if page.sectionid=='tag' %} class="active" {% endif %}>Tags</a></li>
+                <li><a href="https://github.com/calcyu">GitHub</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+            <ul class="nav-site nav-site-external">
+                <li class="nav-site-search">
+                    <input id="algolia-doc-search" type="text" placeholder="Search..." />
+                </li>
+            </ul>
+        </div>
     </div>
-  </div>
 </div>
