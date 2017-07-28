@@ -40,4 +40,8 @@ tomcat 有绿色版，开包即用，前题需要配置好JDK
 > Error running Tomcat 9.0.0.M1: Unable to open debugger port (127.0.0.1:54167): java.net.SocketException "socket closed"
 8080端口被占用了，可以通过`Edit Configuration`修改tomcat启动端口。
 
+> 	Error running Unnamed: Unable to open debugger port (127.0.0.1:58568): java.net.BindException "Address already in use: JVM_Bind"
+
+打开任务管理器，结束所有JAVA的进程，再尝试启动
+
 
