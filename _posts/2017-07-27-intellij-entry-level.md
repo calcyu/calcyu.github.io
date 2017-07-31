@@ -46,4 +46,8 @@ tomcat 有绿色版，开包即用，前题需要配置好JDK
 
 打开任务管理器，结束所有JAVA的进程，再尝试启动
 
+> Page 'http://localhost:63342/*' requested without authorization, you can copy URL and open it in browser to trust it.
+> Copy authorization URL to clipboard
+
+按`ctrl+alt+s` > `Build, Execution, Deployment` > `Debugger`勾选最后一项`Allow unsigned requests`
 
