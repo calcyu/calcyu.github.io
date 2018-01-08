@@ -38,3 +38,22 @@ rvm:
 3. 增加环境变量`ALGOLIA_API_KEY`,值在[algolia官网](https://www.algolia.com/apps/)查找`Admin API Key`
 
 
+### 本地主动更新方式
+
+> 在Gemfile中增加gem  
+
+```ruby
+# algolia
+group :jekyll_plugins do
+  gem 'jekyll-algolia', '~> 1.0'
+end
+```
+
+> 在_config.yml中增加配置项
+
+```yml
+algolia:
+  application_id: 'Z8F4DOSV5P' 
+  index_name:     'geek5'
+```
+`application_id`和`index_name`在[algolia官网](https://www.algolia.com/apps/)查找
