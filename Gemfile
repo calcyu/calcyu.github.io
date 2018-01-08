@@ -27,7 +27,7 @@ gem 'rouge'
 
 # algolia
 group :jekyll_plugins do
-  gem 'algoliasearch-jekyll', '~> 0.8.0'
+  gem 'jekyll-algolia', '~> 1.0'
 end
 
 # Avoid having to poll for changes on Windows

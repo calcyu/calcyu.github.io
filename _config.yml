@@ -40,10 +40,11 @@ sass:
 plugins:
 - jekyll-redirect-from
 - jekyll-paginate
-- algoliasearch-jekyll
 
 excerpt_separator: "\n\n"
 
 algolia:
   application_id: 'Z8F4DOSV5P'
   index_name:     'geek5'
+#algolia update command
+#bundle exec jekyll algolia
