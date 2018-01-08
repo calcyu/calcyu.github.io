@@ -1,60 +1,63 @@
 ---
-layout: hero
+layout: home
 title: Calc Yu's Personal Website
 id: home
 ---
 
-<section class="home-section">
-  <div id="examples">
-    <div class="example">
-      <h3>A Simple Component</h3>
-      <p>
-        React components implement a `render()` method that takes input data and
-        returns what to display. This example uses an XML-like syntax called
-        JSX. Input data that is passed into the component can be accessed by
-        `render()` via `this.props`.
-      </p>
-      <p>
-        <strong>JSX is optional and not required to use React.</strong> Try
-        clicking on "Compiled JS" to see the raw JavaScript code produced by
-        the JSX compiler.
-      </p>
-      <div id="helloExample"></div>
+<header>
+    <div class="logo">
+        <div class="glitch" data-text="Geek5">Geek5</div>
+        <h2>Calc Yu's personal website</h2>
     </div>
-    <div class="example">
-      <h3>A Stateful Component</h3>
-      <p>
-        In addition to taking input data (accessed via `this.props`), a
-        component can maintain internal state data (accessed via `this.state`).
-        When a component's state data changes, the rendered markup will be
-        updated by re-invoking `render()`.
-      </p>
-      <div id="timerExample"></div>
+</header>
+<main>
+    <div id="main-frame-error" class="interstitial-wrapper">
     </div>
-    <div class="example">
-      <h3>An Application</h3>
-      <p>
-        Using `props` and `state`, we can put together a small Todo application.
-        This example uses `state` to track the current list of items as well as
-        the text that the user has entered. Although event handlers appear to be
-        rendered inline, they will be collected and implemented using event
-        delegation.
-      </p>
-      <div id="todoExample"></div>
-    </div>
-    <div class="example">
-      <h3>A Component Using External Plugins</h3>
-      <p>
-        React is flexible and provides hooks that allow you to interface with
-        other libraries and frameworks. This example uses **remarkable**, an
-        external Markdown library, to convert the textarea's value in real time.
-      </p>
-      <div id="markdownExample"></div>
-    </div>
-  </div>
-  <script src="https://unpkg.com/remarkable@1.7.1/dist/remarkable.min.js"></script>
-  <script src="/js/examples/hello.js"></script>
-  <script src="/js/examples/timer.js"></script>
-  <script src="/js/examples/todo.js"></script>
-  <script src="/js/examples/markdown.js"></script>
-</section>
+</main>
+<footer>
+    <nav class="nav">
+        <ul>
+          <li><a href="/blog">BLOG</a></li>
+          <li><a href="/about">ABOUT</a></li>
+        </ul>
+    </nav>
+    <nav class="nav-social">
+        <ul class="navigation">
+        <!-- Weibo -->
+        <li class="navigation__item">
+            <a href="http://weibo.com/e73g" title="@Web技术讲师-凯哥 的微博" target="_blank">
+            <i class="social fa fa-weibo"></i>
+            <span class="label">Weibo</span>
+            </a>
+        </li>
+        <!-- Github -->
+        <li class="navigation__item">
+            <a href="https://github.com/calcyu" title="@calcyu 的 Github" target="_blank">
+            <i class="social fa fa-github"></i>
+            <span class="label">Github</span>
+            </a>
+        </li>
+        <!-- Twitter -->
+        <li class="navigation__item">
+            <a href="http://twitter.com/calcyu" title="@calcyu" target="_blank">
+            <i class="social fa fa-twitter"></i>
+            <span class="label">Twitter</span>
+            </a>
+        </li>
+        <!-- RSS -->
+        <li class="navigation__item">
+            <a href="/feed.xml" rel="author" title="RSS" target="_blank">
+            <i class="social fa fa-rss"></i>
+            <span class="label">RSS</span>
+            </a>
+        </li>
+        <!-- Email -->
+        <li class="navigation__item">
+            <a href="mailto:hi@geek5.cn" title="Contact me">
+            <i class="social fa fa-envelope"></i>
+            <span class="label">Email</span>
+            </a>
+        </li>
+        </ul>
+    </nav>
+</footer>
