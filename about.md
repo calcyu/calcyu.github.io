@@ -24,10 +24,10 @@ CalcYu（网络名）calc Windows系统中计算器的程序名，你可以通�
 - [Twitter](https://twitter.com/calcyu)
 
 *现在的我*   
-![calcyu](/img/calcyu.jpg)
+![calcyu](/assets/image/calcyu.jpg)
 
 *未来的我*   
-![calcyu](/img/calcyu_future.jpg)
+![calcyu](/assets/image/calcyu_future.jpg)
 
 ### 关于本站
 

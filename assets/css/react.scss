@@ -243,15 +243,25 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .nav-home {
-    color: #00d8ff;
+    color: #fff;
     font-size: 24px;
     line-height: $navHeight;
     height: $navHeight;
     display: inline-block;
 
+
+    
+
     @include bp-large {
       font-size: 20px;
     }
+  }
+
+  .logo-text{
+    line-height: 36px;
+    height: 36px;
+    display: inline-block;
+    vertical-align: middle;
   }
 
   .nav-logo {
@@ -305,7 +315,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .hero {
   min-height: 300px;
-  // background: $darkColor url(../img/header.png) no-repeat center;
+  // background: $darkColor url(../assets/image/header.png) no-repeat center;
   background: $darkColor;
   padding-top: 50px;
   color: $lightColor;
@@ -420,7 +430,7 @@ h1, h2, h3, h4, h5, h6 {
         width: 10px;
         height: 10px;
         padding-left: 5px;
-        @include retina-image('../img/external', 10px 10px);
+        @include retina-image('../assets/image/external', 10px 10px);
         background-position: 100% 0;
         background-repeat: no-repeat;
         font-size: 10px;
@@ -1024,7 +1034,7 @@ p a code {
 
 /* Echo out a label for the example */
 
-.highlight:after {
+div[class="highlight"]:after {
   position: absolute;
   top: 0;
   right: 0;
@@ -1117,7 +1127,7 @@ div[data-twttr-id] iframe {
 /* Algolia Doc Search */
 
 input#algolia-doc-search {
-  background: transparent url('/img/search.png') no-repeat 10px center;
+  background: transparent url('/assets/image/search.png') no-repeat 10px center;
   background-size: 16px 16px;
 
   position: relative;
@@ -1226,7 +1236,7 @@ footer .sitemap .nav-home {
 }
 footer .sitemap .nav-home:hover,
 footer .sitemap .nav-home:focus {
-  background-image: url("../img/logo_small.png");
+  background-image: url("../assets/image/logo_small.png");
 }
 @media screen and (max-width: 740px) {
   footer .sitemap {
@@ -1242,12 +1252,12 @@ footer .sitemap a {
 }
 footer .sitemap a:hover,
 footer .sitemap a:focus {
-  color: #61dafb;
+  color: #c05b4d;
   text-decoration: none;
 }
 footer .sitemap h6 > a:hover,
 footer .sitemap h6 > a:focus {
-  color: #61dafb;
+  color: #c05b4d;
   text-decoration: none;
 }
 footer .sitemap h5,

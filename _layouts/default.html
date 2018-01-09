@@ -22,15 +22,16 @@
   <meta property="og:title" content="{{ title }}">
   <meta property="og:type" content="{{ type }}">
   <meta property="og:url" content="https://geek5.cn{{ page.url }}">
-  <meta property="og:image" content="https://geek5.cn/img/logo.png">
+  <meta property="og:image" content="https://geek5.cn/assets/image/logo.png">
   <meta property="og:description" content="{{ site.description }}">
 
   <link rel="shortcut icon" href="/favicon.ico">
   <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.url }}{{ site.baseurl }}/feed.xml">
 
-  <link rel="stylesheet" href="/css/syntax.css">
-  <link rel="stylesheet" href="/css/codemirror.css">
-  <link rel="stylesheet" href="/css/react.css">
+  <!-- <link rel="stylesheet" href="/css/codemirror.css"> -->
+  <link rel="stylesheet" href="/assets/css/react.css">
+  <link rel="stylesheet" href="/assets/css/syntax.css">
+  <link rel="stylesheet" href="/assets/css/algolia.css">
 
   <!--[if lte IE 8]>
   <script src="https://cdn.bootcss.com/html5shiv/r29/html5.min.js"></script>
@@ -47,39 +48,6 @@
     {% include footer.html %}
   </div>
 
-  <style>
-    .algolia-autocomplete {
-      width: 100%;
-      color: #000;
-    }
-    .algolia-autocomplete .aa-input, .algolia-autocomplete .aa-hint {
-      width: 100%;
-    }
-    .algolia-autocomplete .aa-hint {
-      color: #999;
-    }
-    .algolia-autocomplete .aa-dropdown-menu {
-      width: 100%;
-      background-color: #fff;
-      border: 1px solid #999;
-      border-top: none;
-      left: 120px !important;
-    }
-    .algolia-autocomplete .aa-dropdown-menu .aa-suggestion {
-      cursor: pointer;
-      padding: 5px 4px;
-    }
-    .algolia-autocomplete .aa-dropdown-menu .aa-suggestion.aa-cursor {
-      background-color: #B2D7FF;
-    }
-    .algolia-autocomplete .aa-dropdown-menu .aa-suggestion em {
-      font-weight: bold;
-      font-style: normal;
-    }
-    .algolia__result-highlight{
-      color: #c05b4d;
-    }
-  </style>
   <script src="https://cdn.jsdelivr.net/jquery/2.1.4/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js"></script>
