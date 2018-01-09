@@ -1,7 +1,5 @@
 source 'https://rubygems.org'
 
-gem 'rake'
-
 # jekyll, which builds it all
 # 3.0 includes sass processing
 gem 'jekyll', '~>3.1'
@@ -24,11 +22,6 @@ gem 'kramdown'
 
 # Syntax highlighting
 gem 'rouge'
-
-# algolia
-group :jekyll_plugins do
-  gem 'jekyll-algolia', '~> 1.0'
-end
 
 # Avoid having to poll for changes on Windows
 #gem 'wdm', '>= 0.1.0' if Gem.win_platform?

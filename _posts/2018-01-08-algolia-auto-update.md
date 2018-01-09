@@ -53,7 +53,7 @@ end
 
 ```yml
 algolia:
-  application_id: 'Z8F4DOSV5P' 
+  application_id: 'xxxx' 
   index_name:     'geek5'
 ```
 `application_id`和`index_name`在[algolia官网](https://www.algolia.com/apps/)查找

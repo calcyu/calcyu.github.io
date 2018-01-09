@@ -1207,7 +1207,6 @@ footer.nav-footer {
   font-weight: 300;
   color: #202020;
   font-size: 15px;
-  line-height: 24px;
   background: #2D2D2D;
   box-shadow: inset 0 10px 10px -5px #0d1116;
   padding-top: 2em;
@@ -1287,4 +1286,9 @@ footer .fbOpenSource:hover {
 footer .copyright {
   color: rgba(255, 255, 255, 0.4);
   text-align: center;
+  font-size: .8em;
+  span{
+    display: block;
+    margin-bottom: .7em;
+  }
 }

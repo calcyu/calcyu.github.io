@@ -1,7 +1,7 @@
 ---
 layout: single
-title: 关于我
-permalink: /about
+title: About Me
+permalink: /about/
 ---
 
 我在web开发领域摸爬滚打`( year > 10 )`，`( 研究 && 实践 )`过的技术很多，最早使用的语言是ActionScript，经历了他的2.0到3.0转换的历程。当时用AS来开发一些非常酷炫的Flash全站（现在的全栈工程狮难道都有这个背景），以及Flex富客户端程序。

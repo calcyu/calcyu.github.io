@@ -1,5 +1,6 @@
 ---
 name: Geek5
+creator: CalcYu
 description: Software engineer obsessed with Web technologies
 url: http://geek5.cn
 baseurl:
@@ -24,8 +25,6 @@ exclude:
 - Gemfile
 - Gemfile.lock
 - README.md
-- Rakefile
-- vendor/bundle
 
 markdown:    kramdown
 kramdown:
@@ -43,8 +42,9 @@ plugins:
 
 excerpt_separator: "\n\n"
 
-algolia:
-  application_id: 'Z8F4DOSV5P'
-  index_name:     'geek5'
-#algolia update command
-#bundle exec jekyll algolia
+# Social
+social:
+  weibo: e73g
+  github: calcyu
+  twitter: calcyu
+  mail: hi@geek5.cn

@@ -1,15 +1,15 @@
-{% if page.excerpt %} 
-    {% assign type = 'article' %}
-    {% assign sectionTitle = 'Blog' %} 
-    {% assign f = page.excerpt | strip_html %} 
-% else %} 
-    {% assign type = 'website' %} 
-    {% assign sectionTitle = 'Geek5' %} 
-{% endif %} 
-{% if page.id == 'home' %} 
-    {% assign title = sectionTitle | append: ' - ' | append: page.title %} 
-{% else %} 
-    {% assign title = page.title | append: ' - ' | append: sectionTitle %} 
+{% if page.excerpt %}
+  {% assign type = 'article' %}
+  {% assign sectionTitle = 'Blog' %}
+  {% assign f = page.excerpt | strip_html %}
+{% else %}
+  {% assign type = 'website' %}
+  {% assign sectionTitle = 'Geek5' %}
+{% endif %}
+{% if page.id == 'home' %}
+  {% assign title = sectionTitle | append: ' - ' | append: page.title %}
+{% else %}
+  {% assign title = page.title | append: ' - ' | append: sectionTitle %}
 {% endif %}
 <!DOCTYPE html>
 <!--[if IE]><![endif]-->
