@@ -99,4 +99,5 @@ defaults:
 
 #algolia
 algolia:
-  application_id: 'Z8F4DOSV5P'
+  application_id: 'Z8F4DOSV5P' 
+  index_name:     'geek5'
