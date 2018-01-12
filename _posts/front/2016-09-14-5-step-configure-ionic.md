@@ -31,7 +31,8 @@ npm config set registry https://registry.npm.taobao.org
 ``` bash
 D:\nodejs\node_global 
 ```
-<!--more-->
+
+
 
 ## 第三步
 

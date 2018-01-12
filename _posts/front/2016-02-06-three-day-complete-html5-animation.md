@@ -12,7 +12,8 @@ tags:
 
 ## 效果展示
 [http://www.wanmagu.com/html5](http://www.wanmagu.com/html5)
-<!--more-->
+
+
 
 ## 制作工具
 1. Adobe Edge Animate CC

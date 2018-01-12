@@ -8,9 +8,11 @@ tags:
 ---
 
 解决LARAVEL新建项目时，提示输入TOKENS的问题
+
+
 ``` bash
 Could not fetch https://api.github.com/repos/RobinHerbots/jquery.inputmask/commits/b8f06eef3ccf9b8009607f30d47f66133670afc2, please create a GitHub OAuth token to go over the API rate limit
-<!--more-->
+
 Head to https://github.com/settings/tokens/new?scopes=repo&description=Composer on calcyu 2016-02-24 0639
 to retrieve a token. It will be stored in " C:\Users\calcyu\AppData\Roaming\Composer\auth.json" for future use by Composer.
 

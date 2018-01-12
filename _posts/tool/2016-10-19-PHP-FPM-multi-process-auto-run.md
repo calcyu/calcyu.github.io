@@ -7,7 +7,7 @@ tags:
 - CHKCONFIG
 ---
 ## 自启sh脚本文件start-php
-<!--more-->
+
 
 ``` bash
 #!/bin/bash

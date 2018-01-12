@@ -12,7 +12,8 @@ react-native init geek5
 cd geek5
 react-native run-android
 ```
-<!--more-->
+
+
 启动就报错怎么玩
 
 ```

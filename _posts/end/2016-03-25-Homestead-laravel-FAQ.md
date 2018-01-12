@@ -14,7 +14,8 @@ tags:
 config.vm.box_version = settings["version"] ||= ">= 0.4.0"
 config.vm.box_version = settings["version"] ||= ">= 0"
 ```
-<!--more-->
+
+
 ## 问题2：
 ```
 Stderr: 0%...

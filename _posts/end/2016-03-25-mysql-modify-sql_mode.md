@@ -10,9 +10,10 @@ mysql报错
 输入：
 `show variables like 'sql_mode';`
 
+
 如果 value 值中包括：
 `NO_ZERO_IN_DATE,NO_ZERO_DATE`
-<!--more-->
+
 去除这两个值
 运行：
 `set @@sql_mode='ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION';`

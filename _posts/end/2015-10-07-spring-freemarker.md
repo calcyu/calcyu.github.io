@@ -5,12 +5,16 @@ tags:
   - SPRINGFRAMEWORK
 ---
 
+spring freemarker的配置参考
+
+
+
 ``` xml
 <!-- 设置freeMarker配置文件路径 -->
 <bean id="freemarkerConfiguration" class="org.springframework.beans.factory.config.PropertiesFactoryBean">
     <property name="location" value="classpath:freemarker.properties" />
 </bean>
-<!--more-->
+
 <!-- 配置freeMarker模板路径 -->
 <bean id="freemarkerConfig" class="org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer">
     <property name="freemarkerSettings" ref="freemarkerConfiguration" />

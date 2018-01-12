@@ -2,6 +2,8 @@
 title: Cocos run -p web报错
 tags: COCOS
 ---
+Cocos run -p web报错及解决办法
+
 
 ```
 编译模式：debug
@@ -11,7 +13,6 @@ Traceback (most recent call last):
 File "E:\Labs\cocos2d-x-3.12\tools\cocos2d-console\bin\/cocos.py", line 992, in <module>
 run_plugin(command, argv, plugins)
 File "E:\Labs\cocos2d-x-3.12\tools\cocos2d-console\bin\/cocos.py", line 916, in run_plugin
-<!--more-->
 plugin.run(argv, dependencies_objects)
 File "E:\Labs\cocos2d-x-3.12\tools\cocos2d-console\plugins\plugin_run\project_run.py", line 228, in run
 self.run_web(dependencies)

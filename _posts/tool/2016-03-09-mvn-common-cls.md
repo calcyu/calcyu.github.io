@@ -12,7 +12,9 @@ mvn archetype:create -DgroupId=packageName -DartifactId=projectName
 ```
 mvn archetype:create -DgroupId=packageName -DartifactId=webappName -DarchetypeArtifactId=maven-archetype-webapp 
 ``` 
-<!--more-->
+
+
+
 3. 编译源代码： 
 ```
 mvn compile

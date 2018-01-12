@@ -10,7 +10,8 @@ MYBATIS生成的XML文件中不带分页SQL，手动添加太不优雅了。
 ## **使用方法：**
 
 mybatisGeneratorConfig.xml文件中添加下面这句配置即可。
-<!--more-->
+
+
 
 ``` xml
 <plugin type="org.mybatis.generator.ext.plugin.MySQLPaginationPlugin"/>

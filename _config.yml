@@ -37,6 +37,8 @@ ga:
 permalink: /blog/:year/:month/:day/:title.html
 paginate_path: "/blog/page:num/"
 paginate: 10
+# excerpt
+excerpt_separator: "\n\n"
 markdown: kramdown
 highlighter: rouge
 mathjax: disabled
@@ -52,6 +54,7 @@ plugins:
   - jekyll-paginate
   - jekyll-algolia
 
+#default value
 defaults:
 - scope:
     path: ''
@@ -93,4 +96,3 @@ defaults:
   values:
     layout: post
     categories: '技术'
-    

@@ -12,7 +12,8 @@ yum install crontabs
 /sbin/service crond stop //关闭服务
 /sbin/service crond restart //重启服务
 /sbin/service crond reload //重新载入配置
-<!--more-->
+
+
 查看crontab服务状态：service crond status
 
 手动启动crontab服务：service crond start

@@ -12,7 +12,6 @@ date
 ``` bash
 clock
 ```
-<!--more-->
 
 ## 修改时间
 ``` bash

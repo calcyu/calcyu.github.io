@@ -10,7 +10,8 @@ First install [Vagrant](https://releases.hashicorp.com/vagrant/1.8.5/vagrant_1.8
 Open URL [www.vagrant.ex](http://www.vagrant.ex)
 
 Download box [centos65-x86_64-20140116.box](https://github.com/2creatives/vagrant-centos/releases/download/v6.5.3/centos65-x86_64-20140116.box)
-<!--more-->
+
+
 ## Configure
 
 ``` bash

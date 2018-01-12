@@ -9,7 +9,8 @@ tags: LINUX
 ## 解决方案
 Nginx配置文件nginx.conf 中的 http{} 段增加 client_max_body_size 5m;
 上传最大文件大小为5M，其它需求自行调整
-<!--more-->
+
+
 
 ## nginx错误日志
 ```

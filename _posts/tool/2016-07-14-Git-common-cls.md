@@ -2,6 +2,8 @@
 title: Git常用命令整理
 tags: GIT
 ---
+
+
 ## 初始化配置
 ```
 # 配置使用git仓库的人员姓名  
@@ -12,7 +14,6 @@ git config --global user.email you@yourdomain.example.com
 
 #配置到缓存 默认15分钟  
 git config --global credential.helper cache   
-<!--more-->
 #修改缓存时间  
 git config --global credential.helper 'cache --timeout=3600'    
 

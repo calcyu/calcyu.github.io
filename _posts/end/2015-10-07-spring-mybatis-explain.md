@@ -2,6 +2,9 @@
 title: Spring mybatis 配置说明
 tags: MYBATIS
 ---
+Spring mybatis 配置属性参考说明
+
+
 
 ``` xml
 <!-- 配置c3p0数据源 -->
@@ -10,7 +13,6 @@ tags: MYBATIS
       <property name="jdbcUrl" value="${jdbc.url}" />
       <property name="user" value="${jdbc.username}" />
       <property name="password" value="${jdbc.password}" />
-      <!--more-->
 <!--      <property name="setAutoCommitOnClose" value="false"/> -->
       <!--连接池中保留的最小连接数。 -->
       <property name="minPoolSize" value="${jdbc.pool.minPoolSize}"/>
