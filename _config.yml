@@ -96,3 +96,7 @@ defaults:
   values:
     layout: post
     categories: '技术'
+
+#algolia
+algolia:
+  application_id: 'Z8F4DOSV5P'
