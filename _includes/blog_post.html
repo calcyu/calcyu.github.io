@@ -1,32 +1,13 @@
 {% assign page = include.page %}
 
-<h1>
-{% if include.isPermalink %}
-  {{ page.title }}
-{% else %}
-  <a href="{{ page.url }}">{{ page.title }}</a>
-{% endif %}
-</h1>
-
-<p class="meta">
-  {{ page.date | date: "%B %e, %Y" }}
-  by
-  {% for author in page.authors %}
-    {% if author.url %}
-      <a href="{{author.url}}">{{ author.name }}</a>
-    {% else %}
-      {{ author.name }}
+<article class="post container">
+  <div class="post-meta">
+    <span class="post-meta-span date">{{ page.date | date:"%Y %B %d" }}</span>
+    {% if page.tags.size > 0 %}
+    <span class="post-meta-span tag">{{ page.tags | join: ', ' }}</span>
     {% endif %}
-    {% if forloop.last == false %} and {% endif %}
-  {% endfor %}
-</p>
+  </div>
 
-<hr>
-
-<div class="post">
-  {{ include.content }}
-</div>
-
-{% if include.isPermalink %}
-  <div class="fb-like" data-send="true" data-width="650" data-show-faces="false"></div>
-{% endif %}
+  <h1 class="post-title"><a href="{{ page.url }}">{{ page.title }}</a></h1>
+  {{ page.excerpt }}
+</article>

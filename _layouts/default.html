@@ -1,150 +1,36 @@
-{% if page.excerpt %}
-  {% assign type = 'article' %}
-  {% assign sectionTitle = 'Blog' %}
-  {% assign f = page.excerpt | strip_html %}
-{% else %}
-  {% assign type = 'website' %}
-  {% assign sectionTitle = 'Geek5' %}
-{% endif %}
-{% if page.id == 'home' %}
-  {% assign title = sectionTitle | append: ' - ' | append: page.title %}
-{% else %}
-  {% assign title = page.title | append: ' - ' | append: sectionTitle %}
-{% endif %}
+---
+<!-- layout: compress -->
+---
 <!DOCTYPE html>
-<!--[if IE]><![endif]-->
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>{{ title }}</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-  <meta property="og:title" content="{{ title }}">
-  <meta property="og:type" content="{{ type }}">
-  <meta property="og:url" content="https://geek5.cn{{ page.url }}">
-  <meta property="og:image" content="https://geek5.cn/assets/image/logo.png">
-  <meta property="og:description" content="{{ site.description }}">
+  {% include head.html %}
+  <body>
+    {% include sidebar.html %}
 
-  <link rel="shortcut icon" href="/favicon.ico">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.url }}{{ site.baseurl }}/feed.xml">
+    <main id="main" class="open">
+      <a id="va" style="display:none" class="toc-link"></a>
+      {{ content }}
 
-  <!-- <link rel="stylesheet" href="/css/codemirror.css"> -->
-  <link rel="stylesheet" href="/assets/css/react.css">
-  <link rel="stylesheet" href="/assets/css/syntax.css">
-  <link rel="stylesheet" href="/assets/css/algolia.css">
+      <div class="footer">
+        <div class="container">
+          <p class="footer-entry">All content is licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA</a></p>
+          <p class="footer-entry">Buit with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> and <a href="https://github.com/P233/3-Jekyll" target="_blank">3-Jekyll theme</a> • Hosted on <a href="https://pages.github.com/" target="_blank">Github</a></p>
+        </div>
+      </div>
+    </main>
 
-  <!--[if lte IE 8]>
-  <script src="https://cdn.bootcss.com/html5shiv/r29/html5.min.js"></script>
-  <![endif]-->
-</head>
-<body>
+    <button id="menu" class="open">
+      <span id="menu-icons"></span>
+    </button>
 
-  <div class="container">
+    <button id="post-toc-menu">
+      <span id="post-toc-menu-icons"></span>
+    </button>
+    <div id="post-toc">
+      <span id="post-toc-title">Table of Contents</span>
+      <ul id="post-toc-ul"></ul>
+    </div>
 
-    {% include navigation.html %}
-
-    {{ content }}
-
-    {% include footer.html %}
-  </div>
-
-  <script src="https://cdn.jsdelivr.net/jquery/2.1.4/jquery.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.jquery.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js"></script>
-  <script>
-
-  // strip HTML tags + keep <em>, <p>, <b>, <i>, <u>, <strong>
-  function stripTags(v) {
-    return $('<textarea />').text(v).html()
-      .replace(/&lt;(\/)?(em|p|b|i|u|strong)&gt;/g, '<$1$2>');
-  }
-  
-  // handle attribute from tree
-  function getStringAttributeFromObject(attr_string, hit) {
-    var attr_array = attr_string.split(".");
-    var attr = hit;
-    $.each(attr_array, function(i) {
-      attr = attr && attr[attr_array[i]];
-    });
-    if (!attr) {
-      return false;
-    }
-    if (attr.value) {
-      // we're on a highlighted form
-      return attr.value;
-    }
-    if (Object.prototype.toString.call(attr) === '[object Array]') {
-      var str = [];
-      $.each(attr, function(i, e) {
-        if (e && typeof e === 'string') {
-          str.push(e);
-        } else if (e && e.value) {
-          str.push(e.value);
-        } else if (e) {
-          str.push(objToString(e));
-        }
-      });
-      return str.join(', ');
-    }
-    if (typeof attr === 'object') {
-      attr = objToString(attr);
-    }
-    return '' + attr;
-  }
-
-  var client = algoliasearch('Z8F4DOSV5P', 'ab55cb31bd8d064f57ea2aadf0081e84');
-  var index = client.initIndex('geek5');
-  $('#algolia-doc-search').autocomplete({ hint: false }, [
-      {
-          source: $.fn.autocomplete.sources.hits(index, { hitsPerPage: 5 }),
-          displayKey: 'title',
-          templates: {
-              suggestion: function(suggestion) {
-                  return suggestion._highlightResult.title.value;
-              }
-          }
-      }
-  ]).on('autocomplete:selected', function(event, suggestion, dataset) {
-      if (stripTags('url') !== '') {
-        var url = getStringAttributeFromObject('url', suggestion);
-  
-        if (url) {
-          location.href = url;
-        }
-      }
-  });
-  </script>
-<script>
-var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?7c87f6d0ddb4ada23123b3f118d3ff1f";
-  var s = document.getElementsByTagName("script")[0]; 
-  s.parentNode.insertBefore(hm, s);
-})();
-</script>
-<script>
-  console && console.log(
-    "%c Built With:\n" +
-    "\n" +
-    "                      oooo                                        oooo     oo                \n" +
-    "        ooooo         oooo                                       ooooo   ooooo               \n" +
-    "       ooooooo        oooo                         oxxxxxxo      ooooo     oo                \n" +
-    "      ooooooooo       oooo          ooooo     ooo  oooooooo      ooooo              oooooo   \n" +
-    "     oooooooooo       oooo     ooooooooooooo oxxxooxxxxxxxxoo    ooooo    oooo    ooooooooooo\n" +
-    "    ooooo  ooooo      oooo    oooooo    oooo  oxxxooo  oooxxxoo  ooooo    oooo           oooo\n" +
-    "   ooooo    ooooo     oooo   ooooo      oooo  oxxoo   oxxxxoxxxo ooooo    oooo           oooo\n" +
-    "   ooooooooooooooo    oooo   ooooo      oooo  xxxo    oooo  xxxo ooooo    oooo    ooooooooooo\n" +
-    "  ooooooooooooooooo   oooo   ooooo      oooo  oxxo         oxxxo ooooo    oooo  oooooo   oooo\n" +
-    " ooooo         oooo   oooo    oooooo   ooooo  ooxxoo      ooxxo  ooooo    oooo  ooooo     ooo\n" +
-    "ooooo          ooooo  oooooo   ooooooooooooo    oxxxoooooxxxoo    oooooo  oooo   oooooooooooo\n" +
-    "oooo            oooo   ooooo           ooooo      oooooooooo       ooooo  oooo     oooooooooo\n" +
-    "                               oo      ooooo                                                 \n" +
-    "                              ooooooooooooo                                                  \n" +
-    "\n" +
-    "                      POWERFUL REALTIME SEARCH API BUILT FOR DEVELOPERS\n" +
-    "                               http://www.algolia.com/console", "font-family: monospace"
-  );
-</script>
-</body>
+    {% include scripts.html %}
+  </body>
 </html>

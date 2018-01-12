@@ -1,11 +1,9 @@
 ---
 title: Blog
 layout: default
-sectionid: blog
 ---
 
 <section class="content wrap blogContent">
-  {% include nav_blog.html %}
   <div class="inner-content">
     {% for page in paginator.posts %}
       <div class="post-list-item">
@@ -16,14 +14,22 @@ sectionid: blog
     <div class="pagination">
       {% if paginator.previous_page %}
         <a href="{{ paginator.previous_page_path }}" class="previous">
-          &laquo; Previous Page
+          &laquo; 上一页
         </a>
       {% endif %}
       {% if paginator.next_page %}
         <a href="{{ paginator.next_page_path }}" class="next">
-          Next Page &raquo;
+          下一页 &raquo;
         </a>
       {% endif %}
     </div>
   </div>
 </section>
+
+<div class="post-share">
+  <div class="container">
+    <a href="https://twitter.com/share?url={{ page.url | prepend: site.baseurl | prepend: site.url }}&text={{ page.title }}" target="_blank" class="post-share-icon twitter"></a>
+    <a href="https://www.evernote.com/clip.action?url={{ page.url | prepend: site.baseurl | prepend: site.url }}&title={{ page.title }}" target="_blank" class="post-share-icon evernote"></a>
+    <a href="http://service.weibo.com/share/share.php?url={{ page.url | prepend: site.baseurl | prepend: site.url }}&title={{ page.title }}" target="_blank" class="post-share-icon weibo"></a>
+  </div>
+</div>

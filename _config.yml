@@ -1,12 +1,55 @@
----
-name: Geek5
-creator: CalcYu
-description: Software engineer obsessed with Web technologies
-url: http://geek5.cn
-baseurl:
-permalink: "/blog/:year/:month/:day/:title.html"
+# Site settings
+title: Calc Yu's personal website
+email: hi@geek5.cn
+description: > # this means to ignore newlines until "baseurl:"
+  Software engineer obsessed with Web technologies
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: http://geek5.cn # the base hostname & protocol for your site
+rss_url: /feed.xml
+author: CalcYu
+
+# Sidebar filter
+# Choose 'tag' or 'category' as filter in sidebar.
+filter: 'category'
+recent_num: 20
+
+# Social account
+twitter: calcyu
+weibo: e73g
+github: calcyu
+instagram: calcyu
+linkedin: calcyu
+
+# avatar and Favicon
+avatar: https://avatars1.githubusercontent.com/u/562470?s=82&v=4
+favicon: /favicon.ico
+
+# disqus config
+disqus:
+  shortname: geek5
+
+# google analytics config
+ga:
+  id: UA-87935934-1
+  url: geek5.cn
+
+# Build settings
+permalink: /blog/:year/:month/:day/:title.html
 paginate_path: "/blog/page:num/"
 paginate: 10
+markdown: kramdown
+highlighter: rouge
+mathjax: disabled
+sass:
+  style: compressed
+
+# Jekyll Plugin
+# https://help.github.com/articles/adding-jekyll-plugins-to-a-github-pages-site/
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-paginate
 
 defaults:
 - scope:
@@ -14,37 +57,39 @@ defaults:
     type: posts
   values:
     layout: post
-    sectionid: blog
 - scope:
-    path: blog
-    type: pages
+    path: _posts/tool
   values:
-    sectionid: blog
-
-exclude:
-- Gemfile
-- Gemfile.lock
-- README.md
-
-markdown:    kramdown
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
-highlighter: rouge
-
-sass:
-  style: :compressed
-  sass_dir: _css
-
-plugins:
-- jekyll-redirect-from
-- jekyll-paginate
-
-excerpt_separator: "\n\n"
-
-# Social
-social:
-  weibo: e73g
-  github: calcyu
-  twitter: calcyu
-  mail: hi@geek5.cn
+    layout: post
+    categories: '工具'
+- scope:
+    path: _posts/book
+  values:
+    layout: post
+    categories: '读书'
+- scope:
+    path: _posts/life
+  values:
+    layout: post
+    categories: '生活'
+- scope:
+    path: _posts/resource
+  values:
+    layout: post
+    categories: '资源'
+- scope:
+    path: _posts/front
+  values:
+    layout: post
+    categories: '前端'
+- scope:
+    path: _posts/end
+  values:
+    layout: post
+    categories: '后端'
+- scope:
+    path: _posts/tech
+  values:
+    layout: post
+    categories: '技术'
+    

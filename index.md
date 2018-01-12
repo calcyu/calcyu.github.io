@@ -25,21 +25,21 @@ id: home
         <ul class="navigation">
         <!-- Weibo -->
         <li class="navigation__item">
-            <a href="http://weibo.com/{{site.social.weibo}}" title="@Web技术讲师-凯哥 的微博" target="_blank">
+            <a href="http://weibo.com/{{site.weibo}}" title="@Web技术讲师-凯哥 的微博" target="_blank">
             <i class="social fa fa-weibo"></i>
             <span class="label">Weibo</span>
             </a>
         </li>
         <!-- Github -->
         <li class="navigation__item">
-            <a href="https://github.com/{{site.social.github}}" title="@calcyu 的 Github" target="_blank">
+            <a href="https://github.com/{{site.github}}" title="@calcyu 的 Github" target="_blank">
             <i class="social fa fa-github"></i>
             <span class="label">Github</span>
             </a>
         </li>
         <!-- Twitter -->
         <li class="navigation__item">
-            <a href="http://twitter.com/{{site.social.twitter}}" title="@calcyu" target="_blank">
+            <a href="http://twitter.com/{{site.twitter}}" title="@calcyu" target="_blank">
             <i class="social fa fa-twitter"></i>
             <span class="label">Twitter</span>
             </a>
@@ -53,7 +53,7 @@ id: home
         </li>
         <!-- Email -->
         <li class="navigation__item">
-            <a href="mailto:{{site.social.mail}}" title="Contact me">
+            <a href="mailto:{{site.email}}" title="Contact me">
             <i class="social fa fa-envelope"></i>
             <span class="label">Email</span>
             </a>
