@@ -133,5 +133,66 @@ $(function() {
   //   toc.hide();
   //   blogs.fadeIn(350);
   // });
+  // strip HTML tags + keep <em>, <p>, <b>, <i>, <u>, <strong>
+  function stripTags(v) {
+    return $('<textarea />').text(v).html()
+      .replace(/&lt;(\/)?(em|p|b|i|u|strong)&gt;/g, '<$1$2>');
+  }
+  // handle attribute from tree
+  function getStringAttributeFromObject(attr_string, hit) {
+    var attr_array = attr_string.split(".");
+    var attr = hit;
+    $.each(attr_array, function(i) {
+      attr = attr && attr[attr_array[i]];
+    });
+    if (!attr) {
+      return false;
+    }
+    if (attr.value) {
+      // we're on a highlighted form
+      return attr.value;
+    }
+    if (Object.prototype.toString.call(attr) === '[object Array]') {
+      var str = [];
+      $.each(attr, function(i, e) {
+        if (e && typeof e === 'string') {
+          str.push(e);
+        } else if (e && e.value) {
+          str.push(e.value);
+        } else if (e) {
+          str.push(objToString(e));
+        }
+      });
+      return str.join(', ');
+    }
+    if (typeof attr === 'object') {
+      attr = objToString(attr);
+    }
+    return '' + attr;
+  }
+
+  var client = algoliasearch('Z8F4DOSV5P', 'ab55cb31bd8d064f57ea2aadf0081e84');
+  var index = client.initIndex('geek5');
+  $('#search-input').autocomplete({ hint: false, appendTo  :"#toc", openOnFocus:true, debug:false
+    }, [
+      {
+          source: $.fn.autocomplete.sources.hits(index, { hitsPerPage: 5 }),
+          displayKey: 'title',
+          templates: {
+              suggestion: function(suggestion) {
+                  return suggestion._highlightResult.title.value;
+              }
+          }
+      }
+  ]).on('autocomplete:selected', function(event, suggestion, dataset) {
+      if (stripTags('url') !== '') {
+        var url = getStringAttributeFromObject('url', suggestion);
+  
+        $("#va").attr("href", url).click();
+        // if (url) {
+        //   location.href = url;
+        // }
+      }
+  });
 
 });
