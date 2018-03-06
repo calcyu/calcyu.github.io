@@ -90,6 +90,9 @@ git init
 #Clone远程版本库
 git clone git@xbc.me:wordpress.git
 
+#clone指定分支代码
+git clone -b gh-pages https://github.com/calcyu/RandomGroup
+
 #添加远程版本库origin，语法为 git remote add [shortname] [url]
 git remote add origin git@xbc.me:wordpress.git
 
