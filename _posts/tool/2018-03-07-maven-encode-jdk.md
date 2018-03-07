@@ -10,7 +10,8 @@ tags:
 
 # 编码问题
 
-1. JAVA编译时的编码
+1. JAVA编译时的编码  
+
 ```xml
 <project>
   ...
@@ -142,4 +143,4 @@ IDEA在Debug Configurations窗口的 VM Options：中设置`-Dfile.encoding=utf-
 </project>
 ```
 
-[参考文档](http://maven.apache.org/general.html)
+[参考文档http://maven.apache.org/general.html](http://maven.apache.org/general.html)
