@@ -13,10 +13,10 @@ tag:
 [框架网址](http://www.layui.com/)
 
 1. 第一个视频讲的是在SSM框架（SPRING+SPRINGMVC+MYBATIS）中，如何把LAYUI整合进去，并实现了一个列表的查询功能。
-<embed height="415" width="544" quality="high" allowfullscreen="true" type="application/x-shockwave-flash" src="//static.hdslb.com/miniloader.swf" flashvars="aid=20582351&page=1" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash"></embed>
+[视频地址](https://www.bilibili.com/video/av20582351/)
 
 
 2. 第二个视频讲的是一个新增功能。
-<embed height="415" width="544" quality="high" allowfullscreen="true" type="application/x-shockwave-flash" src="//static.hdslb.com/miniloader.swf" flashvars="aid=20580650&page=1" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash"></embed>
+[视频地址](https://www.bilibili.com/video/av20580650/)
 
 

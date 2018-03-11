@@ -14,7 +14,7 @@ tags:
 
 ### JAVA开发工具:
 - `JDK`
-- `Maven`
+- [`Maven`](http://geek5.cn/blog/2018/03/11/maven-config.html)
 - `Tomcat`
 - `Intellij IDEA`
 - Eclipse
