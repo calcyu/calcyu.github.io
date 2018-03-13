@@ -13,8 +13,8 @@ tags:
 - `Office`
 
 ### JAVA开发工具:
-- `JDK`
-- [`Maven`](http://geek5.cn/blog/2018/03/11/maven-config.html)
+- `JDK`[安装方法移步](http://geek5.cn/blog/2018/03/13/JDK-CONFIGURATION.html)
+- `Maven`[安装方法移步](http://geek5.cn/blog/2018/03/11/maven-config.html)
 - `Tomcat`
 - `Intellij IDEA`
 - Eclipse
