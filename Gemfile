@@ -5,7 +5,7 @@ source 'https://rubygems.org'
 gem 'jekyll', '~>3.1'
 
 # For markdown header cleanup
-gem 'sanitize', '~>2.0'
+gem 'sanitize', '~> 4.6', '>= 4.6.4'
 
 # Markdown
 gem 'kramdown'
