@@ -19,7 +19,7 @@ id: home
         <ul>
           <li><a href="/blog/">BLOG</a></li>
           <li><a href="/about/">ABOUT</a></li>
-          <li><a href="https://123xyz.taobao.com/" alt="老婆强行植入式广告链接">LOVE</a></li>
+          <li><a href="https://123xyz.taobao.com/" title="老婆强行植入式广告链接">LOVE</a></li>
         </ul>
     </nav>
     <nav class="nav-social">
