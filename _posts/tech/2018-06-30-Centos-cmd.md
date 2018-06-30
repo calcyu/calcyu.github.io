@@ -29,7 +29,8 @@ CATALINA_PID="$CATALINA_BASE/tomcat.pid"
 JAVA_OPTS="-server -XX:PermSize=256M -XX:MaxPermSize=1024m -Xms512M -Xmx1024M -XX:MaxNewSize=256m"
 ```
 - 把8080端口修改为80端口`/usr/local/apache-tomcat-9.0.0.M18/conf/server.xml`
-- 配置管理帐户`/usr/local/apache-tomcat-9.0.0.M18/conf/tomcat-users.xml`
+- 配置管理帐户`/usr/local/apache-tomcat-9.0.0.M18/conf/tomcat-users.xml`  
+
 ```xml
 <role rolename="manager"/>     
  <role rolename="admin"/> 
