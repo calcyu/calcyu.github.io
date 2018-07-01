@@ -10,6 +10,7 @@ tags:
 ## 1. ssh免密登录
 - 在需要免密的电脑上生成密钥和公钥`ssh-keygen -t rsa -C "hi@geek5.cn" `
 - 把公钥中的内容追加到服务器`~/.ssh/authorized_keys`文件的末尾[没有就创建]
+- 关闭秘密登录功能，编辑`vim /etc/ssh/sshd_config`文件，把`PasswordAuthentication no`设置no
 - 重启SSH服务`service sshd restart`
 
 ## 2. 安装jdk
@@ -39,6 +40,7 @@ JAVA_OPTS="-server -XX:PermSize=256M -XX:MaxPermSize=1024m -Xms512M -Xmx1024M -X
  <user username="calcyu" password="geek5" roles="admin-gui,manager-gui"/>
 ```
 - 解决403错误，修改`/usr/local/apache-tomcat-9.0.0.M18/webapps/manager/META-INF/context.xml`文件，把<value>节点注释点
+
 
 # CentOS基础命令大全
 
