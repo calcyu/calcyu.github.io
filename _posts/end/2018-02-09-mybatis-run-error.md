@@ -4,21 +4,19 @@ tag:
 - mybatis
 - error
 ---
-## 1：创建MYBATIS配置文件实例出错
+
+## 1：找不到类中的get属性
 ```java
-Cause: org.xml.sax.SAXParseException; lineNumber: 3; columnNumber: 53; 文档根元素 "mapper" 必须匹配 DOCTYPE 根 "con"。
+org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.reflection.ReflectionException: There is no getter for property named 'userName' in 'class cn.geek5.Xxxx'
 ```
-### 解决方法  
-这个问题引起的原因是mybatis的mapper配置文件的DOCTYPE有误，正确的应该是  `<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >`
+检查取值表达式中的属性名是否写错了，例如：{username,jdbcType=INTEGER}把userName写成了username
 
-## 2：解析MYBATIS配置文件出错
-
-错误日志
+## 2：BaseResultMap重复了
+因为mybatis的代码生成插件，xml文件是追加，如果你执行了两次生成的话，表的映射xml里的代码会生成两遍，所以就会报错
 ```java
-Error creating bean with name 'sqlSessionFactory' defined in class path resource
- [*.xml]: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [*.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML.
- ```
-
+Error parsing Mapper XML. Cause: java.lang.IllegalArgumentException: Result Maps collection already contains value for com.seecen.news.dao.SysLogMapper.BaseResultMap
+```
+解决方法：检查对应的xml文件中是否有两个相同的BaseResultMap结果集
 
 ## 3：jdbcType写错了
  ```java
@@ -49,8 +47,18 @@ org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis
 ### 解决方法
 检查resultMap节点中的，id或者result节点中的property属性名是否写错了
 
-## 7：找不到类中的get属性
+
+## 7：创建MYBATIS配置文件实例出错
 ```java
-org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.reflection.ReflectionException: There is no getter for property named 'userName' in 'class cn.geek5.Xxxx'
+Cause: org.xml.sax.SAXParseException; lineNumber: 3; columnNumber: 53; 文档根元素 "mapper" 必须匹配 DOCTYPE 根 "con"。
 ```
-检查取值表达式中的属性名是否写错了，例如：{username,jdbcType=INTEGER}把userName写成了username
+### 解决方法  
+这个问题引起的原因是mybatis的mapper配置文件的DOCTYPE有误，正确的应该是  `<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >`
+
+## 8：解析MYBATIS配置文件出错
+
+错误日志
+```java
+Error creating bean with name 'sqlSessionFactory' defined in class path resource
+ [*.xml]: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [*.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML.
+ ```
