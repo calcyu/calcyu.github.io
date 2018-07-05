@@ -13,7 +13,30 @@ tags:
 - 关闭秘密登录功能，编辑`vim /etc/ssh/sshd_config`文件，把`PasswordAuthentication no`设置no
 - 重启SSH服务`service sshd restart`
 
+
+
 ## 2. 安装jdk
+> 以下方法是在windwos环境下远程连接centos系统的操作步骤：
+### 方法1
+- 下载JDK[jdk-8u171-linux-x64.tar.gz](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+- 通过WinSCP连接系统，进入`/usr/local/`目录，新建JAVA文件夹`mkdir java`,把压缩包上传至服务器`/usr/local/java`目录
+- 解压文件`tar -xvfz jdk*`
+- 开始配置环境变量
+  - 打开环境变量配置文件`vi /etc/profile `
+  - 在最后添加如下内容
+```
+#set java enviroment 
+JAVA_HOME=/usr/java/jdk1.8.0_144
+JRE_HOME=/usr/java/jdk1.8.0_114/jre
+CLASS_PATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar:$JRE_HOME/lib
+PATH=$PATH:$JAVA_HOME/bin:$JRE_HOME/bin
+export JAVA_HOME JRE_HOME CLASS_PATH PATH
+```
+  - 使环境变量生效`source /etc/profile`
+- 检查是否安装成功，老办法打印一下JAVA的版本信息`java -version`
+
+
+### 方法2
 - 查看可以安装的jdk版本`yum list java*`
 - 安装1.8的JDK`yum install java-1.8.0-openjdk.i686`
 - 查看jdk是否安装成功`java -version`
@@ -399,4 +422,74 @@ yum clean packages 清理rpm缓存删除下载的包
 yum clean headers 删除所有头文件
 
 yum clean all 删除所有缓存的包和头文件
+```
+
+### CentOS7使用firewalld打开关闭防火墙与端口
+ 
+```bash
+# 1、firewalld的基本使用
+# 启动： 
+systemctl start firewalld
+# 查看状态： 
+systemctl status firewalld 
+# 停止： 
+systemctl disable firewalld
+# 禁用： 
+systemctl stop firewalld
+ 
+# 2.systemctl是CentOS7的服务管理工具中主要的工具，它融合之前service和chkconfig的功能于一体。
+
+# 启动一个服务：
+systemctl start firewalld.service
+# 关闭一个服务：
+systemctl stop firewalld.service
+# 重启一个服务：
+systemctl restart firewalld.service
+# 显示一个服务的状态：
+systemctl status firewalld.service
+# 在开机时启用一个服务：
+systemctl enable firewalld.service
+# 在开机时禁用一个服务：
+systemctl disable firewalld.service
+# 查看服务是否开机启动：
+systemctl is-enabled firewalld.service
+# 查看已启动的服务列表：
+systemctl list-unit-files|grep enabled
+# 查看启动失败的服务列表：
+systemctl --failed
+ 
+
+# 3.配置firewalld-cmd
+# 查看版本： 
+firewall-cmd --version
+# 查看帮助： 
+firewall-cmd --help
+# 显示状态： 
+firewall-cmd --state
+# 查看所有打开的端口： 
+firewall-cmd --zone=public --list-ports
+# 更新防火墙规则： 
+firewall-cmd --reload
+# 查看区域信息:  
+firewall-cmd --get-active-zones
+# 查看指定接口所属区域： 
+firewall-cmd --get-zone-of-interface=eth0
+# 拒绝所有包：
+firewall-cmd --panic-on
+# 取消拒绝状态： 
+firewall-cmd --panic-off
+# 查看是否拒绝： 
+firewall-cmd --query-panic
+ 
+# 那怎么开启一个端口呢
+# 添加
+firewall-cmd --zone=public --add-port=80/tcp --permanent   
+#  （--permanent永久生效，没有此参数重启后失效）
+# 重新载入
+firewall-cmd --reload
+# 查看
+firewall-cmd --zone= public --query-port=80/tcp
+# 删除
+firewall-cmd --zone= public --remove-port=80/tcp --permanent
+
 ```
