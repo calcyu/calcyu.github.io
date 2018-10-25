@@ -5,6 +5,16 @@
 本站使用的是 [jekyll](http://jekyllrb.com/) 技术做的一个个人博客
 喜欢这个主题风格的，可以移步[calcyu.igthub.io](https://github.com/calcyu/calcyu.github.io)随便用（抄袭[Raect](https://facebook.github.io/react/)的风格...），使用过程中有问题可以找凯哥，友信必回！！同时也欢迎大家提一些对本站主题的建议，可以在github上留言或者新建一个 Issue。
 
+### 使用说明
+1. 克隆项目
+```bash
+git clone https://github.com/calcyu/calcyu.github.io.git
+```
+2. 运行项目
+```
+bundle exec jekyll server
+```
+
 ### 更新日志
 
 *2018-01-08*
