@@ -1,11 +1,11 @@
-<script src="{{ "/assets/js/jquery.min.js" | prepend: site.baseurl }}"></script>
-<script src="{{ "/assets/js/jquery.pjax.min.js" | prepend: site.baseurl }}"></script>
+<script src="https://cdn.bootcss.com/jquery/2.1.4/jquery.min.js{{ "/assets/js/main.js" | prepend: site.baseurl }}"></script>
+<script src="https://cdn.bootcss.com/jquery.pjax/2.0.1/jquery.pjax.min.js{{ "/assets/js/main.js" | prepend: site.baseurl }}"></script>
 <script src="{{ "/assets/js/nprogress.js" | prepend: site.baseurl }}"></script>
-<script src="{{ "/assets/js/autocomplete.jquery.min.js" | prepend: site.baseurl }}"></script>
-<script src="{{ "/assets/js/algoliasearch.min.js" | prepend: site.baseurl }}"></script>
+<script src="https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.jquery.min.js{{ "/assets/js/main.js" | prepend: site.baseurl }}"></script>
+<script src="https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js{{ "/assets/js/main.js" | prepend: site.baseurl }}"></script>
 <script src="{{ "/assets/js/main.js" | prepend: site.baseurl }}"></script>
 {% if site.mathjax == 'enabled' %}
-<script type="text/javascript" src="{{ "/assets/js/MathJax.js?config=TeX-AMS-MML_HTMLorMML" | prepend: site.baseurl }}"></script>
+<script type="text/javascript" src="{{ "MathJax.js?config=TeX-AMS-MML_HTMLorMML" | prepend: site.baseurl }}"></script>
 {% endif %}
 {% if site.ga %}
 <script>
