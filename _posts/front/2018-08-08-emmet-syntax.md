@@ -170,10 +170,9 @@ ul>li.item$$$*5
     <li class="item005"></li>
 </ul>
 ```
-Changing numbering base and direction
-With @ modifier, you can change numbering direction (ascending or descending) and base (e.g. start value).
+使用`@-`符号，可以采用倒序的方式来生成数值编号
 
-For example, to change direction, add @- after $:
+例如：在`$`后面添加`@-`:
 ```css
 ul>li.item$@-*5
 ```
@@ -187,11 +186,11 @@ ul>li.item$@-*5
     <li class="item1"></li>
 </ul>
 ```
-To change counter base value, add @N modifier to $:
+在`$`后面添加`@N`可以修改数值编号起始值:
 ```css
 ul>li.item$@3*5
 ```
-…transforms to
+将生成...
 ```html
 <ul>
     <li class="item3"></li>
@@ -201,11 +200,11 @@ ul>li.item$@3*5
     <li class="item7"></li>
 </ul>
 ```
-You can use these modifiers together:
+你还可以同时使用符号`@-N`，达到倒序和设定起始值的目的:
 ```css
 ul>li.item$@-3*5
 ```
-…is transformed to
+将生成...
 ```html
 <ul>
     <li class="item7"></li>
@@ -215,16 +214,16 @@ ul>li.item$@-3*5
     <li class="item3"></li>
 </ul>
 ```
-Text: {}
-You can use curly braces to add text to element:
+标签内文本: {}
+你可以使用花括号来添加标签之间的文本:
 ```css
 a{Click me}
 ```
-...will produce
+将生成...
 ```html
 <a href="">Click me</a>
 ```
-Note that {text} is used and parsed as a separate element (like, div, p etc.) but has a special meaning when written right after element. For example, a{click} and a>{click} will produce the same output, but a{click}+b{here} and a>{click}+b{here} won’t:
+注意`{文本}`一般用来转换双标签（如：div p 等），但右边表达式不同会有不同的作用，例如，`a{click}`和`a>{click}`输出结果一样，但`a{click}+b{here}`和`a>{click}+b{here}`却不一样：
 ```html
 <!-- a{click}+b{here} -->
 <a href="">click</a><b>here</b>
@@ -232,33 +231,28 @@ Note that {text} is used and parsed as a separate element (like, div, p etc.) bu
 <!-- a>{click}+b{here} -->
 <a href="">click<b>here</b></a>
 ```
-In second example the <b> element is placed inside <a> element. And that’s the difference: when {text} is written right after element, it doesn’t change parent context. Here’s more complex example showing why it is important:
+在第二个例子中，`<b>`标签在`<a>`标签的内部。不同之处在于：当`{text}`写在标签后面，而不是`>`运算符后面，那样被认为是父节点。这是一个更复杂的例如，说明了他为什么很重要：
 ```css
 p>{Click }+a{here}+{ to continue}
 ```
-...produces
+将生成...
 ```html
 <p>Click <a href="">here</a> to continue</p>
 ```
-In this example, to write Click here to continue inside <p> element we have explicitly move down the tree with > operator after p, but in case of a element we don’t have to, since we need <a> element with here word only, without changing parent context.
-
-For comparison, here’s the same abbreviation written without child > operator:
+在这个例子中，也是有关包含`>`符号和没有`>`的区别:
 ```css
 p{Click }+a{here}+{ to continue}
 ```
-...produces
+将生成...
 ```html
 <p>Click </p>
 <a href="">here</a> to continue
 ```
-Notes on abbreviation formatting
-When you get familiar with Emmet’s abbreviations syntax, you may want to use some formatting to make your abbreviations more readable. For example, use spaces between elements and operators, like this:
+注：当你熟练掌握`Emmet`的缩写语法时，你想使用一些格式符号使你的缩写可读性更高。例如，在运算符和元素标签之间使用空间，例如：
 ```css
 (header > ul.nav > li*5) + footer
 ```
-But it won’t work, because space is a stop symbol where Emmet stops abbreviation parsing.
-
-Many users mistakenly think that each abbreviation should be written in a new line, but they are wrong: you can type and expand abbreviation anywhere in the text:
+许多使用者错误的认为每个缩写应该被写在新的一行，但他们是错误的：你可以输入和扩展缩写在文本的任意位置：
 
 > 参考文章
 [原文](https://docs.emmet.io/abbreviations/syntax/)
