@@ -69,6 +69,8 @@ rabbitmqctl list_users
 rabbitmqctl add_user admin admin
 # 授予管理员（administrator）角色
 rabbitmqctl set_user_tags admin administrator
+# 授予虚拟主机访问权
+rabbitmqctl set_permissions -p / admin ".*" ".*" ".*"
 # 删除一个用户
 rabbitmqctl delete_user guest
 # 修改用户密码
