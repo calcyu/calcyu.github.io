@@ -30,6 +30,8 @@ vssue:
   repo: calcyu.github.io
   client_id: 92562dc4e8e1afdc8a19
   client_secret: ad9586cb956a0bac93e167fc004faf90fa26dd86
+  labels: Geek5.cn
+  prefix: [comment]
 
 # google analytics config
 ga:
