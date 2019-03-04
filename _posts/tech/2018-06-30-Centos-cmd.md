@@ -415,6 +415,8 @@ yum remove package_name 删除一个rpm包
 
 yum list 列出当前系统中安装的所有包
 
+yum list java* 查看所有java相关的安装包
+
 yum search package_name 在rpm仓库中搜寻软件包
 
 yum clean packages 清理rpm缓存删除下载的包
@@ -422,6 +424,11 @@ yum clean packages 清理rpm缓存删除下载的包
 yum clean headers 删除所有头文件
 
 yum clean all 删除所有缓存的包和头文件
+
+yum repolist all 查看yum所有源
+
+yum repolist enabled 查看yum启用的源
+
 ```
 
 ### CentOS7使用firewalld打开关闭防火墙与端口
