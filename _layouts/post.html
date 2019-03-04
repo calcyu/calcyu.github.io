@@ -23,10 +23,8 @@ layout: default
     <a href="http://service.weibo.com/share/share.php?url={{ page.url | prepend: site.baseurl | prepend: site.url }}&title={{ page.title }}" target="_blank" class="post-share-icon weibo"></a>
   </div>
 </div>
-
-{% if site.disqus.shortname %}
-<div class="comment container">
-  <div id="disqus_thread">
-  </div>
+{% if page.comment != 'disable' %}
+<div class="container">
+  <div id="vssue" ></div>
 </div>
 {% endif %}
