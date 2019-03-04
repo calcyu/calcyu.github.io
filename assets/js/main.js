@@ -47,6 +47,25 @@ $(function() {
       main.animate({scrollTop: target.offset().top + main.scrollTop() - 70}, 500);
     });
 
+    // discus comment.
+      if($("#disqus_thread").length>0){
+        var ds_loaded = false;
+        window.disqus_shortname = "{{ site.disqus.shortname }}";
+        main.scroll(function(){
+          var nScrollHight = $(this)[0].scrollHeight;
+          var nScrollTop = $(this)[0].scrollTop;
+          if(!ds_loaded && nScrollTop + main.height() >= nScrollHight - 100) {
+            $.ajax({
+              type: 'GET',
+              url: 'http://' + disqus_shortname + '.disqus.com/embed.js',
+              dataType: 'script',
+              cache: true
+            });
+            ds_loaded = true;
+          }
+        });
+      }
+    {% endif %}
     // your scripts
   };
   afterPjax();
