@@ -28,8 +28,8 @@ favicon: /favicon.ico
 vssue:
   owner: calcyu
   repo: calcyu.github.io
-  client_id: 92562dc4e8e1afdc8a19
-  client_secret: ad9586cb956a0bac93e167fc004faf90fa26dd86
+  client_id: 1942b8ee3553f7f75089
+  client_secret: 3e42319bb0502146994d770c4d2851bb4f3e44b6
   labels: Geek5.cn
   prefix: comment
 
