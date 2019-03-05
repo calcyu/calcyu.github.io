@@ -1,8 +1,8 @@
 # Site settings
-title: Calc Yu's personal website
+title: CalcYu's Personal Website
 email: hi@geek5.cn
 description: > # this means to ignore newlines until "baseurl:"
-  Software engineer obsessed with Web technologies
+  Geek5也称为极客舞，是程序员学习工作的精神和态度，http://geek5.cn是凯哥的个人网站
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: http://geek5.cn # the base hostname & protocol for your site
 rss_url: /feed.xml
@@ -21,7 +21,7 @@ instagram: calcyu
 linkedin: calcyu
 
 # avatar and Favicon
-avatar: https://avatars1.githubusercontent.com/u/562470?s=82&v=4
+logo: https://avatars1.githubusercontent.com/u/562470?s=82&v=4
 favicon: /favicon.ico
 
 # vssue config

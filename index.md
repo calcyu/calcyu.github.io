@@ -1,13 +1,11 @@
 ---
 layout: home
-title: Calc Yu's Personal Website
-id: home
 ---
 
 <header>
     <div class="logo">
         <div class="glitch" data-text="Geek5">Geek5</div>
-        <h2>Calc Yu's personal website</h2>
+        <h2>CalcYu's Personal Website</h2>
     </div>
 </header>
 <main>
