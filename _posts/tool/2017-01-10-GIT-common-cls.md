@@ -259,6 +259,7 @@ git push -u origin master                                      # 客户端首次
 git push -u origin develop  # 首次将本地develop分支提交到远程develop分支，并且track
  
 git remote set-head origin master   # 设置远程仓库的HEAD指向master分支
+# fatal: refusing to merge unrelated histories
 # 把两个不相关的分支拉取至本地
 git pull origin master --allow-unrelated-histories
 # 把两个不相关的分支进行合并
