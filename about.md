@@ -37,7 +37,6 @@ CalcYu（网络名）calc Windows系统中计算器的程序名，你可以通�
         url:"/README.MD",
         type:"get",
         success: function(r){
-            // console.log(r);
             document.getElementById('content').innerHTML =
                 marked(r);
         }
