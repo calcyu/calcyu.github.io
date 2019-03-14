@@ -274,11 +274,11 @@ java -jar spring-cloud-eureka-0.0.1-SNAPSHOT.jar --spring.profiles.active=peer2
 
 如图修改运行配置
 
-![](https://note.youdao.com/yws/public/resource/abd1cb1752149b111d0ce724b0e1c717/xmlnote/CF49BFB9873F4282811282EC8BBBD46F/27888)
+![]({{ "/assets/image/spring-cloud-eureka/01.jpg" | prepend: site.baseurl }})
 - 在vm option中添加参数`-Dspring.profiles.active=peer1`可以让当前程序读取application-peer1.properties
 -  如图复制当前配置，并修改运行参数
 
-![](https://note.youdao.com/yws/public/resource/abd1cb1752149b111d0ce724b0e1c717/xmlnote/871C0E79AE9D4EFC8B7BEADF25408714/27903)
+![]({{ "/assets/image/spring-cloud-eureka/02.png" | prepend: site.baseurl }})
 
 到此双节点的配置已经完成。
 

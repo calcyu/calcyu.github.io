@@ -19,11 +19,13 @@ tag:
 - 独立部署
 - 分布式的管理
 
-![](https://note.youdao.com/yws/public/resource/abd1cb1752149b111d0ce724b0e1c717/xmlnote/FAC77AE12703499BA3E15A9074E19DDC/26343) ![](https://note.youdao.com/yws/public/resource/abd1cb1752149b111d0ce724b0e1c717/xmlnote/165A00E3B8E445DDAEF443A110F02AE0/26345)
+![]({{ "/assets/image/spring-cloud-introduction/01.png" | prepend: site.baseurl }}) 
+
+![]({{ "/assets/image/spring-cloud-introduction/02.png" | prepend: site.baseurl }})
 
 
 ## 系统演变过程
-![](https://note.youdao.com/yws/public/resource/abd1cb1752149b111d0ce724b0e1c717/xmlnote/85DCA0EFD42740CB8801E043BF5D36DE/26195)
+![]({{ "/assets/image/spring-cloud-introduction/03.png" | prepend: site.baseurl }})
 
 
 ## 单体架构的缺点
@@ -71,11 +73,11 @@ Spring Cloud对于中小型互联网公司来说是一种福音，因为这类�
 ### 集群部署
 单体应用开发模式是把整个系统部署在一个web容器中，如果这个容器挂了，整个系统就蹦了。
 所以有人就想到了集群部署，即一个容器不够，那我就运行两个，或者更多，再通过反向代理软件如nginx来进行路由转发，我们把这种对整个系统进行横向的复杂称为集群部署。
-![](https://note.youdao.com/yws/public/resource/abd1cb1752149b111d0ce724b0e1c717/xmlnote/7BA34793C2DD41E995A4892F30C67DB4/27939)
+![]({{ "/assets/image/spring-cloud-introduction/04.png" | prepend: site.baseurl }})
 
 ### 分布式部署
 把一个完整的系统拆分成若干个子功能，分别部署至不同容器中，我们称为分布式部署。
-![](https://note.youdao.com/yws/public/resource/abd1cb1752149b111d0ce724b0e1c717/xmlnote/B7F8BFF7703D4BA2B077E25936507544/27955)
+![]({{ "/assets/image/spring-cloud-introduction/05.png" | prepend: site.baseurl }})
 
 
 ## spring cloud 帝国成员

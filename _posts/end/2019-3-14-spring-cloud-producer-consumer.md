@@ -227,7 +227,7 @@ public class HelloController {
 
 
 在运行配置中修改运行端口：
-![](https://note.youdao.com/yws/public/resource/abd1cb1752149b111d0ce724b0e1c717/xmlnote/2E5124D1A2F74311BAA12088DCEB2EE4/27978)
+![]({{ "/assets/image/spring-cloud-producer-consumer/01.png" | prepend: site.baseurl }})
 
 启动后，在eureka就会发现两个服务提供者，如下图：
 
