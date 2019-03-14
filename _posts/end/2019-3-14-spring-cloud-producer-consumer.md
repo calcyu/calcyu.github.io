@@ -254,6 +254,7 @@ public class HelloController {
 # <修改为对应服务名称>.ribbon.NFLoadBalancerRuleClassName=规则类全名
 spring-cloud-producer.ribbon.NFLoadBalancerRuleClassName=com.netflix.loadbalancer.RandomRule
 ```
-**[示例代码-github](https://github.com/ityouknow/spring-cloud-examples)**
+**[示例代码-github](https://github.com/calcyu/spring-cloud-examples/tree/master/Lesson02)**
 
-## 参考
+参考
+[springcloud(三)：服务提供与调用](http://www.ityouknow.com/springcloud/2017/05/12/eureka-provider-constomer.html)
