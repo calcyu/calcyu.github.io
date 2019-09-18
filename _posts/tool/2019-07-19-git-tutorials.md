@@ -194,7 +194,7 @@ git push origin mater
 ```
 
 
-![1563499788321](../../assets/image/git-tutorials/1563499788321.png)
+![1563499788321](../../../../assets/image/git-tutorials/1563499788321.png)
 
 
 # 六、创建静态个人网站

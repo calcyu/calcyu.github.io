@@ -1,11 +1,12 @@
+---
 title: 哈夫曼编码
 tag:
-
 - 哈夫曼树
 - 哈夫曼编码
 - 最优二叉树
 - binary tree
 - huffman code
+---
 
 ## 一、 背景
 
