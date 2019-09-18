@@ -170,3 +170,19 @@ NLR、LNR、LRN、NRL、RNL、RLN。
 1. 变长编码
 
 2. 每一个编码不会前缀冲突（任意某个编码都不是另一个编码的前缀）
+
+
+
+## 哈夫曼事例代码
+
+**项目代码包括：**
+
+1. 二叉树随机生成
+2. 二叉树遍历（前序、中序）
+3. 哈夫曼树生成
+4. 哈夫曼树图形化打印
+5. 哈夫曼编码生成
+
+【[项目地址](https://github.com/calcyu/huffman-code-demo)】
+
+![1568794292724]({{ "/assets/image/2019-09-18-huffman-code.assets/1568794292724.png" | prepend: site.baseurl }})
