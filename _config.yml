@@ -7,6 +7,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: http://geek5.cn # the base hostname & protocol for your site
 rss_url: /feed.xml
 author: CalcYu
+img_url: http://geek5.cn/assets/images/
 
 # Sidebar filter
 # Choose 'tag' or 'category' as filter in sidebar.
