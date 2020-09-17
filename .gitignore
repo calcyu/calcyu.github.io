@@ -10,3 +10,4 @@ _site
 cmd.md
 _posts/*/*.assets/
 _posts/*/draft*.md
+_config-dev.yml
