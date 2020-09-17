@@ -4,15 +4,15 @@ source 'https://rubygems.org'
 # 3.0 includes sass processing
 gem 'jekyll', '~>3.1'
 
-# # For markdown header cleanup
-gem 'sanitize', '~> 5.2.1'
+# For markdown header cleanup
+gem 'sanitize', '~> 5.2'
 
-# # Markdown
-gem "kramdown", ">= 2.3.0"
+# Markdown
+gem 'kramdown'
 
-gem 'kramdown-parser-gfm', '~> 1.1'
+gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 
-# # Syntax highlighting
+# Syntax highlighting
 gem 'rouge'
 
 # algolia
