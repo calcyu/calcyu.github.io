@@ -100,11 +100,12 @@ $(function() {
 
 
   // Tags Filter
+  var recentNum = parseInt('{{ site.recent_num }}');
   $('#sidebar-tags').on('click', '.sidebar-tag', function() {
     var filter = $(this).data('filter');
     toc.hide();
     if (filter === 'recent') {
-      toc.slice(0, {{ site.recent_num }}).fadeIn(350);
+      toc.slice(0, recentNum).fadeIn(350);
     } else {
       $('.toc-link[data-tags~=' + filter + ']').fadeIn(350);
     }
@@ -112,7 +113,7 @@ $(function() {
   });
   // Only show recent
   toc.hide();
-  toc.slice(0, {{ site.recent_num }}).fadeIn(350);
+  toc.slice(0, recentNum).fadeIn(350);
 
   // Menu
   menu.on('click', function() {
@@ -189,5 +190,11 @@ $(function() {
       if (stripTags('url') !== '') {
         var url = getStringAttributeFromObject('url', suggestion);
 
-getStringAttributeFromObject('url', suggestion);
+        $("#va").attr("href", url).click();
+        // if (url) {
+        //   location.href = url;
+        // }
+      }
+  });
 
+});
