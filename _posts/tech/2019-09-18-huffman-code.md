@@ -17,7 +17,7 @@ tag:
 
 二叉树是每个结点最多有两个子结点的树结构。
 
-![img]({{ "/assets/image/2019-09-18-huffman-code.assets/i1.png" | prepend: site.baseurl }})
+![img](2019-09-18-huffman-code.assets/i1.png)
 
 ## 三、什么是二叉树遍历
 
@@ -51,7 +51,7 @@ NLR、LNR、LRN、NRL、RNL、RLN。
 
 ## 六、哈夫曼基本概念（术语解释）
 
-![1568775707209]({{ "/assets/image/2019-09-18-huffman-code.assets/1568775707209.png" | prepend: site.baseurl }})
+![1568775707209](2019-09-18-huffman-code.assets/1568775707209.png)
 
 - 路径：
 
@@ -99,7 +99,7 @@ NLR、LNR、LRN、NRL、RNL、RLN。
 
 4. 重复第二步，直到结束
 
-![img]({{ "/assets/image/2019-09-18-huffman-code.assets/huffman-build5.gif" | prepend: site.baseurl }})
+![img](2019-09-18-huffman-code.assets/huffman-build5.gif)
 
 
 
@@ -107,7 +107,7 @@ NLR、LNR、LRN、NRL、RNL、RLN。
 
 
 
-![img]({{ "/assets/image/2019-09-18-huffman-code.assets/i2.png" | prepend: site.baseurl }})
+![img](2019-09-18-huffman-code.assets/i2.png)
 
  
 
@@ -185,4 +185,4 @@ NLR、LNR、LRN、NRL、RNL、RLN。
 
 【[项目地址](https://github.com/calcyu/huffman-code-demo)】
 
-![1568794292724]({{ "/assets/image/2019-09-18-huffman-code.assets/1568794292724.png" | prepend: site.baseurl }})
+![1568794292724](2019-09-18-huffman-code.assets/1568794292724.png)

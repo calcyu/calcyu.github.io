@@ -9,3 +9,4 @@ geek5.html
 _site
 cmd.md
 _posts/*/*.assets/
+_posts/*/draft*.md
