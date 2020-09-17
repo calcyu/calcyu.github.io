@@ -54,7 +54,7 @@ $(function() {
           render: h => h('Vssue', {
             props: {
               // 在这里设置当前页面对应的 Issue 标题
-              title: '{{page.title}}',
+              title: $(".post-title").text(),
               // 在这里设置你使用的平台的 OAuth App 配置
               options: {
                 owner: '{{site.vssue.owner}}',
@@ -189,11 +189,5 @@ $(function() {
       if (stripTags('url') !== '') {
         var url = getStringAttributeFromObject('url', suggestion);
 
-        $("#va").attr("href", url).click();
-        // if (url) {
-        //   location.href = url;
-        // }
-      }
-  });
+getStringAttributeFromObject('url', suggestion);
 
-});
