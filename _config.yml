@@ -20,7 +20,7 @@ linkedin: calcyu
 
 
 # avatar and Favicon
-logo: https://avatars1.githubusercontent.com/u/562470?s=82&v=4
+logo: /assets/img/geek5_86x86.png
 favicon: /favicon.ico
 
 # vssue config
@@ -46,7 +46,7 @@ excerpt_separator: "\n\n"
 markdown: kramdown
 highlighter: rouge
 mathjax: disabled
-sass: 
+sass:
   style: compressed
 
 # Jekyll Plugin
@@ -103,5 +103,5 @@ defaults:
 
 #algolia
 algolia:
-  application_id: 'Z8F4DOSV5P' 
+  application_id: 'Z8F4DOSV5P'
   index_name:     'geek5'
