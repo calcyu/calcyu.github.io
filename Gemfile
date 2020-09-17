@@ -5,7 +5,7 @@ source 'https://rubygems.org'
 gem 'jekyll', '~>3.1'
 
 # # For markdown header cleanup
-# gem 'sanitize', '~> 5.2.1'
+gem 'sanitize', '~> 5.2.1'
 
 # # Markdown
 gem "kramdown", ">= 2.3.0"
@@ -13,7 +13,7 @@ gem "kramdown", ">= 2.3.0"
 gem 'kramdown-parser-gfm', '~> 1.1'
 
 # # Syntax highlighting
-# gem 'rouge'
+gem 'rouge'
 
 # algolia
 group :jekyll_plugins do
