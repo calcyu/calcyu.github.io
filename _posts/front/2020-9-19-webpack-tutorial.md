@@ -1,9 +1,9 @@
 ---
 title: webpack基础教程
 tags:
-	- webpack
-	- html
-	- css
+  - webpack
+  - html
+  - css
 ---
 
 
