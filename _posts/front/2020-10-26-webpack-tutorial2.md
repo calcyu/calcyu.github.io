@@ -1,11 +1,11 @@
 ---
 title: webpack进阶教程
 tags:
-	- webpack
-	- base64-image
-	- css-pre-processors
-	- sass
-	- typescript
+  - webpack
+  - base64-image
+  - css-pre-processors
+  - sass
+  - typescript
 ---
 
 
