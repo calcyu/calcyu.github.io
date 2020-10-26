@@ -1,17 +1,16 @@
 ---
 title: webpack进阶教程
 tags:
-  - webpack
-  - base64-image
-  - css-pre-processors
-  - sass
-  - typescript
+	- webpack
+	- base64-image
+	- css-pre-processors
+	- sass
 ---
 
 
 ## 一、前言
 
->  基于[webpack基础教程]()扩展一些特殊应用场景，如小图片转`base64`，css预处理技术 sass转换，以及构建typescript项目等。
+>  基于[webpack基础教程]()扩展一些特殊应用场景，如小图片转`base64`，css预处理技术 sass编译，以及页面样式输出为静态css文件。
 
 
 
