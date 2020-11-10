@@ -1,3 +1,11 @@
+---
+title: jest快速入门及实践教程
+tags:
+  - jest
+  - @vue/test-utils
+  - express
+  - supertest
+---
 ## 一、JEST简介
 ![jest](2020-11-10-jest-study-demo.assets/jest.png)
 
@@ -13,7 +21,7 @@ Jest是Facebook开源的一套JavaScript测试框架， 它集成了断言、JSD
 yarn init -y
 yarn add --dev jest
 # 或者全局安装，随时随地使用
-yarn global add jest  
+yarn global add jest
 ```
 
 ## 2.2 hello world(jest)
@@ -143,7 +151,7 @@ describe('异步操作测试',  () => {
 describe('定时器相关测试', () => {
     // 开启定时函数模拟
     jest.useFakeTimers();
-    
+
     function foo(callback) {
         console.log('foo...')
         setTimeout(() => {
@@ -296,7 +304,7 @@ it('测试用户组件', async() => {
     // console.log(wrapper.find('tr'))
     expect(wrapper.findAll('tr').length).toBe(2)
     expect(wrapper.findAll('td').at(2).html()).toBe('<td>18</td>')
-    
+
 });
 ```
 
