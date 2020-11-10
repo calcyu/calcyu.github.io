@@ -304,7 +304,7 @@ it('测试用户组件', async() => {
 [github地址](http://github.com/calcyu/jest-study-demo)
 demo中还包含`express+restful`接口的测试用例，不想用`postman`测试接口的同学，可以用jest来代替。
 
-> 顺手点个小爱心，以示鼓励。
+> 顺手点个小爱心，以示鼓励。😘😍🥰
 
 
 
