@@ -2,7 +2,7 @@
 title: CalcYu's Personal Website
 email: hi@geek5.cn
 description: > # this means to ignore newlines until "baseurl:"
-  Geek5是极客武馆的意思，是求愚（CalcYu）的个人网站，学习软件研发技术好比学习武术一样需要耐心和毅力以及极客精神。
+  求愚个人网站——极客武馆，学习软件研发技术，好比习武，需要耐心、毅力以及极客精神。
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: http://geek5.cn # the base hostname & protocol for your site
 rss_url: /feed.xml

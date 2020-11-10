@@ -2,10 +2,11 @@
 title: jest快速入门及实践教程
 tags:
   - jest
-  - @vue/test-utils
+  - vue test utils
   - express
   - supertest
 ---
+
 ## 一、JEST简介
 ![jest](2020-11-10-jest-study-demo.assets/jest.png)
 
@@ -13,6 +14,7 @@ Jest是Facebook开源的一套JavaScript测试框架， 它集成了断言、JSD
 
 > 官方简介：一个令人愉快的javascript测试框架。
 > 我的理解是，不用加班改bug了，可以提前下班，陪女朋友喝奶茶！
+
 
 ## 二、jest启步
 ## 2.1 安装
